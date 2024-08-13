@@ -1,0 +1,1 @@
+this folder contains all assets to be used inside the game

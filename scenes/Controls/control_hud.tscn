@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj2y6t5xdtjqh"]
+
+[ext_resource type="PackedScene" uid="uid://dm43kg62us8d0" path="res://scenes/Controls/joy_stick.tscn" id="1_jaekw"]
+
+[node name="ControlHud" type="Node2D"]
+
+[node name="JoyStick" parent="." instance=ExtResource("1_jaekw")]
+position = Vector2(86, 384)

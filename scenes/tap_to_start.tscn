@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://kqhc4w05oprr"]
+
+[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_51qkd"]
+
+[node name="TapToStart" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_51qkd")

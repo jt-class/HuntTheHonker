@@ -1,0 +1,135 @@
+[gd_scene load_steps=11 format=3 uid="uid://d34m8nbuup23v"]
+
+[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_51qkd"]
+[ext_resource type="Texture2D" uid="uid://dmc3o7jo7ghmq" path="res://assets/characters/PlayerChar/player.png" id="2_qwgae"]
+[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_pvxbb"]
+[ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_302it"]
+[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_isnpv"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
+font = ExtResource("3_pvxbb")
+font_size = 20
+font_color = Color(1, 1, 0, 1)
+
+[sub_resource type="Animation" id="Animation_16bt0"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PlayerTitle/taptostart/AnimationPlayer/ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0.0509804, 0.282353, 0.380392, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_xovf1"]
+resource_name = "fade_out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PlayerTitle/taptostart/AnimationPlayer/ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 1.03333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(0.0517489, 0.284131, 0.378867, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_u2u3h"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PlayerTitle/taptostart/AnimationPlayer/ColorRect:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pposu"]
+_data = {
+"RESET": SubResource("Animation_u2u3h"),
+"fade_in": SubResource("Animation_16bt0"),
+"fade_out": SubResource("Animation_xovf1")
+}
+
+[node name="TapToStart" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_51qkd")
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(382, 526)
+scale = Vector2(0.533795, 0.506875)
+texture = ExtResource("2_qwgae")
+
+[node name="PlayerTitle" type="Label" parent="."]
+offset_left = 304.0
+offset_top = 458.0
+offset_right = 413.0
+offset_bottom = 481.0
+text = "[Arlor's Ally]"
+label_settings = SubResource("LabelSettings_dtav7")
+
+[node name="Maintitle" type="Label" parent="PlayerTitle"]
+layout_mode = 0
+offset_left = -167.0
+offset_top = -324.0
+offset_right = 733.0
+offset_bottom = -198.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_pvxbb")
+theme_override_font_sizes/font_size = 70
+text = "HUNT THE HONKER: 		
+
+INVASION FRENZY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="taptostart" type="Label" parent="PlayerTitle"]
+layout_mode = 0
+offset_left = 171.0
+offset_top = -107.0
+offset_right = 369.0
+offset_bottom = -84.0
+theme_override_fonts/font = ExtResource("3_pvxbb")
+theme_override_font_sizes/font_size = 40
+text = "Tap to Start"
+script = ExtResource("4_302it")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PlayerTitle/taptostart"]
+root_node = NodePath("../../..")
+libraries = {
+"": SubResource("AnimationLibrary_pposu")
+}
+
+[node name="ColorRect" type="ColorRect" parent="PlayerTitle/taptostart/AnimationPlayer"]
+modulate = Color(1, 1, 1, 0)
+offset_right = 1158.0
+offset_bottom = 653.0
+color = Color(0.113939, 0.119138, 0.159859, 1)
+
+[node name="ArrowStart" type="Sprite2D" parent="."]
+position = Vector2(736, 360)
+scale = Vector2(0.0759259, 0.0759259)
+texture = ExtResource("4_isnpv")
+
+[node name="ArrowStart2" type="Sprite2D" parent="."]
+position = Vector2(419, 362)
+rotation = -3.14159
+scale = Vector2(0.0759259, 0.0759259)
+texture = ExtResource("4_isnpv")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj2y6t5xdtjqh"]
+
+[ext_resource type="PackedScene" uid="uid://dm43kg62us8d0" path="res://scenes/Controls/joy_stick.tscn" id="1_jaekw"]
+[ext_resource type="Texture2D" uid="uid://b7gtb2uurultu" path="res://assets/buttons/fromcanva2.png" id="2_48g3i"]
+
+[node name="ControlHud" type="Node2D"]
+
+[node name="JoyStick" parent="." instance=ExtResource("1_jaekw")]
+position = Vector2(86, 384)
+
+[node name="AttackButton" type="TouchScreenButton" parent="."]
+position = Vector2(928, 410)
+scale = Vector2(0.780645, 0.780645)
+texture_normal = ExtResource("2_48g3i")

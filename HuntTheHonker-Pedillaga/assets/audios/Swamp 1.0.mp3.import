@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cv3jb75ewnxeg"
+path="res://.godot/imported/Swamp 1.0.mp3-07970f899810e5cb629848f33d615d09.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/Swamp 1.0.mp3"
+dest_files=["res://.godot/imported/Swamp 1.0.mp3-07970f899810e5cb629848f33d615d09.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

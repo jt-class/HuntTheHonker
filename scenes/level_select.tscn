@@ -1,0 +1,62 @@
+[gd_scene load_steps=2 format=3 uid="uid://fnihfdmmx7y"]
+
+[ext_resource type="Texture2D" uid="uid://kvyl0teb5utv" path="res://Assets/Back.png" id="1_3rc0r"]
+
+[node name="LevelSelect" type="Node2D"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 1139.0
+offset_bottom = 635.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button" type="Button" parent="."]
+layout_direction = 1
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 64.0
+offset_bottom = 64.0
+size_flags_stretch_ratio = 0.0
+theme_type_variation = &"FlatButton"
+icon = ExtResource("1_3rc0r")
+expand_icon = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 365.0
+offset_top = 26.0
+offset_right = 473.0
+offset_bottom = 51.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 4)
+text = "LEVEL SELECT"

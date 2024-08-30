@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Hunt The Honker: Invasion Frenzy"
+config/name="LevelSelect"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 

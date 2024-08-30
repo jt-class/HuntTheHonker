@@ -1,34 +1,20 @@
-[gd_scene load_steps=35 format=3 uid="uid://c7cftx3wl80do"]
+[gd_scene load_steps=24 format=3 uid="uid://b654lijhcyy5a"]
 
-[ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://assets/backgrounds/BG_LEVEL-SELECT.png" id="1_dlakq"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/placeholderStartBtn.png" id="1_n1i33"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/placeholderStartBtnPressed.png" id="2_3pmmt"]
-[ext_resource type="Texture2D" uid="uid://xp0hvgcjhy7j" path="res://assets/Level_Select_Assets/Forest_bg_locked.png" id="2_s8yol"]
-[ext_resource type="Texture2D" uid="uid://bdpw3seja067a" path="res://assets/Level_Select_Assets/Forest_bg.png" id="3_r80o0"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/placeholderCharacter.png" id="3_uqjsl"]
-[ext_resource type="Texture2D" uid="uid://bobuhxwoytrai" path="res://assets/Level_Select_Assets/TMM_bg_locked.png" id="4_3q2dl"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/placeholderArrowBtn.png" id="4_6noy4"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/checkPlaceholder.png" id="4_lrgq8"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/lockPlaceholder.png" id="5_5yawy"]
 [ext_resource type="Texture2D" path="res://assets/temporaryPlaceholders/placeholderArrowBtnPressed.png" id="5_aj401"]
-[ext_resource type="Texture2D" uid="uid://d2u77lbwdr7om" path="res://assets/Level_Select_Assets/TMM_bg.png" id="5_gbi8t"]
-[ext_resource type="Texture2D" uid="uid://c2fsp7kox2lhe" path="res://assets/Level_Select_Assets/TDD_bg-locked.png" id="6_14tm5"]
-[ext_resource type="Texture2D" uid="uid://dnynmugx8g73q" path="res://assets/Level_Select_Assets/TDD_bg.png" id="7_3ogk2"]
-[ext_resource type="Texture2D" uid="uid://qbikai73buw1" path="res://assets/Level_Select_Assets/TRT_bg-locked.png" id="8_gda5b"]
-[ext_resource type="Texture2D" uid="uid://rigawtsq37gv" path="res://assets/Level_Select_Assets/TRT_bg.png" id="9_250y0"]
-[ext_resource type="Texture2D" uid="uid://dfkulnt0aqrxi" path="res://assets/Level_Select_Assets/TFC_bg_locked.png" id="10_ymodn"]
-[ext_resource type="Texture2D" uid="uid://borwppf5aavcu" path="res://assets/Level_Select_Assets/TFC_bg.png" id="11_6tmqk"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qhtii"]
-texture = ExtResource("2_s8yol")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nw87m"]
-texture = ExtResource("2_s8yol")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4jova"]
-texture = ExtResource("3_r80o0")
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_e5ofe"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_i5teg"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -40,40 +26,28 @@ animations = [{
 }]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_keemh"]
-texture = ExtResource("4_3q2dl")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_aeh1s"]
-texture = ExtResource("4_3q2dl")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k4584"]
-texture = ExtResource("5_gbi8t")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wdqy6"]
-texture = ExtResource("6_14tm5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bcthk"]
-texture = ExtResource("6_14tm5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2qwy7"]
-texture = ExtResource("7_3ogk2")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8fqy"]
-texture = ExtResource("8_gda5b")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02xbg"]
-texture = ExtResource("8_gda5b")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eaih2"]
-texture = ExtResource("9_250y0")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_15hcb"]
-texture = ExtResource("10_ymodn")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5bhlg"]
-texture = ExtResource("10_ymodn")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k688n"]
-texture = ExtResource("11_6tmqk")
 
 [node name="LevelSelect" type="Control"]
 layout_mode = 3
@@ -90,7 +64,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_dlakq")
 expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -131,7 +104,7 @@ FOREST OF
 FEATHERS"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TTF"]
-visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -144,7 +117,7 @@ texture_pressed = ExtResource("2_3pmmt")
 visible = false
 position = Vector2(110, 321)
 scale = Vector2(0.3, 0.3)
-sprite_frames = SubResource("SpriteFrames_e5ofe")
+sprite_frames = SubResource("SpriteFrames_i5teg")
 
 [node name="Check" type="Sprite2D" parent="MarginContainer/HBoxContainer/TTF"]
 position = Vector2(112, 328)
@@ -178,6 +151,7 @@ OF
 MISCHIEF"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TMM"]
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -189,7 +163,7 @@ texture_pressed = ExtResource("2_3pmmt")
 [node name="Character" type="AnimatedSprite2D" parent="MarginContainer/HBoxContainer/TMM"]
 position = Vector2(110, 321)
 scale = Vector2(0.3, 0.3)
-sprite_frames = SubResource("SpriteFrames_e5ofe")
+sprite_frames = SubResource("SpriteFrames_i5teg")
 
 [node name="Check" type="Sprite2D" parent="MarginContainer/HBoxContainer/TMM"]
 visible = false
@@ -224,7 +198,7 @@ DESERT OF
 DECEPTION"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TDD"]
-visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -237,7 +211,7 @@ texture_pressed = ExtResource("2_3pmmt")
 visible = false
 position = Vector2(110, 321)
 scale = Vector2(0.3, 0.3)
-sprite_frames = SubResource("SpriteFrames_e5ofe")
+sprite_frames = SubResource("SpriteFrames_i5teg")
 
 [node name="Check" type="Sprite2D" parent="MarginContainer/HBoxContainer/TDD"]
 visible = false
@@ -271,7 +245,7 @@ THE RUINS
 TRICKERY"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TRT"]
-visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -284,7 +258,7 @@ texture_pressed = ExtResource("2_3pmmt")
 visible = false
 position = Vector2(110, 321)
 scale = Vector2(0.3, 0.3)
-sprite_frames = SubResource("SpriteFrames_e5ofe")
+sprite_frames = SubResource("SpriteFrames_i5teg")
 
 [node name="Check" type="Sprite2D" parent="MarginContainer/HBoxContainer/TRT"]
 visible = false
@@ -318,7 +292,7 @@ FORTRESS
 OF CHAOS"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TFC"]
-visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -331,7 +305,7 @@ texture_pressed = ExtResource("2_3pmmt")
 visible = false
 position = Vector2(110, 321)
 scale = Vector2(0.3, 0.3)
-sprite_frames = SubResource("SpriteFrames_e5ofe")
+sprite_frames = SubResource("SpriteFrames_i5teg")
 
 [node name="Check" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFC"]
 visible = false

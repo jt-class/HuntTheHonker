@@ -1,0 +1,175 @@
+[gd_scene load_steps=29 format=3 uid="uid://dyfho6qtrpqsx"]
+
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/BG_LEVEL-SELECT.png" id="1_0sp5g"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/Back.png" id="1_3rc0r"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/Forest_bg_locked.png" id="2_d622b"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/Forest_bg.png" id="3_oohba"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TMM_bg_locked.png" id="3_w4gch"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TDD_bg-locked.png" id="4_tcmwt"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TRT_bg-locked.png" id="5_5hw5v"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TMM_bg.png" id="5_ew2gw"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TFC_bg_locked.png" id="6_tuogw"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TDD_bg.png" id="7_10ivj"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TRT_bg.png" id="9_cvmve"]
+[ext_resource type="Texture2D" path="res://Assets/Level_Select_Assets/TFC_bg.png" id="11_r52v2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qhtii"]
+texture = ExtResource("2_d622b")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nw87m"]
+texture = ExtResource("2_d622b")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4jova"]
+texture = ExtResource("3_oohba")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_keemh"]
+texture = ExtResource("3_w4gch")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_aeh1s"]
+texture = ExtResource("3_w4gch")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k4584"]
+texture = ExtResource("5_ew2gw")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wdqy6"]
+texture = ExtResource("4_tcmwt")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bcthk"]
+texture = ExtResource("4_tcmwt")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2qwy7"]
+texture = ExtResource("7_10ivj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8fqy"]
+texture = ExtResource("5_5hw5v")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02xbg"]
+texture = ExtResource("5_5hw5v")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eaih2"]
+texture = ExtResource("9_cvmve")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_15hcb"]
+texture = ExtResource("6_tuogw")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5bhlg"]
+texture = ExtResource("6_tuogw")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k688n"]
+texture = ExtResource("11_r52v2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cbi3k"]
+texture = ExtResource("1_3rc0r")
+
+[node name="LevelSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_0sp5g")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 9
+alignment = 1
+
+[node name="TTF" type="Button" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxTexture_qhtii")
+theme_override_styles/hover = SubResource("StyleBoxTexture_nw87m")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_4jova")
+text = "THE
+FOREST OF 
+FEATHERS"
+
+[node name="TMM" type="Button" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxTexture_keemh")
+theme_override_styles/hover = SubResource("StyleBoxTexture_aeh1s")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_k4584")
+text = "THE MARSH 
+OF 
+MISCHIEF"
+
+[node name="TDD" type="Button" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxTexture_wdqy6")
+theme_override_styles/hover = SubResource("StyleBoxTexture_bcthk")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_2qwy7")
+text = "THE 
+DESERT OF 
+DECEPTION"
+
+[node name="TRT" type="Button" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxTexture_o8fqy")
+theme_override_styles/hover = SubResource("StyleBoxTexture_02xbg")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_eaih2")
+text = "THE RUINS
+ OF 
+TRICKERY"
+
+[node name="TFC" type="Button" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxTexture_15hcb")
+theme_override_styles/hover = SubResource("StyleBoxTexture_5bhlg")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_k688n")
+text = "THE 
+FORTRESS
+OF CHAOS"
+
+[node name="BACK Button" type="Button" parent="."]
+layout_direction = 1
+layout_mode = 0
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 64.0
+offset_bottom = 64.0
+size_flags_stretch_ratio = 0.0
+theme_type_variation = &"FlatButton"
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = SubResource("StyleBoxTexture_cbi3k")
+expand_icon = true
+
+[node name="TITLE" type="RichTextLabel" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 365.0
+offset_top = 26.0
+offset_right = -682.0
+offset_bottom = -599.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 4)
+text = "LEVEL SELECT"

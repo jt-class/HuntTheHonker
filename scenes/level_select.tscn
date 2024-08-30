@@ -132,6 +132,7 @@ FEATHERS"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TTF"]
 visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -178,6 +179,7 @@ OF
 MISCHIEF"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TMM"]
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -225,6 +227,7 @@ DECEPTION"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TDD"]
 visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -272,6 +275,7 @@ TRICKERY"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TRT"]
 visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0
@@ -319,6 +323,7 @@ OF CHAOS"
 
 [node name="Start" type="TextureButton" parent="MarginContainer/HBoxContainer/TFC"]
 visible = false
+layout_mode = 0
 offset_left = 28.0
 offset_top = 531.0
 offset_right = 192.0

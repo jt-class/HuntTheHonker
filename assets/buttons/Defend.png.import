@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4p51qxhrcgdy"
-path="res://.godot/imported/fromcanva2.png-30dad1e7e26705a0a977dd982657422d.ctex"
+uid="uid://cx3aqj45sl425"
+path="res://.godot/imported/Defend.png-cc915de88e5da471c864acf51743c3b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/buttons/fromcanva2.png"
-dest_files=["res://.godot/imported/fromcanva2.png-30dad1e7e26705a0a977dd982657422d.ctex"]
+source_file="res://assets/buttons/Defend.png"
+dest_files=["res://.godot/imported/Defend.png-cc915de88e5da471c864acf51743c3b2.ctex"]
 
 [params]
 

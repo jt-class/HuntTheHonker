@@ -64,4 +64,3 @@ Environment: The Honker’s final stronghold, a massive fortress filled with tra
 Enemies: Elite guards, shadow creatures, and The Honker’s most loyal followers.
 Boss: The Honker – The final battle against the mischievous and powerful goose. The Honker uses all of his tricks, summoning minions and utilizing the stolen treasures to fight back.
 Rewards: The ultimate title of "Honker Slayer", Celestial-grade items, and the restoration of peace to Aloria.
-

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bn30axgs6p6xj"
+path="res://.godot/imported/bandit 1.mp3-6bf21ba18a61bbf2482700e0e25a1d29.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/audio/bandit 1.mp3"
+dest_files=["res://.godot/imported/bandit 1.mp3-6bf21ba18a61bbf2482700e0e25a1d29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

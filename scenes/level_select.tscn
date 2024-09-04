@@ -19,14 +19,14 @@
 [ext_resource type="Texture2D" uid="uid://dfkulnt0aqrxi" path="res://assets/Level_Select_Assets/TFC_bg_locked.png" id="10_ymodn"]
 [ext_resource type="Texture2D" uid="uid://borwppf5aavcu" path="res://assets/Level_Select_Assets/TFC_bg.png" id="11_6tmqk"]
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qhtii"]
-texture = ExtResource("2_s8yol")
-
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nw87m"]
 texture = ExtResource("2_s8yol")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4jova"]
 texture = ExtResource("3_r80o0")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qhtii"]
+texture = ExtResource("2_s8yol")
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_e5ofe"]
 animations = [{
@@ -39,17 +39,14 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_keemh"]
-texture = ExtResource("4_3q2dl")
-
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_aeh1s"]
 texture = ExtResource("4_3q2dl")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k4584"]
 texture = ExtResource("5_gbi8t")
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wdqy6"]
-texture = ExtResource("6_14tm5")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_keemh"]
+texture = ExtResource("4_3q2dl")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bcthk"]
 texture = ExtResource("6_14tm5")
@@ -57,8 +54,8 @@ texture = ExtResource("6_14tm5")
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2qwy7"]
 texture = ExtResource("7_3ogk2")
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8fqy"]
-texture = ExtResource("8_gda5b")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wdqy6"]
+texture = ExtResource("6_14tm5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02xbg"]
 texture = ExtResource("8_gda5b")
@@ -66,14 +63,17 @@ texture = ExtResource("8_gda5b")
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eaih2"]
 texture = ExtResource("9_250y0")
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_15hcb"]
-texture = ExtResource("10_ymodn")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8fqy"]
+texture = ExtResource("8_gda5b")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5bhlg"]
 texture = ExtResource("10_ymodn")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k688n"]
 texture = ExtResource("11_6tmqk")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_15hcb"]
+texture = ExtResource("10_ymodn")
 
 [node name="LevelSelect" type="Control"]
 layout_mode = 3
@@ -113,9 +113,9 @@ alignment = 1
 [node name="TTF" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/normal = SubResource("StyleBoxTexture_qhtii")
 theme_override_styles/hover = SubResource("StyleBoxTexture_nw87m")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_4jova")
+theme_override_styles/normal = SubResource("StyleBoxTexture_qhtii")
 text = "
 
 
@@ -161,9 +161,9 @@ texture = ExtResource("5_5yawy")
 [node name="TMM" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/normal = SubResource("StyleBoxTexture_keemh")
 theme_override_styles/hover = SubResource("StyleBoxTexture_aeh1s")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_k4584")
+theme_override_styles/normal = SubResource("StyleBoxTexture_keemh")
 text = "
 
 
@@ -208,9 +208,9 @@ texture = ExtResource("5_5yawy")
 [node name="TDD" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/normal = SubResource("StyleBoxTexture_wdqy6")
 theme_override_styles/hover = SubResource("StyleBoxTexture_bcthk")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_2qwy7")
+theme_override_styles/normal = SubResource("StyleBoxTexture_wdqy6")
 text = "
 
 
@@ -256,9 +256,9 @@ texture = ExtResource("5_5yawy")
 [node name="TRT" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/normal = SubResource("StyleBoxTexture_o8fqy")
 theme_override_styles/hover = SubResource("StyleBoxTexture_02xbg")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_eaih2")
+theme_override_styles/normal = SubResource("StyleBoxTexture_o8fqy")
 text = "
 
 
@@ -304,9 +304,9 @@ texture = ExtResource("5_5yawy")
 [node name="TFC" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/normal = SubResource("StyleBoxTexture_15hcb")
 theme_override_styles/hover = SubResource("StyleBoxTexture_5bhlg")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_k688n")
+theme_override_styles/normal = SubResource("StyleBoxTexture_15hcb")
 text = "
 
 

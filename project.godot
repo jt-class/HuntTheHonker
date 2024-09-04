@@ -14,6 +14,7 @@ config/name="Hunt The Honker: Invasion Frenzy"
 run/main_scene="res://scenes/level_select.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+<<<<<<<HEADrun/main_scene="res://scenes/level_select.tscn"
 
 [rendering]
 

@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Hunt The Honker: Invasion Frenzy"
+run/main_scene="res://scenes/Controls/control_hud.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 

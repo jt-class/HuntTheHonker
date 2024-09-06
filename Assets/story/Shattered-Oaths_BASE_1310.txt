@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cfde80c7ad806ecf7897ccb867a269c6d585d95c
+<<<<<<<<< Temporary merge branch 1
 Title: Shattered Oaths 
 
 Is a medieval game set in a world of treachery and political intrigue. Bertram, a former knight and bounty hunter, is framed for the assassination of Queen Anna and is branded a traitor by the kingdom he once swore to protect. Bertram must embark on a dangerous journey through five levels to clear his name, expose the true conspirators, and seek justice for those who betrayed him.
@@ -17,8 +14,7 @@ In the fourth level of the game, Bertram must infiltrate the Royal Palace in Kil
 
 In the final level, Bertram must escape captivity, fight through Ziddim's elite guards and knights, and confront the king in a final showdown to stop the coup and restore justice to the kingdom. In the climactic battle, Bertram confronts King Ziddim, who reveals he killed Queen Anna to prevent her from uncovering his plans. With Ziddim's defeat, Bertram clears his name and exposes the conspiracy, saving the kingdom from falling into the hands of a tyrant.
 
-<<<<<<< HEAD
-=======
+=========
 Title: Shattered Oaths 
 
 Is a medieval game set in a world of treachery and political intrigue. Bertram, a former knight and bounty hunter, is framed for the assassination of Queen Anna and is branded a traitor by the kingdom he once swore to protect. Bertram must embark on a dangerous journey through five levels to clear his name, expose the true conspirators, and seek justice for those who betrayed him.
@@ -34,7 +30,5 @@ In the fourth level of the game, Bertram must infiltrate the Royal Palace in Kil
 
 In the final level, Bertram must escape captivity, fight through Ziddim's elite guards and knights, and confront the king in a final showdown to stop the coup and restore justice to the kingdom. In the climactic battle, Bertram confronts King Ziddim, who reveals he killed Queen Anna to prevent her from uncovering his plans. With Ziddim's defeat, Bertram clears his name and exposes the conspiracy, saving the kingdom from falling into the hands of a tyrant.
 
->>>>>>> origin/main
-=======
->>>>>>> cfde80c7ad806ecf7897ccb867a269c6d585d95c
+>>>>>>>>> Temporary merge branch 2
 With King Ziddim dead and the conspiracy unraveled, peace is restored to Kilvoria. Bertram, now vindicated, chooses to live as a free man, a hero whose actions saved the kingdom from chaos. The game ends with Bertram riding away from the capital, honored as a symbol of loyalty and justice.

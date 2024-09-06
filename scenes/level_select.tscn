@@ -1,3 +1,4 @@
+
 [gd_scene load_steps=28 format=3 uid="uid://dyfho6qtrpqsx"]
 
 [ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://assets/backgrounds/BG_LEVEL-SELECT.png" id="1_dlakq"]
@@ -147,12 +148,14 @@ OF CHAOS"
 [node name="BACK Button" type="Button" parent="."]
 layout_direction = 1
 layout_mode = 0
+
 offset_left = 13.0
 offset_top = 13.0
 offset_right = 64.0
 offset_bottom = 64.0
 size_flags_stretch_ratio = 0.0
 theme_type_variation = &"FlatButton"
+
 theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_styles/normal = SubResource("StyleBoxTexture_cbi3k")
 expand_icon = true
@@ -160,14 +163,16 @@ expand_icon = true
 [node name="TITLE" type="RichTextLabel" parent="."]
 texture_filter = 1
 layout_mode = 1
-anchors_preset = 15
+ = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 365.0
 offset_top = 26.0
+
 offset_right = -682.0
 offset_bottom = -599.0
-grow_horizontal = 2
+
+grow_horizontal = 
 grow_vertical = 2
 scale = Vector2(4, 4)
 text = "LEVEL SELECT"

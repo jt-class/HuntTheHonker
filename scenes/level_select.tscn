@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 [gd_scene load_steps=35 format=3 uid="uid://c7cftx3wl80do"]
+=======
+
+[gd_scene load_steps=28 format=3 uid="uid://dyfho6qtrpqsx"]
+>>>>>>> 13dff6d836e7d0f89f1588cb27dab30cfca5e60d
 
 [ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://assets/backgrounds/BG_LEVEL-SELECT.png" id="1_dlakq"]
 [ext_resource type="Texture2D" uid="uid://dauknb2ppgbnr" path="res://assets/temporaryPlaceholders/placeholderStartBtn.png" id="1_n1i33"]
@@ -352,6 +357,7 @@ texture = ExtResource("5_5yawy")
 [node name="BACK Button" type="TextureButton" parent="."]
 layout_direction = 1
 layout_mode = 0
+
 offset_left = 13.0
 offset_top = 13.0
 offset_right = 64.0
@@ -359,20 +365,29 @@ offset_bottom = 64.0
 scale = Vector2(0.3, 0.3)
 size_flags_stretch_ratio = 0.0
 theme_type_variation = &"FlatButton"
+<<<<<<< HEAD
 texture_normal = ExtResource("4_6noy4")
 texture_pressed = ExtResource("5_aj401")
+=======
+
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = SubResource("StyleBoxTexture_cbi3k")
+expand_icon = true
+>>>>>>> 13dff6d836e7d0f89f1588cb27dab30cfca5e60d
 
 [node name="TITLE" type="RichTextLabel" parent="."]
 texture_filter = 1
 layout_mode = 1
-anchors_preset = 15
+ = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 365.0
 offset_top = 26.0
+
 offset_right = -682.0
 offset_bottom = -599.0
-grow_horizontal = 2
+
+grow_horizontal = 
 grow_vertical = 2
 scale = Vector2(4, 4)
 text = "LEVEL SELECT"

@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://c0b8iikgaudvk"
+=======
+uid="uid://be8024gh6rjoi"
+>>>>>>> origin/main
 path="res://.godot/imported/Red Ring Celestial Strength.png-3b0fc61f5c2e4f7ebd87690c545fddc5.ctex"
 metadata={
 "vram_texture": false

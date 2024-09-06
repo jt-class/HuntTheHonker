@@ -1,0 +1,171 @@
+[gd_scene load_steps=11 format=3 uid="uid://clhlw338bamre"]
+
+[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_ilskg"]
+[ext_resource type="Texture2D" uid="uid://dmc3o7jo7ghmq" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
+[ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
+font = ExtResource("3_xvami")
+font_size = 20
+font_color = Color(1, 1, 0, 1)
+
+[sub_resource type="Animation" id="Animation_5qjbd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_grpb7"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.133333, 0.866667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.866667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_us5vb"]
+resource_name = "fade_out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.133333, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ncdm1"]
+_data = {
+"RESET": SubResource("Animation_5qjbd"),
+"fade_in": SubResource("Animation_grpb7"),
+"fade_out": SubResource("Animation_us5vb")
+}
+
+[node name="TapToStart" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_ilskg")
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(382, 526)
+scale = Vector2(0.533795, 0.506875)
+texture = ExtResource("2_mlcm6")
+
+[node name="PlayerTitle" type="Label" parent="."]
+offset_left = 304.0
+offset_top = 458.0
+offset_right = 413.0
+offset_bottom = 481.0
+text = "[Arlor's Ally]"
+label_settings = SubResource("LabelSettings_dtav7")
+
+[node name="Maintitle" type="Label" parent="PlayerTitle"]
+layout_mode = 0
+offset_left = -167.0
+offset_top = -324.0
+offset_right = 733.0
+offset_bottom = -198.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_xvami")
+theme_override_font_sizes/font_size = 70
+text = "HUNT THE HONKER: 		
+
+INVASION FRENZY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="taptostart" type="Button" parent="PlayerTitle"]
+layout_mode = 0
+offset_left = 171.0
+offset_top = -107.0
+offset_right = 377.0
+offset_bottom = -76.0
+theme_override_fonts/font = ExtResource("3_xvami")
+theme_override_font_sizes/font_size = 40
+text = "Tap to Start"
+script = ExtResource("4_c3iy2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PlayerTitle/taptostart"]
+libraries = {
+"": SubResource("AnimationLibrary_ncdm1")
+}
+
+[node name="ColorRect" type="ColorRect" parent="PlayerTitle/taptostart/AnimationPlayer"]
+visible = false
+offset_right = 1153.0
+offset_bottom = 652.0
+
+[node name="ArrowStart" type="Sprite2D" parent="."]
+position = Vector2(736, 360)
+scale = Vector2(0.0759259, 0.0759259)
+texture = ExtResource("4_20nbg")
+
+[node name="ArrowStart2" type="Sprite2D" parent="."]
+position = Vector2(419, 362)
+rotation = -3.14159
+scale = Vector2(0.0759259, 0.0759259)
+texture = ExtResource("4_20nbg")
+
+[connection signal="pressed" from="PlayerTitle/taptostart" to="PlayerTitle/taptostart" method="_on_pressed"]

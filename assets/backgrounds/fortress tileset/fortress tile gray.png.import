@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://r1egqt8gwb83"
+=======
+uid="uid://mxu33bh6mdhs"
+>>>>>>> origin/main
 path="res://.godot/imported/fortress tile gray.png-5580df20c5c3e593846475a65380f923.ctex"
 metadata={
 "vram_texture": false

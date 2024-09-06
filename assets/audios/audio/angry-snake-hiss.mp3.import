@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://c5epw3p2l4lls"
+=======
+uid="uid://cr80ich2uyexu"
+>>>>>>> origin/main
 path="res://.godot/imported/angry-snake-hiss.mp3-78096930e42f1e86542d62baed8b2d00.mp3str"
 
 [deps]

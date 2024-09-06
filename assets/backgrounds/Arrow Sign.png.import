@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dvkduhoat7337"
+=======
+uid="uid://bged7o8dsow3w"
+>>>>>>> origin/main
 path="res://.godot/imported/Arrow Sign.png-c07228e36d59fc313eef979a9aa3c381.ctex"
 metadata={
 "vram_texture": false

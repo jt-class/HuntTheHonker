@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://cwkv23qos21od"
+=======
+uid="uid://bha87owqkv1a5"
+>>>>>>> origin/main
 path="res://.godot/imported/whole grayv tile.png-85f117fc0128778f7ba06d76cb3cd1b6.ctex"
 metadata={
 "vram_texture": false

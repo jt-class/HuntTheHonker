@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://vbjq11ncitjy"
+=======
+uid="uid://ctabpr7nbad28"
+>>>>>>> origin/main
 path="res://.godot/imported/Angry Goose 1.0.mp3-c1a01bd9e9c7c0932051c23b0c76fa8d.mp3str"
 
 [deps]

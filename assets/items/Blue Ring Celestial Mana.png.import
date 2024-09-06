@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://blsxpcd51dgre"
+=======
+uid="uid://bhvd443dc3y6t"
+>>>>>>> origin/main
 path="res://.godot/imported/Blue Ring Celestial Mana.png-e028daace76e06b478f7c07999b3dad5.ctex"
 metadata={
 "vram_texture": false

@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://besic2oxnoemm"
+=======
+uid="uid://iiq8ennkax2e"
+>>>>>>> origin/main
 path="res://.godot/imported/Danger sign.png-6861861b23723d0f24e70f7b56a1eb5d.ctex"
 metadata={
 "vram_texture": false

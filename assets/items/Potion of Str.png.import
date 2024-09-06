@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dxij1aqpidypa"
+=======
+uid="uid://c0dd0c25cv0gu"
+>>>>>>> origin/main
 path="res://.godot/imported/Potion of Str.png-b903b7b1bd3ed4edf49c809a14d35734.ctex"
 metadata={
 "vram_texture": false

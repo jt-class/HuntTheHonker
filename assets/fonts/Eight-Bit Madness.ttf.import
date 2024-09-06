@@ -2,7 +2,11 @@
 
 importer="font_data_dynamic"
 type="FontFile"
+<<<<<<< HEAD
 uid="uid://vf05a3ybfs6e"
+=======
+uid="uid://dvm3ijp6awli5"
+>>>>>>> origin/main
 path="res://.godot/imported/Eight-Bit Madness.ttf-f85daff2dd7f1589c2e348b56e14c03e.fontdata"
 
 [deps]

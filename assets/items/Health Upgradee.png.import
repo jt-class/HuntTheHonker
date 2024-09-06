@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://jn4ckaeqgsgm"
+=======
+uid="uid://cog62ah8v23h4"
+>>>>>>> origin/main
 path="res://.godot/imported/Health Upgradee.png-dc6c44415b6186df4c803a1c6def3991.ctex"
 metadata={
 "vram_texture": false

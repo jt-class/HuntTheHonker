@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://dbhrorenexwh6"
+=======
+uid="uid://dkvebh0g4450s"
+>>>>>>> origin/main
 path="res://.godot/imported/the-sound-of-stones-the-impact-of-a-stone-9813.mp3-6e55dbc8cc6082cd9cc1dadbfcb4e226.mp3str"
 
 [deps]

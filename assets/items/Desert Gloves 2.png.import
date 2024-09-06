@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnqaqtmiidyjc"
-path="res://.godot/imported/Desert Gloves 2.png-5acbb8993f383da69dc8e57b9de94439.ctex"
+path="res://.godot/imported/Desert Gloves 2.png-1e6d1002817e819b761691e83d0f5f36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Desert Gloves 2.png"
-dest_files=["res://.godot/imported/Desert Gloves 2.png-5acbb8993f383da69dc8e57b9de94439.ctex"]
+source_file="res://Assets/items/Desert Gloves 2.png"
+dest_files=["res://.godot/imported/Desert Gloves 2.png-1e6d1002817e819b761691e83d0f5f36.ctex"]
 
 [params]
 

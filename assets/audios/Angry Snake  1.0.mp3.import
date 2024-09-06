@@ -2,17 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://cdamvakpy7dv5"
-=======
-uid="uid://5qvng4plkoha"
->>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
-path="res://.godot/imported/Angry Snake  1.0.mp3-4d29fcd62ddf8db0f1ffe808ef3b2206.mp3str"
+uid="uid://0u1j2ay2g0qb"
+path="res://.godot/imported/Angry Snake  1.0.mp3-7dc5837a129ebb21b02eb7675488808b.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/Angry Snake  1.0.mp3"
-dest_files=["res://.godot/imported/Angry Snake  1.0.mp3-4d29fcd62ddf8db0f1ffe808ef3b2206.mp3str"]
+source_file="res://Assets/audios/Angry Snake  1.0.mp3"
+dest_files=["res://.godot/imported/Angry Snake  1.0.mp3-7dc5837a129ebb21b02eb7675488808b.mp3str"]
 
 [params]
 

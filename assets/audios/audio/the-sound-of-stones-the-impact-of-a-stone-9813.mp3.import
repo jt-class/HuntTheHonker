@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dkvebh0g4450s"
-path="res://.godot/imported/the-sound-of-stones-the-impact-of-a-stone-9813.mp3-6e55dbc8cc6082cd9cc1dadbfcb4e226.mp3str"
+path="res://.godot/imported/the-sound-of-stones-the-impact-of-a-stone-9813.mp3-604eb99248301a18310bb316d9bbd00f.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/audio/the-sound-of-stones-the-impact-of-a-stone-9813.mp3"
-dest_files=["res://.godot/imported/the-sound-of-stones-the-impact-of-a-stone-9813.mp3-6e55dbc8cc6082cd9cc1dadbfcb4e226.mp3str"]
+source_file="res://Assets/audios/audio/the-sound-of-stones-the-impact-of-a-stone-9813.mp3"
+dest_files=["res://.godot/imported/the-sound-of-stones-the-impact-of-a-stone-9813.mp3-604eb99248301a18310bb316d9bbd00f.mp3str"]
 
 [params]
 

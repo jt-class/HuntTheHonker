@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdmdu4atdh48s"
-path="res://.godot/imported/Increase Stamina Upgradee.png-dffcfcae69178d5dc8a11d8067c49df1.ctex"
+path="res://.godot/imported/Increase Stamina Upgradee.png-8ea030ea562f3da0b2388f5f1331d1ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Increase Stamina Upgradee.png"
-dest_files=["res://.godot/imported/Increase Stamina Upgradee.png-dffcfcae69178d5dc8a11d8067c49df1.ctex"]
+source_file="res://Assets/items/Increase Stamina Upgradee.png"
+dest_files=["res://.godot/imported/Increase Stamina Upgradee.png-8ea030ea562f3da0b2388f5f1331d1ae.ctex"]
 
 [params]
 

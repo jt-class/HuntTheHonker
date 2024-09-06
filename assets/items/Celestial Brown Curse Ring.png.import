@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dewihhognrcu4"
-path="res://.godot/imported/Celestial Brown Curse Ring.png-5798471fe59269f062808b4ea605463a.ctex"
+path="res://.godot/imported/Celestial Brown Curse Ring.png-fa195da31c93fc27e171ef605d2364ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Celestial Brown Curse Ring.png"
-dest_files=["res://.godot/imported/Celestial Brown Curse Ring.png-5798471fe59269f062808b4ea605463a.ctex"]
+source_file="res://Assets/items/Celestial Brown Curse Ring.png"
+dest_files=["res://.godot/imported/Celestial Brown Curse Ring.png-fa195da31c93fc27e171ef605d2364ba.ctex"]
 
 [params]
 

@@ -2,17 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://3l0l68bp4o3w"
-=======
-uid="uid://doi2jgv8b6e6b"
->>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
-path="res://.godot/imported/Toad 1.0.mp3-5e5e452df02ce4740ff192c1fcfc9998.mp3str"
+uid="uid://blq1qp0mvujqm"
+path="res://.godot/imported/Toad 1.0.mp3-882526d56b5faf54bcedc985f04207de.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/Toad 1.0.mp3"
-dest_files=["res://.godot/imported/Toad 1.0.mp3-5e5e452df02ce4740ff192c1fcfc9998.mp3str"]
+source_file="res://Assets/audios/Toad 1.0.mp3"
+dest_files=["res://.godot/imported/Toad 1.0.mp3-882526d56b5faf54bcedc985f04207de.mp3str"]
 
 [params]
 

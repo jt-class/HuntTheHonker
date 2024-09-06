@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8dqki3j4okls"
-path="res://.godot/imported/Swampy Forest_1.png-35392940e4bce5691e596858e86500f4.ctex"
+path="res://.godot/imported/Swampy Forest_1.png-9180639c85d85724b6e67909f428c52d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/Swampy Forest_1.png"
-dest_files=["res://.godot/imported/Swampy Forest_1.png-35392940e4bce5691e596858e86500f4.ctex"]
+source_file="res://Assets/backgrounds/Swampy Forest_1.png"
+dest_files=["res://.godot/imported/Swampy Forest_1.png-9180639c85d85724b6e67909f428c52d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnnc2wppw2wkn"
-path="res://.godot/imported/Divine_Star_Stone.png-1a4a1a5eb859f0fe437e3ab8b991e451.ctex"
+path="res://.godot/imported/Divine_Star_Stone.png-7e7e9c62954df9c3600409071e52f657.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Divine_Star_Stone.png"
-dest_files=["res://.godot/imported/Divine_Star_Stone.png-1a4a1a5eb859f0fe437e3ab8b991e451.ctex"]
+source_file="res://Assets/items/Divine_Star_Stone.png"
+dest_files=["res://.godot/imported/Divine_Star_Stone.png-7e7e9c62954df9c3600409071e52f657.ctex"]
 
 [params]
 

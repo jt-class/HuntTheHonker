@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dhst1phpgkju0"
-path="res://.godot/imported/power down.mp3-9ca5c80444781cec204a07b1ffa3f4a3.mp3str"
+path="res://.godot/imported/power down.mp3-c86532d27c73b1583b2a5192b17b9ae4.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/power down.mp3"
-dest_files=["res://.godot/imported/power down.mp3-9ca5c80444781cec204a07b1ffa3f4a3.mp3str"]
+source_file="res://Assets/audios/power down.mp3"
+dest_files=["res://.godot/imported/power down.mp3-c86532d27c73b1583b2a5192b17b9ae4.mp3str"]
 
 [params]
 

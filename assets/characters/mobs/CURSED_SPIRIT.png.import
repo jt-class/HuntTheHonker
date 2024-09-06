@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce6py6qw2cfm6"
-path="res://.godot/imported/CURSED_SPIRIT.png-966b693924458a59037e6fc6dbe52709.ctex"
+path="res://.godot/imported/CURSED_SPIRIT.png-d3281103daf05cc924ae87d8217138f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/mobs/CURSED_SPIRIT.png"
-dest_files=["res://.godot/imported/CURSED_SPIRIT.png-966b693924458a59037e6fc6dbe52709.ctex"]
+source_file="res://Assets/characters/mobs/CURSED_SPIRIT.png"
+dest_files=["res://.godot/imported/CURSED_SPIRIT.png-d3281103daf05cc924ae87d8217138f6.ctex"]
 
 [params]
 

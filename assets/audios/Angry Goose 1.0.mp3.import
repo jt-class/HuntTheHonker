@@ -2,17 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://dm2a386gh11yw"
-=======
-uid="uid://cv5283dd1oupe"
->>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
-path="res://.godot/imported/Angry Goose 1.0.mp3-038f5fba82fddebc6ce5e28b701ba662.mp3str"
+uid="uid://bf5did3b4qejj"
+path="res://.godot/imported/Angry Goose 1.0.mp3-e9de43c8e8580e8869badf75a4cfc433.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/Angry Goose 1.0.mp3"
-dest_files=["res://.godot/imported/Angry Goose 1.0.mp3-038f5fba82fddebc6ce5e28b701ba662.mp3str"]
+source_file="res://Assets/audios/Angry Goose 1.0.mp3"
+dest_files=["res://.godot/imported/Angry Goose 1.0.mp3-e9de43c8e8580e8869badf75a4cfc433.mp3str"]
 
 [params]
 

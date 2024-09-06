@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rxs0ig4mryw4"
-path="res://.godot/imported/Health Upgrade.png-4f66253b38bd5af3986c4471d0addcb3.ctex"
+path="res://.godot/imported/Health Upgrade.png-516869baaa1f526fd31910c911c6659a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Health Upgrade.png"
-dest_files=["res://.godot/imported/Health Upgrade.png-4f66253b38bd5af3986c4471d0addcb3.ctex"]
+source_file="res://Assets/items/Health Upgrade.png"
+dest_files=["res://.godot/imported/Health Upgrade.png-516869baaa1f526fd31910c911c6659a.ctex"]
 
 [params]
 

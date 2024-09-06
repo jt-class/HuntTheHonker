@@ -2,17 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://c2car3eotfb52"
-=======
-uid="uid://cyfjcxrn6acsg"
->>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
-path="res://.godot/imported/Falling Stone.mp3-d76109c6e9fc7a9ad4d0c52f12d444f1.mp3str"
+uid="uid://bf125f0w0nu0m"
+path="res://.godot/imported/Falling Stone.mp3-de51b303bdcf0894dc633ddb2ff46def.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/Falling Stone.mp3"
-dest_files=["res://.godot/imported/Falling Stone.mp3-d76109c6e9fc7a9ad4d0c52f12d444f1.mp3str"]
+source_file="res://Assets/audios/Falling Stone.mp3"
+dest_files=["res://.godot/imported/Falling Stone.mp3-de51b303bdcf0894dc633ddb2ff46def.mp3str"]
 
 [params]
 

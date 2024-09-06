@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://reovls7rvrog"
-path="res://.godot/imported/power up 4.mp3-ad03afc906659597b5979110bf2ca936.mp3str"
+path="res://.godot/imported/power up 4.mp3-281664200fc360f6297173ac564c9878.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/power up 4.mp3"
-dest_files=["res://.godot/imported/power up 4.mp3-ad03afc906659597b5979110bf2ca936.mp3str"]
+source_file="res://Assets/audios/power up 4.mp3"
+dest_files=["res://.godot/imported/power up 4.mp3-281664200fc360f6297173ac564c9878.mp3str"]
 
 [params]
 

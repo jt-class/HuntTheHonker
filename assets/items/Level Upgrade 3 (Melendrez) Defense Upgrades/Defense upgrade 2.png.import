@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chmxmre6s5ovd"
-path="res://.godot/imported/Defense upgrade 2.png-433e6677e62ba4477e3c5d9dc77b1a01.ctex"
+path="res://.godot/imported/Defense upgrade 2.png-6b46f07fb0b090015cd878feb7d4c112.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Level Upgrade 3 (Melendrez) Defense Upgrades/Defense upgrade 2.png"
-dest_files=["res://.godot/imported/Defense upgrade 2.png-433e6677e62ba4477e3c5d9dc77b1a01.ctex"]
+source_file="res://Assets/items/Level Upgrade 3 (Melendrez) Defense Upgrades/Defense upgrade 2.png"
+dest_files=["res://.godot/imported/Defense upgrade 2.png-6b46f07fb0b090015cd878feb7d4c112.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cr80ich2uyexu"
-path="res://.godot/imported/angry-snake-hiss.mp3-78096930e42f1e86542d62baed8b2d00.mp3str"
+path="res://.godot/imported/angry-snake-hiss.mp3-82bc5cdb61402085c4c015b573edd2ad.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/audio/angry-snake-hiss.mp3"
-dest_files=["res://.godot/imported/angry-snake-hiss.mp3-78096930e42f1e86542d62baed8b2d00.mp3str"]
+source_file="res://Assets/audios/audio/angry-snake-hiss.mp3"
+dest_files=["res://.godot/imported/angry-snake-hiss.mp3-82bc5cdb61402085c4c015b573edd2ad.mp3str"]
 
 [params]
 

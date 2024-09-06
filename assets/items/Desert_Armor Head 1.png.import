@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://besjmlsw5e1rp"
-path="res://.godot/imported/Desert_Armor Head 1.png-9cf0edffd9e97f63b0292f508d984daf.ctex"
+path="res://.godot/imported/Desert_Armor Head 1.png-f46f3c54a4382d1f68cf46351a0224e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Desert_Armor Head 1.png"
-dest_files=["res://.godot/imported/Desert_Armor Head 1.png-9cf0edffd9e97f63b0292f508d984daf.ctex"]
+source_file="res://Assets/items/Desert_Armor Head 1.png"
+dest_files=["res://.godot/imported/Desert_Armor Head 1.png-f46f3c54a4382d1f68cf46351a0224e7.ctex"]
 
 [params]
 

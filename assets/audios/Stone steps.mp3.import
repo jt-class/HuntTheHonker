@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dvdupce5ofxar"
-path="res://.godot/imported/Stone steps.mp3-6cb6db84f16e6dc31eacc2f80abbfc3c.mp3str"
+path="res://.godot/imported/Stone steps.mp3-a6ac0534f47fc24c02c57daf013865bb.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/Stone steps.mp3"
-dest_files=["res://.godot/imported/Stone steps.mp3-6cb6db84f16e6dc31eacc2f80abbfc3c.mp3str"]
+source_file="res://Assets/audios/Stone steps.mp3"
+dest_files=["res://.godot/imported/Stone steps.mp3-a6ac0534f47fc24c02c57daf013865bb.mp3str"]
 
 [params]
 

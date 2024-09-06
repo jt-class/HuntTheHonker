@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://6g8x512awbvk"]
+
+[ext_resource type="Script" path="res://scripts/TFF_map_backbtn.gd" id="1_hqepn"]
+
+[node name="TffMap" type="Node2D"]
+
+[node name="Back" type="Button" parent="."]
+offset_left = 502.0
+offset_top = 339.0
+offset_right = 662.0
+offset_bottom = 370.0
+text = "Back to Level Select
+"
+script = ExtResource("1_hqepn")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 479.0
+offset_top = 206.0
+offset_right = 685.0
+offset_bottom = 278.0
+bbcode_enabled = true
+text = "[center]THE RUINS
+ OF 
+TRICKERY[/center]"
+fit_content = true
+
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

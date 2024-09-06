@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnxmfcbksy8yd"
-path="res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"
+path="res://.godot/imported/Bottle of Elixir.png-bf186d1566229142daf7a7a8299680c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Bottle of Elixir.png"
-dest_files=["res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"]
+source_file="res://Assets/items/Bottle of Elixir.png"
+dest_files=["res://.godot/imported/Bottle of Elixir.png-bf186d1566229142daf7a7a8299680c9.ctex"]
 
 [params]
 

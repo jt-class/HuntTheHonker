@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://ckbjcpikwdh6d"
-path="res://.godot/imported/power-up-28793.mp3-604cb02224971ac4042d6e19ca08e773.mp3str"
+path="res://.godot/imported/power-up-28793.mp3-bec4eb026f76232ac0c5f031927552f2.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/audio/power-up-28793.mp3"
-dest_files=["res://.godot/imported/power-up-28793.mp3-604cb02224971ac4042d6e19ca08e773.mp3str"]
+source_file="res://Assets/audios/audio/power-up-28793.mp3"
+dest_files=["res://.godot/imported/power-up-28793.mp3-bec4eb026f76232ac0c5f031927552f2.mp3str"]
 
 [params]
 

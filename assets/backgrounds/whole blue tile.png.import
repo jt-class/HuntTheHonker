@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xsskkpn8w00n"
-path="res://.godot/imported/whole blue tile.png-80606909d5d37b8d492c70ce7898f209.ctex"
+path="res://.godot/imported/whole blue tile.png-2638934749758b84f6b982ffc739da7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/whole blue tile.png"
-dest_files=["res://.godot/imported/whole blue tile.png-80606909d5d37b8d492c70ce7898f209.ctex"]
+source_file="res://Assets/backgrounds/whole blue tile.png"
+dest_files=["res://.godot/imported/whole blue tile.png-2638934749758b84f6b982ffc739da7a.ctex"]
 
 [params]
 

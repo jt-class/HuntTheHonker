@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://muuxkqw226t2"
-path="res://.godot/imported/Ancient Ruins.png-e6020c4567a9e5beeed68dcdd3e471e7.ctex"
+path="res://.godot/imported/Ancient Ruins.png-cc86adaa95acbfbe969457daba50d10f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/Ancient Ruins.png"
-dest_files=["res://.godot/imported/Ancient Ruins.png-e6020c4567a9e5beeed68dcdd3e471e7.ctex"]
+source_file="res://Assets/backgrounds/Ancient Ruins.png"
+dest_files=["res://.godot/imported/Ancient Ruins.png-cc86adaa95acbfbe969457daba50d10f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mxu33bh6mdhs"
-path="res://.godot/imported/fortress tile gray.png-5580df20c5c3e593846475a65380f923.ctex"
+path="res://.godot/imported/fortress tile gray.png-ebe80292ee14f0323a06151b214065e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/fortress tileset/fortress tile gray.png"
-dest_files=["res://.godot/imported/fortress tile gray.png-5580df20c5c3e593846475a65380f923.ctex"]
+source_file="res://Assets/backgrounds/fortress tileset/fortress tile gray.png"
+dest_files=["res://.godot/imported/fortress tile gray.png-ebe80292ee14f0323a06151b214065e1.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cn6ljeuixeama"
-path="res://.godot/imported/swamps.mp3-5afb64d0af531b08c49bfa8811230cbb.mp3str"
+path="res://.godot/imported/swamps.mp3-fc2792e74d522aec28175bb476665239.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/swamps.mp3"
-dest_files=["res://.godot/imported/swamps.mp3-5afb64d0af531b08c49bfa8811230cbb.mp3str"]
+source_file="res://Assets/audios/swamps.mp3"
+dest_files=["res://.godot/imported/swamps.mp3-fc2792e74d522aec28175bb476665239.mp3str"]
 
 [params]
 

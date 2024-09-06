@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://baufshegua5je"
-path="res://.godot/imported/HONKERLPYALFOLLOWER.png-9eb2fe767fc7e04b5ea99dd149cc84d1.ctex"
+path="res://.godot/imported/HONKERLPYALFOLLOWER.png-6fc9faa5cca2e60220b53dcecddd3302.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/mobs/HONKERLPYALFOLLOWER.png"
-dest_files=["res://.godot/imported/HONKERLPYALFOLLOWER.png-9eb2fe767fc7e04b5ea99dd149cc84d1.ctex"]
+source_file="res://Assets/characters/mobs/HONKERLPYALFOLLOWER.png"
+dest_files=["res://.godot/imported/HONKERLPYALFOLLOWER.png-6fc9faa5cca2e60220b53dcecddd3302.ctex"]
 
 [params]
 

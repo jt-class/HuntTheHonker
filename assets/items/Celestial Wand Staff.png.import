@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://dcikkeir7tq8k"
+=======
 uid="uid://n4o10f3ox2si"
+>>>>>>> origin/main
 path="res://.godot/imported/Celestial Wand Staff.png-419b25c4193dac6dde9dfc950a8a4cf7.ctex"
 metadata={
 "vram_texture": false

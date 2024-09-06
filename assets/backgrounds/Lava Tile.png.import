@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://bdo6akow0vg61"
+=======
 uid="uid://cpsk3o3e37fhy"
+>>>>>>> origin/main
 path="res://.godot/imported/Lava Tile.png-ad4dfc6260959364265876d061195119.ctex"
 metadata={
 "vram_texture": false

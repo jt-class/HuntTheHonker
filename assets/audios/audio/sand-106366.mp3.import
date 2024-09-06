@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://boe88cjkjr4br"
+=======
 uid="uid://cb2vnqomx2egr"
+>>>>>>> origin/main
 path="res://.godot/imported/sand-106366.mp3-1f56d9de6e5c39598009a4fdc7d6809f.mp3str"
 
 [deps]

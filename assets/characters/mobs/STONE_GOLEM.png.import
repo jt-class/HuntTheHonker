@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://cxl8frs2lxpml"
+=======
 uid="uid://dsk0hvgtw7hcu"
+>>>>>>> origin/main
 path="res://.godot/imported/STONE_GOLEM.png-b65271f3645228e3ac138151b4420a8f.ctex"
 metadata={
 "vram_texture": false

@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://uhmdqnbjm7w1"
+=======
 uid="uid://dnxmfcbksy8yd"
+>>>>>>> origin/main
 path="res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"
 metadata={
 "vram_texture": false

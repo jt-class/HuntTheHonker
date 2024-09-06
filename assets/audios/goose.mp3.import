@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://dn5j68em57q16"
+=======
 uid="uid://r6xke7mkd714"
+>>>>>>> origin/main
 path="res://.godot/imported/goose.mp3-a5822e8daf955dc344ab4a06d963e469.mp3str"
 
 [deps]

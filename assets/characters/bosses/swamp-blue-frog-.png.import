@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://cq88wtwn48f1"
+=======
 uid="uid://dfs1f3yukex1k"
+>>>>>>> origin/main
 path="res://.godot/imported/swamp-blue-frog-.png-82aa18c8f965f02b7cf67cb718e2af84.ctex"
 metadata={
 "vram_texture": false

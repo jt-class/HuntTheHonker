@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://re3k01lw6st"
+=======
 uid="uid://bigf4c0jye0in"
+>>>>>>> origin/main
 path="res://.godot/imported/swamp.mp3-a6628d8db054220a48b87889b0b336ce.mp3str"
 
 [deps]

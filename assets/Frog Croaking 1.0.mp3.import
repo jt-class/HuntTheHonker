@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://dlovxk4f50m3l"
+=======
 uid="uid://dsxqxuwhk3hu5"
+>>>>>>> origin/main
 path="res://.godot/imported/Frog Croaking 1.0.mp3-ebb818c10a2c9e9b76853fe3b5532a57.mp3str"
 
 [deps]

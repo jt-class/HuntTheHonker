@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://dipriy21h7st"
+=======
 uid="uid://dw5m5ww6xse7k"
+>>>>>>> origin/main
 path="res://.godot/imported/overview of all Swamp Resistant Gear.png-88dffdb9ad10e1f3457d281f479839b1.ctex"
 metadata={
 "vram_texture": false

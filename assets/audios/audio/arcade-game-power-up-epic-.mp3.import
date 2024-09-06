@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://e3xt3xufpico"
+=======
 uid="uid://21dmu4k7wkt0"
+>>>>>>> origin/main
 path="res://.godot/imported/arcade-game-power-up-epic-.mp3-ca4fa2fde2853512c54ae6d7baeb7420.mp3str"
 
 [deps]

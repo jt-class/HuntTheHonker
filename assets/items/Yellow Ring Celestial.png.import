@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://dy61y1a0t8hwr"
+=======
 uid="uid://c43wcdignn0pj"
+>>>>>>> origin/main
 path="res://.godot/imported/Yellow Ring Celestial.png-d7ff65c477f720fe22cb22d710327464.ctex"
 metadata={
 "vram_texture": false

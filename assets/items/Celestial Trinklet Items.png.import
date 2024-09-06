@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://xsadno7ee7q1"
+=======
 uid="uid://hjog1rf66m0g"
+>>>>>>> origin/main
 path="res://.godot/imported/Celestial Trinklet Items.png-d5fcf98d9f3611d95115acf8680d1808.ctex"
 metadata={
 "vram_texture": false

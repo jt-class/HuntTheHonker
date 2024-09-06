@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://csyxq2fw71ndy"
+=======
 uid="uid://ce6py6qw2cfm6"
+>>>>>>> origin/main
 path="res://.godot/imported/CURSED_SPIRIT.png-966b693924458a59037e6fc6dbe52709.ctex"
 metadata={
 "vram_texture": false

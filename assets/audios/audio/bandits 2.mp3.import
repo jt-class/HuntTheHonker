@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://yk2fct4duygc"
+=======
 uid="uid://cilx8s2go764q"
+>>>>>>> origin/main
 path="res://.godot/imported/bandits 2.mp3-673653e72021efad81dcc76e72481da5.mp3str"
 
 [deps]

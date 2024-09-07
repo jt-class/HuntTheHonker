@@ -5,8 +5,12 @@ type="AudioStreamMP3"
 <<<<<<< HEAD
 uid="uid://dpkynxiqcc8to"
 =======
+<<<<<<< HEAD
+uid="uid://dpkynxiqcc8to"
+=======
 uid="uid://dsgk0o48ca12l"
 >>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/Angry Snake  1.0.mp3-11b67cc99690039502f194ea6df7122f.mp3str"
 
 [deps]

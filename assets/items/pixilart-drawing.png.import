@@ -3,10 +3,14 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+uid="uid://bh5m7eixgjk78"
+=======
+<<<<<<< HEAD
 uid="uid://csg80dgyjnyuv"
 =======
 uid="uid://bw34uceg5gked"
 >>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/pixilart-drawing.png-56f5f83ed85a3cef0e6281fdbb3cffb3.ctex"
 metadata={
 "vram_texture": false

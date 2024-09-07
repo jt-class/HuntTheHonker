@@ -3,6 +3,9 @@
 importer="wav"
 type="AudioStreamWAV"
 <<<<<<< HEAD
+uid="uid://kmcugfc3m310"
+=======
+<<<<<<< HEAD
 uid="uid://dugck1u13ae62"
 =======
 <<<<<<< HEAD
@@ -11,6 +14,7 @@ uid="uid://cp22jyo7ugp0j"
 uid="uid://dugck1u13ae62"
 >>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
 >>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/AngryBird.wav-7f9028d5ba77088b3470d11c75a0b3ce.sample"
 
 [deps]

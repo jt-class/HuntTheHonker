@@ -3,6 +3,10 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+uid="uid://u6pfgs4cw0v8"
+path="res://.godot/imported/AggressiveGoose.mp3-992ff6354449cb8b13beb402349299d3.mp3str"
+=======
+<<<<<<< HEAD
 uid="uid://d2c0yjmred525"
 =======
 <<<<<<< HEAD
@@ -16,11 +20,12 @@ uid="uid://wfejtxq84vr"
 >>>>>>> origin/main
 >>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/AggressiveGoose.mp3-cda212faffcca15fb8f9febbba3a9080.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://assets/audios/AggressiveGoose.mp3"
-dest_files=["res://.godot/imported/AggressiveGoose.mp3-cda212faffcca15fb8f9febbba3a9080.mp3str"]
+source_file="res://Assets/audios/AggressiveGoose.mp3"
+dest_files=["res://.godot/imported/AggressiveGoose.mp3-992ff6354449cb8b13beb402349299d3.mp3str"]
 
 [params]
 

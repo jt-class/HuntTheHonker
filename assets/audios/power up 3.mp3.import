@@ -6,13 +6,17 @@ type="AudioStreamMP3"
 uid="uid://vo2g47nejhu"
 =======
 uid="uid://bmr16kjymhavg"
+<<<<<<< HEAD
+path="res://.godot/imported/power up 3.mp3-87b3b3d90280c83d80a5b5f8be0f2bdd.mp3str"
+=======
 >>>>>>> origin/main
 path="res://.godot/imported/power up 3.mp3-87de8367cf27483f05bb16ed03d36bf9.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://assets/audios/power up 3.mp3"
-dest_files=["res://.godot/imported/power up 3.mp3-87de8367cf27483f05bb16ed03d36bf9.mp3str"]
+source_file="res://Assets/audios/power up 3.mp3"
+dest_files=["res://.godot/imported/power up 3.mp3-87b3b3d90280c83d80a5b5f8be0f2bdd.mp3str"]
 
 [params]
 

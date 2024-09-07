@@ -6,16 +6,20 @@ type="CompressedTexture2D"
 uid="uid://8lbobpol35vi"
 =======
 uid="uid://chodto60s1661"
+<<<<<<< HEAD
+path="res://.godot/imported/path1.png-5d576ecfbf5f40fac9806377718f84e5.ctex"
+=======
 >>>>>>> origin/main
 path="res://.godot/imported/path1.png-8c47d479ad1144ea5356c32f51280e4c.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/path1.png"
-dest_files=["res://.godot/imported/path1.png-8c47d479ad1144ea5356c32f51280e4c.ctex"]
+source_file="res://Assets/backgrounds/path1.png"
+dest_files=["res://.godot/imported/path1.png-5d576ecfbf5f40fac9806377718f84e5.ctex"]
 
 [params]
 

@@ -6,16 +6,20 @@ type="CompressedTexture2D"
 uid="uid://bjah3xr65788t"
 =======
 uid="uid://d3ldtsuoc2xrx"
+<<<<<<< HEAD
+path="res://.godot/imported/whole blue tile.png-350a3506ae07ad3cec2a4e70c9f3e611.ctex"
+=======
 >>>>>>> origin/main
 path="res://.godot/imported/whole blue tile.png-f13f9c5de7e36b0a37489ec639f2523a.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/fortress tileset/whole blue tile.png"
-dest_files=["res://.godot/imported/whole blue tile.png-f13f9c5de7e36b0a37489ec639f2523a.ctex"]
+source_file="res://Assets/backgrounds/fortress tileset/whole blue tile.png"
+dest_files=["res://.godot/imported/whole blue tile.png-350a3506ae07ad3cec2a4e70c9f3e611.ctex"]
 
 [params]
 

@@ -6,16 +6,20 @@ type="CompressedTexture2D"
 uid="uid://b04a4n74gbohn"
 =======
 uid="uid://xsskkpn8w00n"
+<<<<<<< HEAD
+path="res://.godot/imported/whole blue tile.png-2638934749758b84f6b982ffc739da7a.ctex"
+=======
 >>>>>>> origin/main
 path="res://.godot/imported/whole blue tile.png-80606909d5d37b8d492c70ce7898f209.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/whole blue tile.png"
-dest_files=["res://.godot/imported/whole blue tile.png-80606909d5d37b8d492c70ce7898f209.ctex"]
+source_file="res://Assets/backgrounds/whole blue tile.png"
+dest_files=["res://.godot/imported/whole blue tile.png-2638934749758b84f6b982ffc739da7a.ctex"]
 
 [params]
 

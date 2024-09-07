@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://baw0mtptham0d"
+=======
+uid="uid://cse1lm1y6lg7o"
+>>>>>>> origin/main
 path="res://.godot/imported/Desert Gloves.png-e03b611c43518dda64cd5d9d18323319.ctex"
 metadata={
 "vram_texture": false

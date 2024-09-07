@@ -2,7 +2,15 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://wfejtxq84vr"
+=======
+<<<<<<< HEAD
+uid="uid://c25bpbjlrbtte"
+=======
+uid="uid://wfejtxq84vr"
+>>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
+>>>>>>> origin/main
 path="res://.godot/imported/AggressiveGoose.mp3-cda212faffcca15fb8f9febbba3a9080.mp3str"
 
 [deps]

@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://cp0f6w4ixase7"
+=======
+uid="uid://dewihhognrcu4"
+>>>>>>> origin/main
 path="res://.godot/imported/Celestial Brown Curse Ring.png-5798471fe59269f062808b4ea605463a.ctex"
 metadata={
 "vram_texture": false

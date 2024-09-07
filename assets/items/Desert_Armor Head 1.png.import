@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ce4q5y3w6grxv"
+=======
+uid="uid://besjmlsw5e1rp"
+>>>>>>> origin/main
 path="res://.godot/imported/Desert_Armor Head 1.png-9cf0edffd9e97f63b0292f508d984daf.ctex"
 metadata={
 "vram_texture": false

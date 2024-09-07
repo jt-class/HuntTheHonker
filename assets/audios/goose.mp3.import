@@ -1,0 +1,23 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://dn5j68em57q16"
+=======
+uid="uid://r6xke7mkd714"
+>>>>>>> origin/main
+path="res://.godot/imported/goose.mp3-a5822e8daf955dc344ab4a06d963e469.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/goose.mp3"
+dest_files=["res://.godot/imported/goose.mp3-a5822e8daf955dc344ab4a06d963e469.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

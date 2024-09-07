@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ht4matxvm6ve"
+=======
+uid="uid://d2b3jhs0feiui"
+>>>>>>> origin/main
 path="res://.godot/imported/ELITEWARRIOR.png-6fb3eb3a5fcebb5e71f89326a5f94223.ctex"
 metadata={
 "vram_texture": false

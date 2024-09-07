@@ -1,18 +1,26 @@
-[gd_scene load_steps=26 format=3 uid="uid://dwq4rjik2srdf"]
+[gd_scene load_steps=34 format=3 uid="uid://dwq4rjik2srdf"]
 
 [ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://Assets/backgrounds/BG_LEVEL-SELECT.png" id="1_f1tgk"]
 [ext_resource type="Texture2D" uid="uid://bdpw3seja067a" path="res://Assets/Level_Select_Assets/Forest_bg.png" id="2_nvqql"]
 [ext_resource type="Texture2D" uid="uid://xp0hvgcjhy7j" path="res://Assets/Level_Select_Assets/Forest_bg_locked.png" id="3_5ol23"]
 [ext_resource type="Texture2D" uid="uid://d2u77lbwdr7om" path="res://Assets/Level_Select_Assets/TMM_bg.png" id="4_ct5fr"]
 [ext_resource type="Script" path="res://scripts/levelSelect_tff-BTN.gd" id="4_rb4f3"]
+[ext_resource type="Texture2D" uid="uid://mproelin6iu4" path="res://Assets/characters/PlayerChar/main.png" id="5_adlbk"]
+[ext_resource type="Texture2D" uid="uid://cofqn51p32v63" path="res://Assets/buttons/start_button.png" id="5_hok87"]
 [ext_resource type="Texture2D" uid="uid://bobuhxwoytrai" path="res://Assets/Level_Select_Assets/TMM_bg_locked.png" id="5_q020b"]
 [ext_resource type="Texture2D" uid="uid://rigawtsq37gv" path="res://Assets/Level_Select_Assets/TRT_bg.png" id="6_7o04g"]
+[ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="6_740ql"]
+[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://Assets/fonts/Eight-Bit Madness.ttf" id="6_boghv"]
 [ext_resource type="Texture2D" uid="uid://qbikai73buw1" path="res://Assets/Level_Select_Assets/TRT_bg-locked.png" id="6_jkp5n"]
 [ext_resource type="Script" path="res://scripts/levelSelect_tmm-BTN.gd" id="7_n4ep0"]
 [ext_resource type="Texture2D" uid="uid://borwppf5aavcu" path="res://Assets/Level_Select_Assets/TFC_bg.png" id="8_5jjau"]
 [ext_resource type="Texture2D" uid="uid://dfkulnt0aqrxi" path="res://Assets/Level_Select_Assets/TFC_bg_locked.png" id="9_mchqs"]
+[ext_resource type="Texture2D" uid="uid://byktdyc3v8b7w" path="res://Assets/buttons/lock.png" id="9_tot7d"]
 [ext_resource type="Script" path="res://scripts/levelSelect_trt-BTN.gd" id="10_4m5uv"]
+[ext_resource type="Texture2D" uid="uid://cu6vsb8xw73xa" path="res://Assets/buttons/check.png" id="10_gx2ts"]
 [ext_resource type="Script" path="res://scripts/levelSelect_tfc-BTN.gd" id="13_l2asg"]
+[ext_resource type="Texture2D" uid="uid://b2sy034m51ao3" path="res://Assets/buttons/back_button.png" id="14_gade2"]
+[ext_resource type="Texture2D" uid="uid://bi7mfvorppgiq" path="res://Assets/buttons/back_button_pressed.png" id="15_8g56u"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vd7n6"]
 texture = ExtResource("2_nvqql")
@@ -70,11 +78,8 @@ expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+offset_right = 1153.0
+offset_bottom = 651.0
 theme_override_constants/margin_left = 50
 theme_override_constants/margin_top = 12
 theme_override_constants/margin_right = 50
@@ -90,10 +95,57 @@ size_flags_horizontal = 3
 theme_override_styles/hover = SubResource("StyleBoxTexture_vd7n6")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_r8n0n")
 theme_override_styles/normal = SubResource("StyleBoxTexture_gjcv4")
-text = "THE
-FOREST OF 
-FEATHERS"
 script = ExtResource("4_rb4f3")
+
+[node name="PlayerIdol" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFF"]
+visible = false
+position = Vector2(129, 303)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("5_adlbk")
+
+[node name="LevelTitle" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFF"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 387.0
+offset_right = 202.0
+offset_bottom = 452.0
+theme_override_fonts/normal_font = ExtResource("6_740ql")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center]THE FOREST 
+OF 
+FEATHERS[/center]"
+
+[node name="StartBtn" type="TextureButton" parent="MarginContainer/HBoxContainer/TFF"]
+visible = false
+layout_mode = 0
+offset_left = 30.0
+offset_top = 461.0
+offset_right = 226.0
+offset_bottom = 570.0
+texture_normal = ExtResource("5_hok87")
+
+[node name="BtnLbl" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFF/StartBtn"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 185.0
+offset_bottom = 71.0
+theme_override_fonts/normal_font = ExtResource("6_boghv")
+theme_override_font_sizes/normal_font_size = 49
+bbcode_enabled = true
+text = "[center]START[/center]"
+fit_content = true
+scroll_active = false
+
+[node name="LockImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFF"]
+visible = false
+position = Vector2(127, 314)
+texture = ExtResource("9_tot7d")
+
+[node name="CheckImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFF"]
+position = Vector2(128, 311)
+texture = ExtResource("10_gx2ts")
 
 [node name="TMM" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
@@ -101,10 +153,54 @@ size_flags_horizontal = 3
 theme_override_styles/hover = SubResource("StyleBoxTexture_imgmm")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_jlppx")
 theme_override_styles/normal = SubResource("StyleBoxTexture_b8yxa")
-text = "THE MARSH 
-OF 
-MISCHIEF"
 script = ExtResource("7_n4ep0")
+
+[node name="PlayerIdol" type="Sprite2D" parent="MarginContainer/HBoxContainer/TMM"]
+position = Vector2(129, 303)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("5_adlbk")
+
+[node name="LevelTitle" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TMM"]
+offset_left = 54.0
+offset_top = 387.0
+offset_right = 202.0
+offset_bottom = 452.0
+theme_override_fonts/normal_font = ExtResource("6_740ql")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center]THE MARSH 
+OF 
+MISCHIEF[/center]"
+
+[node name="StartBtn" type="TextureButton" parent="MarginContainer/HBoxContainer/TMM"]
+offset_left = 30.0
+offset_top = 461.0
+offset_right = 226.0
+offset_bottom = 570.0
+texture_normal = ExtResource("5_hok87")
+
+[node name="BtnLbl" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TMM/StartBtn"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 185.0
+offset_bottom = 71.0
+theme_override_fonts/normal_font = ExtResource("6_boghv")
+theme_override_font_sizes/normal_font_size = 49
+bbcode_enabled = true
+text = "[center]START[/center]"
+fit_content = true
+scroll_active = false
+
+[node name="LockImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TMM"]
+visible = false
+position = Vector2(127, 314)
+texture = ExtResource("9_tot7d")
+
+[node name="CheckImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TMM"]
+visible = false
+position = Vector2(128, 311)
+texture = ExtResource("10_gx2ts")
 
 [node name="TRT" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
@@ -112,10 +208,55 @@ size_flags_horizontal = 3
 theme_override_styles/hover = SubResource("StyleBoxTexture_ms5dv")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_cu70m")
 theme_override_styles/normal = SubResource("StyleBoxTexture_4i7ax")
-text = "THE RUINS
- OF 
-TRICKERY"
 script = ExtResource("10_4m5uv")
+
+[node name="PlayerIdol" type="Sprite2D" parent="MarginContainer/HBoxContainer/TRT"]
+visible = false
+position = Vector2(129, 303)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("5_adlbk")
+
+[node name="LevelTitle" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TRT"]
+offset_left = 54.0
+offset_top = 387.0
+offset_right = 202.0
+offset_bottom = 452.0
+theme_override_fonts/normal_font = ExtResource("6_740ql")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center]THE RUINS
+ OF 
+TRICKERY[/center]"
+
+[node name="StartBtn" type="TextureButton" parent="MarginContainer/HBoxContainer/TRT"]
+visible = false
+offset_left = 30.0
+offset_top = 461.0
+offset_right = 226.0
+offset_bottom = 570.0
+texture_normal = ExtResource("5_hok87")
+
+[node name="BtnLbl" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TRT/StartBtn"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 185.0
+offset_bottom = 71.0
+theme_override_fonts/normal_font = ExtResource("6_boghv")
+theme_override_font_sizes/normal_font_size = 49
+bbcode_enabled = true
+text = "[center]START[/center]"
+fit_content = true
+scroll_active = false
+
+[node name="LockImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TRT"]
+position = Vector2(127, 314)
+texture = ExtResource("9_tot7d")
+
+[node name="CheckImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TRT"]
+visible = false
+position = Vector2(128, 311)
+texture = ExtResource("10_gx2ts")
 
 [node name="TFC" type="Button" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
@@ -123,10 +264,64 @@ size_flags_horizontal = 3
 theme_override_styles/hover = SubResource("StyleBoxTexture_xxfpy")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_vihv3")
 theme_override_styles/normal = SubResource("StyleBoxTexture_cvjxy")
-text = "THE 
-FORTRESS
-OF CHAOS"
 script = ExtResource("13_l2asg")
+
+[node name="PlayerIdol" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFC"]
+visible = false
+position = Vector2(129, 303)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("5_adlbk")
+
+[node name="LevelTitle" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFC"]
+offset_left = 54.0
+offset_top = 387.0
+offset_right = 202.0
+offset_bottom = 452.0
+theme_override_fonts/normal_font = ExtResource("6_740ql")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center]THE FORTRESS
+OF CHAOS[/center]"
+
+[node name="StartBtn" type="TextureButton" parent="MarginContainer/HBoxContainer/TFC"]
+visible = false
+offset_left = 30.0
+offset_top = 461.0
+offset_right = 226.0
+offset_bottom = 570.0
+texture_normal = ExtResource("5_hok87")
+
+[node name="BtnLbl" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFC/StartBtn"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 185.0
+offset_bottom = 71.0
+theme_override_fonts/normal_font = ExtResource("6_boghv")
+theme_override_font_sizes/normal_font_size = 49
+bbcode_enabled = true
+text = "[center]START[/center]"
+fit_content = true
+scroll_active = false
+
+[node name="LockImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFC"]
+position = Vector2(127, 314)
+texture = ExtResource("9_tot7d")
+
+[node name="CheckImg" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFC"]
+visible = false
+position = Vector2(128, 311)
+texture = ExtResource("10_gx2ts")
+
+[node name="BackBtn" type="TextureButton" parent="."]
+layout_mode = 2
+offset_left = 19.0
+offset_top = 19.0
+offset_right = 92.0
+offset_bottom = 72.0
+scale = Vector2(1.2, 1.2)
+texture_normal = ExtResource("14_gade2")
+texture_pressed = ExtResource("15_8g56u")
 
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFF" to="MarginContainer/HBoxContainer/TFF" method="_on_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TMM" to="MarginContainer/HBoxContainer/TMM" method="_on_pressed"]

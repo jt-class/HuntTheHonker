@@ -2,8 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://dwwnxedwgai4f"
+=======
+<<<<<<< HEAD
+uid="uid://drnxscquhq1gw"
+=======
 uid="uid://rxs0ig4mryw4"
+<<<<<<< HEAD
 path="res://.godot/imported/Health Upgrade.png-516869baaa1f526fd31910c911c6659a.ctex"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Health Upgrade.png-4f66253b38bd5af3986c4471d0addcb3.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }

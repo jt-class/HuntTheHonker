@@ -23,13 +23,6 @@ scale = Vector2(0.731428, 0.76)
 texture_normal = ExtResource("3_duep1")
 
 [node name="AttackButton" type="TouchScreenButton" parent="."]
-<<<<<<< HEAD
 position = Vector2(937, 384)
 scale = Vector2(1.09143, 1.09143)
 texture_normal = ExtResource("4_y625d")
-=======
-position = Vector2(890, 411)
-scale = Vector2(0.825806, 0.825806)
-texture_normal = ExtResource("4_js2cn")
-
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e

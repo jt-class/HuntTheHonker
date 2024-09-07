@@ -1,4 +1,6 @@
+
 [gd_scene load_steps=5 format=3 uid="uid://cj2y6t5xdtjqh"]
+
 
 [ext_resource type="PackedScene" uid="uid://dm43kg62us8d0" path="res://scenes/Controls/joy_stick.tscn" id="1_jaekw"]
 [ext_resource type="Texture2D" uid="uid://dawsnbhjcwm0c" path="res://assets/buttons/Shoot.png" id="2_m1i2d"]
@@ -23,3 +25,4 @@ texture_normal = ExtResource("3_xfxxr")
 position = Vector2(890, 411)
 scale = Vector2(0.825806, 0.825806)
 texture_normal = ExtResource("4_js2cn")
+

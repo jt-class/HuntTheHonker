@@ -2,7 +2,15 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://cm3078ln0g4bk"
+=======
+<<<<<<< HEAD
+uid="uid://b54nctow12lyc"
+=======
+uid="uid://c3by1jlf2lbfl"
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/Basic Shield .png-76493a41c7bfc818036b044eab79bd29.ctex"
 metadata={
 "vram_texture": false

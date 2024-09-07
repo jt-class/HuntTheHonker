@@ -2,7 +2,15 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://du3vdy2t53ag2"
+=======
+<<<<<<< HEAD
+uid="uid://ngp7uwx3b2xw"
+=======
+uid="uid://b8dqki3j4okls"
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/Swampy Forest_1.png-35392940e4bce5691e596858e86500f4.ctex"
 metadata={
 "vram_texture": false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://dsquxp6o3igfq"
+=======
+uid="uid://c8lq7virib1f7"
+>>>>>>> origin/main
+path="res://.godot/imported/toad-82649.mp3-f93fd478812fa78bfb192bb8c9b1d96d.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/audio/toad-82649.mp3"
+dest_files=["res://.godot/imported/toad-82649.mp3-f93fd478812fa78bfb192bb8c9b1d96d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

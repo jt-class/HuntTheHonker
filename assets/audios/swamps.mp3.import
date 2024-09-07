@@ -1,0 +1,23 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://dqb08ceku246p"
+=======
+uid="uid://cn6ljeuixeama"
+>>>>>>> origin/main
+path="res://.godot/imported/swamps.mp3-5afb64d0af531b08c49bfa8811230cbb.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/swamps.mp3"
+dest_files=["res://.godot/imported/swamps.mp3-5afb64d0af531b08c49bfa8811230cbb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

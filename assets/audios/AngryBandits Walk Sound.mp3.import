@@ -2,7 +2,19 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://dvn6rhrvc3ebo"
+=======
+<<<<<<< HEAD
+uid="uid://c1ojkra71p1nh"
+=======
+<<<<<<< HEAD
+uid="uid://bvw3l8ys6fpje"
+=======
+uid="uid://c1ojkra71p1nh"
+>>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 path="res://.godot/imported/AngryBandits Walk Sound.mp3-9e179ea0328964775d006780a5fbe608.mp3str"
 
 [deps]

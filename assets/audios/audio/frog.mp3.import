@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b6iddxycnxb4n"
-path="res://.godot/imported/frog.mp3-10d6c8b00401619021e3ec43088788be.mp3str"
+path="res://.godot/imported/frog.mp3-5656d0de9bc6ac42340398c13ea62e20.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/audio/frog.mp3"
-dest_files=["res://.godot/imported/frog.mp3-10d6c8b00401619021e3ec43088788be.mp3str"]
+source_file="res://Assets/audios/audio/frog.mp3"
+dest_files=["res://.godot/imported/frog.mp3-5656d0de9bc6ac42340398c13ea62e20.mp3str"]
 
 [params]
 

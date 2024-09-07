@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4f8qfn6g5anx"
-path="res://.godot/imported/item3.png-77bdf758bfbbb3f97d48f4a66092df0a.ctex"
+path="res://.godot/imported/item3.png-6f1e4a6db2682f024792886c482543ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Level Upgrade 5 (Melendrez) Celestial-grade items/item3.png"
-dest_files=["res://.godot/imported/item3.png-77bdf758bfbbb3f97d48f4a66092df0a.ctex"]
+source_file="res://Assets/items/Level Upgrade 5 (Melendrez) Celestial-grade items/item3.png"
+dest_files=["res://.godot/imported/item3.png-6f1e4a6db2682f024792886c482543ce.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuisg1axql841"
-path="res://.godot/imported/Swamp Resistant Gear2 Pants.png-17eec5b016fd794d24936ed403cf3c3b.ctex"
+path="res://.godot/imported/Swamp Resistant Gear2 Pants.png-d2fb799842c81e9a16557d27b94b66c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Swamp Resistant Gear2 Pants.png"
-dest_files=["res://.godot/imported/Swamp Resistant Gear2 Pants.png-17eec5b016fd794d24936ed403cf3c3b.ctex"]
+source_file="res://Assets/items/Swamp Resistant Gear2 Pants.png"
+dest_files=["res://.godot/imported/Swamp Resistant Gear2 Pants.png-d2fb799842c81e9a16557d27b94b66c3.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://ctabpr7nbad28"
-path="res://.godot/imported/Angry Goose 1.0.mp3-c1a01bd9e9c7c0932051c23b0c76fa8d.mp3str"
+path="res://.godot/imported/Angry Goose 1.0.mp3-efa379dba1d9e696921eac711f181399.mp3str"
 
 [deps]
 
-source_file="res://assets/Angry Goose 1.0.mp3"
-dest_files=["res://.godot/imported/Angry Goose 1.0.mp3-c1a01bd9e9c7c0932051c23b0c76fa8d.mp3str"]
+source_file="res://Assets/Angry Goose 1.0.mp3"
+dest_files=["res://.godot/imported/Angry Goose 1.0.mp3-efa379dba1d9e696921eac711f181399.mp3str"]
 
 [params]
 

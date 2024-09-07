@@ -11,19 +11,13 @@ config_version=5
 [application]
 
 config/name="Hunt The Honker: Invasion Frenzy"
-<<<<<<< HEAD
-run/main_scene="res://scenes/level_select.tscn"
+run/main_scene="res://scenes/tap_to_starts.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
-=======
-
-run/main_scene="res://scenes/level_select.tscn"
-
-
-config/features=PackedStringArray("4.3", "Mobile")
-
->>>>>>> 13dff6d836e7d0f89f1588cb27dab30cfca5e60d
 config/icon="res://icon.svg"
-<<<<<<<HEADrun/main_scene="res://scenes/level_select.tscn"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 

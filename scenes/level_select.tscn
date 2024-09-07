@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-[gd_scene load_steps=35 format=3 uid="uid://c7cftx3wl80do"]
-=======
-
 [gd_scene load_steps=28 format=3 uid="uid://dyfho6qtrpqsx"]
->>>>>>> 13dff6d836e7d0f89f1588cb27dab30cfca5e60d
 
 [ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://assets/backgrounds/BG_LEVEL-SELECT.png" id="1_dlakq"]
 [ext_resource type="Texture2D" uid="uid://dauknb2ppgbnr" path="res://assets/temporaryPlaceholders/placeholderStartBtn.png" id="1_n1i33"]
@@ -365,15 +360,10 @@ offset_bottom = 64.0
 scale = Vector2(0.3, 0.3)
 size_flags_stretch_ratio = 0.0
 theme_type_variation = &"FlatButton"
-<<<<<<< HEAD
-texture_normal = ExtResource("4_6noy4")
-texture_pressed = ExtResource("5_aj401")
-=======
 
 theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
 theme_override_styles/normal = SubResource("StyleBoxTexture_cbi3k")
 expand_icon = true
->>>>>>> 13dff6d836e7d0f89f1588cb27dab30cfca5e60d
 
 [node name="TITLE" type="RichTextLabel" parent="."]
 texture_filter = 1

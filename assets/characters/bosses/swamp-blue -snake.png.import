@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b35bwsu2ncyd"
-path="res://.godot/imported/swamp-blue -snake.png-8bfd1958a57cb18f76cbb4b3e9be7034.ctex"
+path="res://.godot/imported/swamp-blue -snake.png-28e927f3e0c012e979c405cb107c18eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/bosses/swamp-blue -snake.png"
-dest_files=["res://.godot/imported/swamp-blue -snake.png-8bfd1958a57cb18f76cbb4b3e9be7034.ctex"]
+source_file="res://Assets/characters/bosses/swamp-blue -snake.png"
+dest_files=["res://.godot/imported/swamp-blue -snake.png-28e927f3e0c012e979c405cb107c18eb.ctex"]
 
 [params]
 

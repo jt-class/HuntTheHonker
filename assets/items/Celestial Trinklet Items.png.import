@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hjog1rf66m0g"
-path="res://.godot/imported/Celestial Trinklet Items.png-d5fcf98d9f3611d95115acf8680d1808.ctex"
+path="res://.godot/imported/Celestial Trinklet Items.png-338caaac4097b31aa79abdf259fb1b5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/Celestial Trinklet Items.png"
-dest_files=["res://.godot/imported/Celestial Trinklet Items.png-d5fcf98d9f3611d95115acf8680d1808.ctex"]
+source_file="res://Assets/items/Celestial Trinklet Items.png"
+dest_files=["res://.godot/imported/Celestial Trinklet Items.png-338caaac4097b31aa79abdf259fb1b5a.ctex"]
 
 [params]
 

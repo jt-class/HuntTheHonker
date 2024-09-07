@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bys5s7pp8x0v0"
-path="res://.godot/imported/SHADOWELEMENT.png-1848bbf435ea20c1ab2fb634245b0c98.ctex"
+path="res://.godot/imported/SHADOWELEMENT.png-b37b51dba2b126faa487f1355a0303e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/mobs/SHADOWELEMENT.png"
-dest_files=["res://.godot/imported/SHADOWELEMENT.png-1848bbf435ea20c1ab2fb634245b0c98.ctex"]
+source_file="res://Assets/characters/mobs/SHADOWELEMENT.png"
+dest_files=["res://.godot/imported/SHADOWELEMENT.png-b37b51dba2b126faa487f1355a0303e4.ctex"]
 
 [params]
 

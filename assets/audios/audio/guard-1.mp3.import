@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dlc5rwgwjt8mt"
-path="res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"
+path="res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"
 
 [deps]
 
-source_file="res://assets/audios/audio/guard-1.mp3"
-dest_files=["res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"]
+source_file="res://Assets/audios/audio/guard-1.mp3"
+dest_files=["res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"]
 
 [params]
 

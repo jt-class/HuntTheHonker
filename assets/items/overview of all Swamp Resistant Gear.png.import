@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw5m5ww6xse7k"
-path="res://.godot/imported/overview of all Swamp Resistant Gear.png-88dffdb9ad10e1f3457d281f479839b1.ctex"
+path="res://.godot/imported/overview of all Swamp Resistant Gear.png-dcd0f3d56349f7aa6d67ce2c4b1c67e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/overview of all Swamp Resistant Gear.png"
-dest_files=["res://.godot/imported/overview of all Swamp Resistant Gear.png-88dffdb9ad10e1f3457d281f479839b1.ctex"]
+source_file="res://Assets/items/overview of all Swamp Resistant Gear.png"
+dest_files=["res://.godot/imported/overview of all Swamp Resistant Gear.png-dcd0f3d56349f7aa6d67ce2c4b1c67e6.ctex"]
 
 [params]
 

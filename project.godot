@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="Hunt The Honker: Invasion Frenzy"
+<<<<<<< HEAD
 run/main_scene="res://scenes/tap_to_starts.tscn"
 config/features=PackedStringArray("4.3")
+=======
+run/main_scene="res://scenes/tap_to_start.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
+boot_splash/bg_color=Color(1, 1, 1, 1)
+>>>>>>> 8f5dc63d7eec67963532ca61677703d2ef572f30
 config/icon="res://icon.svg"
 
 [input_devices]

@@ -1,11 +1,11 @@
 [gd_scene load_steps=13 format=3 uid="uid://clhlw338bamre"]
 
 [ext_resource type="Texture2D" uid="uid://xj1s8673vnpv" path="res://Assets/backgrounds/bgstartup.png" id="1_g32nt"]
-[ext_resource type="Texture2D" uid="uid://b43vkpi40iqt3" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://chqcj3it1p2sl" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="FontFile" uid="uid://chqcj3it1p2sl" path="res://Assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://Assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
 [ext_resource type="Texture2D" uid="uid://bgg27iu3ko4nc" path="res://Assets/backgrounds/clouds1.png" id="6_fsvs3"]
+[ext_resource type="Texture2D" uid="uid://1v6o3t0squb4" path="res://Assets/characters/PlayerChar/main.png" id="7_he10d"]
 [ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_k3xfa"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
@@ -109,16 +109,11 @@ offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_g32nt")
 
-[node name="Player" type="Sprite2D" parent="."]
-position = Vector2(382, 526)
-scale = Vector2(0.533795, 0.506875)
-texture = ExtResource("2_mlcm6")
-
 [node name="PlayerTitle" type="Label" parent="."]
 offset_left = 304.0
-offset_top = 458.0
+offset_top = 453.0
 offset_right = 413.0
-offset_bottom = 481.0
+offset_bottom = 476.0
 text = "[Arlor's Ally]"
 label_settings = SubResource("LabelSettings_dtav7")
 
@@ -175,5 +170,10 @@ texture = ExtResource("4_20nbg")
 position = Vector2(155, 93)
 texture = ExtResource("6_fsvs3")
 script = ExtResource("7_k3xfa")
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(357, 529)
+scale = Vector2(0.101768, 0.101768)
+texture = ExtResource("7_he10d")
 
 [connection signal="pressed" from="PlayerTitle/taptostart" to="PlayerTitle/taptostart" method="_on_pressed"]

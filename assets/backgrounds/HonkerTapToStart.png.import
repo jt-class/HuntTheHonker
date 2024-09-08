@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d15q6f2sud6c4"
-<<<<<<< HEAD
+uid="uid://m8q3rkyyhlru"
 path="res://.godot/imported/HonkerTapToStart.png-987d1ab7abf4b5ef91f96340649a0514.ctex"
-=======
-path="res://.godot/imported/HonkerTapToStart.png-9de3ca84a4ff268630fe66be874c8dc4.ctex"
->>>>>>> 8f5dc63d7eec67963532ca61677703d2ef572f30
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://Assets/backgrounds/HonkerTapToStart.png"
 dest_files=["res://.godot/imported/HonkerTapToStart.png-987d1ab7abf4b5ef91f96340649a0514.ctex"]
-=======
-source_file="res://assets/backgrounds/HonkerTapToStart.png"
-dest_files=["res://.godot/imported/HonkerTapToStart.png-9de3ca84a4ff268630fe66be874c8dc4.ctex"]
->>>>>>> 8f5dc63d7eec67963532ca61677703d2ef572f30
 
 [params]
 

@@ -2,20 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://v25tg3843gdi"
-=======
-<<<<<<< HEAD
-uid="uid://dkr11rmuuikwi"
-=======
-uid="uid://bxyt2go2m5rdm"
-<<<<<<< HEAD
+uid="uid://dsgmnbckh87va"
 path="res://.godot/imported/Green Ring Celestial.png-a3f5c619487fa5737cd5ba6671f614e7.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
-path="res://.godot/imported/Green Ring Celestial.png-bb2146b1a486ab4f497fe42bab2f10ab.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }

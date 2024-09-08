@@ -1,0 +1,46 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://fj27wn40y5rs"
+=======
+<<<<<<< HEAD
+uid="uid://uhmdqnbjm7w1"
+=======
+uid="uid://dnxmfcbksy8yd"
+<<<<<<< HEAD
+path="res://.godot/imported/Bottle of Elixir.png-bf186d1566229142daf7a7a8299680c9.ctex"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/items/Bottle of Elixir.png"
+dest_files=["res://.godot/imported/Bottle of Elixir.png-bf186d1566229142daf7a7a8299680c9.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

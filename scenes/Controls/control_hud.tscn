@@ -1,6 +1,4 @@
-
 [gd_scene load_steps=5 format=3 uid="uid://cj2y6t5xdtjqh"]
-
 
 [ext_resource type="PackedScene" uid="uid://dm43kg62us8d0" path="res://scenes/Controls/joy_stick.tscn" id="1_jaekw"]
 [ext_resource type="Texture2D" uid="uid://or2d70aexvkd" path="res://Assets/items/third_attack_button.png" id="2_16ajh"]

@@ -1,6 +1,0 @@
-Nothing to add this week
-
-- all sizes of tiles and assets are 32x32
-- assets already upload
-- tiles already upload
-- waiting for developer to check 

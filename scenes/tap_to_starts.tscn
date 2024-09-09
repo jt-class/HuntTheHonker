@@ -1,17 +1,10 @@
 [gd_scene load_steps=14 format=3 uid="uid://clhlw338bamre"]
 
-<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://d1lsqxjqa4pto" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
-[ext_resource type="Script" path="res://scripts/scene1_start.gd" id="1_wek68"]
+[ext_resource type="Script" path="res://scripts/scene1_start.gd" id="1_umdu4"]
 [ext_resource type="Texture2D" uid="uid://c70tbbjaoxjdg" path="res://assets/characters/PlayerChar/main.png" id="2_h0glf"]
 [ext_resource type="FontFile" uid="uid://cbwa1bkgq1e53" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
-=======
-[ext_resource type="Script" path="res://scripts/scene1_start.gd" id="1_6an1s"]
-[ext_resource type="Texture2D" uid="uid://xj1s8673vnpv" path="res://Assets/backgrounds/bgstartup.png" id="1_g32nt"]
-[ext_resource type="FontFile" uid="uid://chqcj3it1p2sl" path="res://Assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
-[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://Assets/backgrounds/arrowStart.png" id="4_20nbg"]
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
 [ext_resource type="Texture2D" uid="uid://b8sbkiwfid53g" path="res://assets/backgrounds/clouds1.png" id="6_1e24j"]
 [ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_ebt38"]
@@ -26,11 +19,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-<<<<<<< HEAD
 tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
-=======
-tracks/0/path = NodePath("../../AnimationPlayer/ColorRect:self_modulate")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -42,11 +31,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-<<<<<<< HEAD
 tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
-=======
-tracks/1/path = NodePath("../../AnimationPlayer/ColorRect:visible")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -61,11 +46,7 @@ resource_name = "fade_in"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-<<<<<<< HEAD
 tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
-=======
-tracks/0/path = NodePath("../../AnimationPlayer/ColorRect:self_modulate")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -77,11 +58,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-<<<<<<< HEAD
 tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
-=======
-tracks/1/path = NodePath("../../AnimationPlayer/ColorRect:visible")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -96,19 +73,11 @@ resource_name = "fade_out"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-<<<<<<< HEAD
 tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0.133333, 0.933333),
-=======
-tracks/0/path = NodePath("../../AnimationPlayer/ColorRect:self_modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.133333, 0.966667),
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
+"times": PackedFloat32Array(0.133333, 1),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
@@ -116,11 +85,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-<<<<<<< HEAD
 tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
-=======
-tracks/1/path = NodePath("../../AnimationPlayer/ColorRect:visible")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -138,11 +103,7 @@ _data = {
 }
 
 [node name="TapToStart" type="Node2D"]
-<<<<<<< HEAD
-script = ExtResource("1_wek68")
-=======
-script = ExtResource("1_6an1s")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
+script = ExtResource("1_umdu4")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
@@ -163,20 +124,6 @@ offset_bottom = 481.0
 text = "[Arlor's Ally]"
 label_settings = SubResource("LabelSettings_dtav7")
 
-<<<<<<< HEAD
-=======
-[node name="taptostart" type="Button" parent="PlayerTitle"]
-layout_mode = 0
-offset_left = 171.0
-offset_top = -107.0
-offset_right = 377.0
-offset_bottom = -76.0
-theme_override_fonts/font = ExtResource("3_xvami")
-theme_override_font_sizes/font_size = 40
-text = "Tap to Start"
-script = ExtResource("4_c3iy2")
-
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 [node name="ArrowStart" type="Sprite2D" parent="."]
 position = Vector2(736, 360)
 scale = Vector2(0.0759259, 0.0759259)
@@ -189,22 +136,15 @@ scale = Vector2(0.0759259, 0.0759259)
 texture = ExtResource("4_20nbg")
 
 [node name="Clouds1" type="Sprite2D" parent="."]
-<<<<<<< HEAD
 position = Vector2(40, 114)
 texture = ExtResource("6_1e24j")
 script = ExtResource("7_ebt38")
-=======
-position = Vector2(222, 143)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 
 [node name="Clouds2" type="Sprite2D" parent="."]
 position = Vector2(183, 43)
 texture = ExtResource("6_1e24j")
 script = ExtResource("7_ebt38")
 
-<<<<<<< HEAD
 [node name="Clouds3" type="Sprite2D" parent="."]
 position = Vector2(331, 108)
 texture = ExtResource("6_1e24j")
@@ -245,74 +185,6 @@ offset_left = 137.0
 offset_top = 134.0
 offset_right = 1037.0
 offset_bottom = 260.0
-=======
-[node name="Clouds2" type="Sprite2D" parent="."]
-position = Vector2(349, 71)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds3" type="Sprite2D" parent="."]
-position = Vector2(402, 69)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds4" type="Sprite2D" parent="."]
-position = Vector2(1052, 81)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds5" type="Sprite2D" parent="."]
-position = Vector2(39, 172)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds6" type="Sprite2D" parent="."]
-position = Vector2(1008, 149)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds7" type="Sprite2D" parent="."]
-position = Vector2(909, 120)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds8" type="Sprite2D" parent="."]
-position = Vector2(663, 76)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds9" type="Sprite2D" parent="."]
-position = Vector2(741, 56)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds10" type="Sprite2D" parent="."]
-position = Vector2(461, 102)
-scale = Vector2(1, 0.972727)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds11" type="Sprite2D" parent="."]
-position = Vector2(85, 69)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds12" type="Sprite2D" parent="."]
-position = Vector2(425, 206)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Clouds13" type="Sprite2D" parent="."]
-position = Vector2(768, 213)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
-
-[node name="Maintitle" type="Label" parent="."]
-offset_left = 133.0
-offset_top = 153.0
-offset_right = 1033.0
-offset_bottom = 279.0
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -324,7 +196,6 @@ INVASION FRENZY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-<<<<<<< HEAD
 [node name="taptostart" type="Button" parent="."]
 offset_left = 475.0
 offset_top = 351.0
@@ -337,10 +208,6 @@ script = ExtResource("4_c3iy2")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../taptostart")
-=======
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-root_node = NodePath("../PlayerTitle/taptostart")
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 libraries = {
 "": SubResource("AnimationLibrary_ncdm1")
 }
@@ -350,9 +217,5 @@ visible = false
 offset_right = 1153.0
 offset_bottom = 652.0
 
-<<<<<<< HEAD
 [connection signal="pressed" from="taptostart" to="." method="_on_taptostart_pressed"]
-=======
-[connection signal="pressed" from="PlayerTitle/taptostart" to="." method="_on_taptostart_pressed"]
->>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

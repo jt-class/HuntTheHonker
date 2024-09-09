@@ -1,10 +1,12 @@
-[gd_scene load_steps=11 format=3 uid="uid://clhlw338bamre"]
+[gd_scene load_steps=13 format=3 uid="uid://clhlw338bamre"]
 
-[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_ilskg"]
-[ext_resource type="Texture2D" uid="uid://dmc3o7jo7ghmq" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://b8ajgrnkmogyh" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
+[ext_resource type="Texture2D" uid="uid://drq2jcnm3c56u" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="FontFile" uid="uid://balockg8x06xt" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
+[ext_resource type="Texture2D" uid="uid://pxgvhm7naixy" path="res://assets/backgrounds/clouds1.png" id="6_1e24j"]
+[ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_ebt38"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
 font = ExtResource("3_xvami")
@@ -102,9 +104,10 @@ _data = {
 [node name="TapToStart" type="Node2D"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 648.0
-texture = ExtResource("1_ilskg")
+texture = ExtResource("1_f66ar")
 
 [node name="Player" type="Sprite2D" parent="."]
 position = Vector2(382, 526)
@@ -167,5 +170,50 @@ position = Vector2(419, 362)
 rotation = -3.14159
 scale = Vector2(0.0759259, 0.0759259)
 texture = ExtResource("4_20nbg")
+
+[node name="Clouds1" type="Sprite2D" parent="."]
+position = Vector2(40, 114)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds2" type="Sprite2D" parent="."]
+position = Vector2(183, 43)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds3" type="Sprite2D" parent="."]
+position = Vector2(331, 108)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds4" type="Sprite2D" parent="."]
+position = Vector2(511, 44)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds5" type="Sprite2D" parent="."]
+position = Vector2(559, 64)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds6" type="Sprite2D" parent="."]
+position = Vector2(762, 40)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds7" type="Sprite2D" parent="."]
+position = Vector2(890, 87)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds8" type="Sprite2D" parent="."]
+position = Vector2(1017, 32)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
+
+[node name="Clouds9" type="Sprite2D" parent="."]
+position = Vector2(1129, 84)
+texture = ExtResource("6_1e24j")
+script = ExtResource("7_ebt38")
 
 [connection signal="pressed" from="PlayerTitle/taptostart" to="PlayerTitle/taptostart" method="_on_pressed"]

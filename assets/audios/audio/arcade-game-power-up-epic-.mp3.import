@@ -2,21 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://e3xt3xufpico"
-=======
-uid="uid://21dmu4k7wkt0"
-<<<<<<< HEAD
-path="res://.godot/imported/arcade-game-power-up-epic-.mp3-dca20c3ff7aa138469516cb578f7e87c.mp3str"
-=======
->>>>>>> origin/main
+uid="uid://pg5yb5eixrty"
 path="res://.godot/imported/arcade-game-power-up-epic-.mp3-ca4fa2fde2853512c54ae6d7baeb7420.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/audio/arcade-game-power-up-epic-.mp3"
-dest_files=["res://.godot/imported/arcade-game-power-up-epic-.mp3-dca20c3ff7aa138469516cb578f7e87c.mp3str"]
+source_file="res://assets/audios/audio/arcade-game-power-up-epic-.mp3"
+dest_files=["res://.godot/imported/arcade-game-power-up-epic-.mp3-ca4fa2fde2853512c54ae6d7baeb7420.mp3str"]
 
 [params]
 

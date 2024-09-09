@@ -2,24 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://c862ew8632u40"
-=======
-uid="uid://dr2cv8jitr02r"
-<<<<<<< HEAD
-path="res://.godot/imported/Stone.png-f5ff9b5a0e9d7aa8440da0dbc5830951.ctex"
-=======
->>>>>>> origin/main
+uid="uid://bve73omr44rld"
 path="res://.godot/imported/Stone.png-4003c1877cacd8083469428fb80ed01d.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/Stone.png"
-dest_files=["res://.godot/imported/Stone.png-f5ff9b5a0e9d7aa8440da0dbc5830951.ctex"]
+source_file="res://assets/backgrounds/Stone.png"
+dest_files=["res://.godot/imported/Stone.png-4003c1877cacd8083469428fb80ed01d.ctex"]
 
 [params]
 

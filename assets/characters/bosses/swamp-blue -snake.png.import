@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://1up2qngg3o8e"
-=======
-<<<<<<< HEAD
-uid="uid://bjxbcimf711nd"
-=======
-uid="uid://b35bwsu2ncyd"
-<<<<<<< HEAD
-path="res://.godot/imported/swamp-blue -snake.png-28e927f3e0c012e979c405cb107c18eb.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://bwpssupkxc8bt"
 path="res://.godot/imported/swamp-blue -snake.png-8bfd1958a57cb18f76cbb4b3e9be7034.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/bosses/swamp-blue -snake.png"
-dest_files=["res://.godot/imported/swamp-blue -snake.png-28e927f3e0c012e979c405cb107c18eb.ctex"]
+source_file="res://assets/characters/bosses/swamp-blue -snake.png"
+dest_files=["res://.godot/imported/swamp-blue -snake.png-8bfd1958a57cb18f76cbb4b3e9be7034.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6ralwwqemhr2"
-path="res://.godot/imported/checkPlaceholder.png-8961b8dfa95922227e91c6ca995b0f8e.ctex"
+path="res://.godot/imported/checkPlaceholder.png-8bd0c0160fc61ecb9de57a5870a1ed61.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/temporaryPlaceholders/checkPlaceholder.png"
-dest_files=["res://.godot/imported/checkPlaceholder.png-8961b8dfa95922227e91c6ca995b0f8e.ctex"]
+source_file="res://assets/temporaryPlaceholders/checkPlaceholder.png"
+dest_files=["res://.godot/imported/checkPlaceholder.png-8bd0c0160fc61ecb9de57a5870a1ed61.ctex"]
 
 [params]
 

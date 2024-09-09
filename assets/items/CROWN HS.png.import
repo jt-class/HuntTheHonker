@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://b070bd7b81e2p"
-=======
-<<<<<<< HEAD
-uid="uid://c07pna7u3jelo"
-=======
-uid="uid://dhytbke1fqsu2"
-<<<<<<< HEAD
-path="res://.godot/imported/CROWN HS.png-66fdfbea9153a1432bad20c0c3649905.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://csfhjtwavj5it"
 path="res://.godot/imported/CROWN HS.png-5fe9d24756f59ddb5f7d9267f1b7fb5e.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/CROWN HS.png"
-dest_files=["res://.godot/imported/CROWN HS.png-66fdfbea9153a1432bad20c0c3649905.ctex"]
+source_file="res://assets/items/CROWN HS.png"
+dest_files=["res://.godot/imported/CROWN HS.png-5fe9d24756f59ddb5f7d9267f1b7fb5e.ctex"]
 
 [params]
 

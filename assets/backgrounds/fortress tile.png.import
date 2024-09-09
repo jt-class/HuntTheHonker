@@ -2,24 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://cehqdh5ra6ko4"
-=======
-uid="uid://iksn3qvxtjgg"
-<<<<<<< HEAD
-path="res://.godot/imported/fortress tile.png-65982ca2b0ee93a4989b8b42ddabb345.ctex"
-=======
->>>>>>> origin/main
+uid="uid://bchyujxhhkbif"
 path="res://.godot/imported/fortress tile.png-8c422d08fe16049684b4dedaf00fdfb0.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/fortress tile.png"
-dest_files=["res://.godot/imported/fortress tile.png-65982ca2b0ee93a4989b8b42ddabb345.ctex"]
+source_file="res://assets/backgrounds/fortress tile.png"
+dest_files=["res://.godot/imported/fortress tile.png-8c422d08fe16049684b4dedaf00fdfb0.ctex"]
 
 [params]
 

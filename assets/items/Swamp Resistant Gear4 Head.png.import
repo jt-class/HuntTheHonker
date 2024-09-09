@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://nr6mjj76l0cn"
-=======
-<<<<<<< HEAD
-uid="uid://b5bhrjih6bofi"
-=======
-uid="uid://cl7kcnklq51k1"
-<<<<<<< HEAD
-path="res://.godot/imported/Swamp Resistant Gear4 Head.png-3156a0a1401ac4d6b7f135a89f87fc45.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://80kijucrd64k"
 path="res://.godot/imported/Swamp Resistant Gear4 Head.png-4e3ca8b72b48b78d03ba51cde6bcdee4.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Swamp Resistant Gear4 Head.png"
-dest_files=["res://.godot/imported/Swamp Resistant Gear4 Head.png-3156a0a1401ac4d6b7f135a89f87fc45.ctex"]
+source_file="res://assets/items/Swamp Resistant Gear4 Head.png"
+dest_files=["res://.godot/imported/Swamp Resistant Gear4 Head.png-4e3ca8b72b48b78d03ba51cde6bcdee4.ctex"]
 
 [params]
 

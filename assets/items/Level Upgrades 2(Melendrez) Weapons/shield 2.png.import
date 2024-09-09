@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci8cg1xghj58w"
-path="res://.godot/imported/shield 2.png-52961aa2794d19694588344f6f15a3c7.ctex"
+path="res://.godot/imported/shield 2.png-1c3095941fcead2cf7b1200c7d3451d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Level Upgrades 2(Melendrez) Weapons/shield 2.png"
-dest_files=["res://.godot/imported/shield 2.png-52961aa2794d19694588344f6f15a3c7.ctex"]
+source_file="res://assets/items/Level Upgrades 2(Melendrez) Weapons/shield 2.png"
+dest_files=["res://.godot/imported/shield 2.png-1c3095941fcead2cf7b1200c7d3451d8.ctex"]
 
 [params]
 

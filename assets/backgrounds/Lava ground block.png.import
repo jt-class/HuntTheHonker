@@ -2,24 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://ck8eltrj0h78m"
-=======
-uid="uid://sjp7xfmaeg1i"
-<<<<<<< HEAD
-path="res://.godot/imported/Lava ground block.png-dbc9d47d35b2d8a85f70a399ffcdb2fe.ctex"
-=======
->>>>>>> origin/main
+uid="uid://crpsuovfsruj"
 path="res://.godot/imported/Lava ground block.png-0d95f476597fa8356520bfc5a2a69187.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/Lava ground block.png"
-dest_files=["res://.godot/imported/Lava ground block.png-dbc9d47d35b2d8a85f70a399ffcdb2fe.ctex"]
+source_file="res://assets/backgrounds/Lava ground block.png"
+dest_files=["res://.godot/imported/Lava ground block.png-0d95f476597fa8356520bfc5a2a69187.ctex"]
 
 [params]
 

@@ -2,21 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://bey2il5ed0y2m"
-=======
-uid="uid://8j6vucrq5gtm"
-<<<<<<< HEAD
-path="res://.godot/imported/walking in sands.mp3-79fad4c924e136acb39d04e6903dbb1e.mp3str"
-=======
->>>>>>> origin/main
+uid="uid://cfsnm730jrhh6"
 path="res://.godot/imported/walking in sands.mp3-5f8410f15fa5ec932956d80bba5d9d3f.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/walking in sands.mp3"
-dest_files=["res://.godot/imported/walking in sands.mp3-79fad4c924e136acb39d04e6903dbb1e.mp3str"]
+source_file="res://assets/audios/walking in sands.mp3"
+dest_files=["res://.godot/imported/walking in sands.mp3-5f8410f15fa5ec932956d80bba5d9d3f.mp3str"]
 
 [params]
 

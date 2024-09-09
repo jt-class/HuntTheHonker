@@ -2,24 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://dt6nljvnoe88h"
-=======
-uid="uid://cbgi2x3q3eqbi"
-<<<<<<< HEAD
-path="res://.godot/imported/whole grayv tile.png-bda614ad91f81c0e3154cfca14694e48.ctex"
-=======
->>>>>>> origin/main
+uid="uid://2pkqqomnjnl7"
 path="res://.godot/imported/whole grayv tile.png-569938a1e6566f5cb5afe3b650e14ce7.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/fortress tileset/whole grayv tile.png"
-dest_files=["res://.godot/imported/whole grayv tile.png-bda614ad91f81c0e3154cfca14694e48.ctex"]
+source_file="res://assets/backgrounds/fortress tileset/whole grayv tile.png"
+dest_files=["res://.godot/imported/whole grayv tile.png-569938a1e6566f5cb5afe3b650e14ce7.ctex"]
 
 [params]
 

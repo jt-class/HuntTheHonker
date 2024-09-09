@@ -1,5 +1,6 @@
 [gd_scene load_steps=14 format=3 uid="uid://tlfwq6qqftpb"]
 
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Script" path="res://scripts/scene2_home.gd" id="1_r4ijv"]
 [ext_resource type="Texture2D" uid="uid://realgdpprkpr" path="res://assets/backgrounds/sidebar-bg.png" id="2_vc1ce"]
@@ -46,6 +47,54 @@ _data = {
 "RESET": SubResource("Animation_p7wnw"),
 "fade_in": SubResource("Animation_gp0kw")
 }
+=======
+[ext_resource type="Script" path="res://scripts/scene2_home.gd" id="1_4fklk"]
+[ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://Assets/backgrounds/bg1.png" id="1_kpcpr"]
+[ext_resource type="Texture2D" uid="uid://realgdpprkpr" path="res://Assets/backgrounds/sidebar-bg.png" id="2_vc1ce"]
+[ext_resource type="FontFile" uid="uid://chqcj3it1p2sl" path="res://Assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
+[ext_resource type="Texture2D" uid="uid://c45k52tnuf3bx" path="res://Assets/icons/backbutton.png" id="4_4t388"]
+[ext_resource type="Texture2D" uid="uid://cxaii0aqhemi1" path="res://Assets/icons/obj-icon.png" id="5_xodm2"]
+[ext_resource type="Texture2D" uid="uid://d05s22nfh5iol" path="res://Assets/icons/titles-icon.png" id="6_jchnh"]
+[ext_resource type="Texture2D" uid="uid://b43vkpi40iqt3" path="res://Assets/characters/PlayerChar/player.png" id="7_dfljo"]
+[ext_resource type="Texture2D" uid="uid://b7nrx5ketfhpq" path="res://Assets/icons/Option.png" id="8_4alw3"]
+[ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://Assets/icons/levelselect.png" id="9_l0px0"]
+>>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
+
+[sub_resource type="Animation" id="Animation_y5id5"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.133333, 0.966667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_vua0x"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_80tg2"]
+_data = {
+"RESET": SubResource("Animation_vua0x"),
+"fade_in": SubResource("Animation_y5id5")
+}
 
 [node name="HomeScreen" type="Control"]
 layout_mode = 3
@@ -54,7 +103,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+<<<<<<< HEAD
 script = ExtResource("1_r4ijv")
+=======
+script = ExtResource("1_4fklk")
+>>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -156,10 +209,10 @@ text = "TITLE: [                  		         ]"
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 556.0
-offset_top = 389.0
-offset_right = 663.0
-offset_bottom = 412.0
+offset_left = 616.0
+offset_top = 178.0
+offset_right = 723.0
+offset_bottom = 201.0
 text = "ARLOR'S ALLY"
 
 [node name="Option" type="Sprite2D" parent="."]
@@ -183,9 +236,18 @@ texture = ExtResource("9_l0px0")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
+<<<<<<< HEAD
 "": SubResource("AnimationLibrary_m5vnv")
 }
 
 [node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
 offset_right = 1157.0
 offset_bottom = 656.0
+=======
+"": SubResource("AnimationLibrary_80tg2")
+}
+
+[node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
+offset_right = 1158.0
+offset_bottom = 649.0
+>>>>>>> c7d477646a20c6709207bf5d2cfbe6702c5e8bef

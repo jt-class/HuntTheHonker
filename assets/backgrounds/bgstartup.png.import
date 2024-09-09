@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://b8ajgrnkmogyh"
+uid="uid://d1lsqxjqa4pto"
 path="res://.godot/imported/bgstartup.png-9cd0e3de88022276eecea84ef693dad8.ctex"
-=======
-uid="uid://xj1s8673vnpv"
-path="res://.godot/imported/bgstartup.png-89053f8299f0c90a20aa3a3647da4a36.ctex"
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/backgrounds/bgstartup.png"
 dest_files=["res://.godot/imported/bgstartup.png-9cd0e3de88022276eecea84ef693dad8.ctex"]
-=======
-source_file="res://Assets/backgrounds/bgstartup.png"
-dest_files=["res://.godot/imported/bgstartup.png-89053f8299f0c90a20aa3a3647da4a36.ctex"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

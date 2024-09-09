@@ -2,23 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://dff0ukihyq7c5"
+uid="uid://cvfe25gyjur7k"
 path="res://.godot/imported/Birds.mp3-e42b597233c7e07d22d2da4cd9da383c.mp3str"
 
 [deps]
 
 source_file="res://assets/audios/Birds.mp3"
 dest_files=["res://.godot/imported/Birds.mp3-e42b597233c7e07d22d2da4cd9da383c.mp3str"]
-=======
-uid="uid://4obwjbtjod6i"
-path="res://.godot/imported/Birds.mp3-38e5643f11a0030f6df3342bd6223fc1.mp3str"
-
-[deps]
-
-source_file="res://Assets/audios/Birds.mp3"
-dest_files=["res://.godot/imported/Birds.mp3-38e5643f11a0030f6df3342bd6223fc1.mp3str"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

@@ -1,32 +1,12 @@
 [gd_scene load_steps=13 format=3 uid="uid://clhlw338bamre"]
 
-<<<<<<< HEAD
-[ext_resource type="Texture2D" uid="uid://b8ajgrnkmogyh" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
-[ext_resource type="Texture2D" uid="uid://drq2jcnm3c56u" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://balockg8x06xt" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://d1lsqxjqa4pto" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
+[ext_resource type="Texture2D" uid="uid://c70tbbjaoxjdg" path="res://assets/characters/PlayerChar/main.png" id="2_h0glf"]
+[ext_resource type="FontFile" uid="uid://cbwa1bkgq1e53" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
-[ext_resource type="Texture2D" uid="uid://pxgvhm7naixy" path="res://assets/backgrounds/clouds1.png" id="6_1e24j"]
+[ext_resource type="Texture2D" uid="uid://b8sbkiwfid53g" path="res://assets/backgrounds/clouds1.png" id="6_1e24j"]
 [ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_ebt38"]
-=======
-<<<<<<< HEAD
-[ext_resource type="Texture2D" uid="uid://djiqcqkkxs32s" path="res://assets/backgrounds/bgstartup.png" id="1_eoqhi"]
-[ext_resource type="Texture2D" uid="uid://g6m5gdpxopxa" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://d021ojgx8ckem" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
-[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
-[ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
-[ext_resource type="Texture2D" uid="uid://mt6i1b8shg2b" path="res://assets/backgrounds/clouds1.png" id="6_xivss"]
-[ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_dgb7k"]
-=======
-[ext_resource type="Texture2D" uid="uid://xj1s8673vnpv" path="res://Assets/backgrounds/bgstartup.png" id="1_g32nt"]
-[ext_resource type="Texture2D" uid="uid://b43vkpi40iqt3" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://chqcj3it1p2sl" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
-[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://Assets/backgrounds/arrowStart.png" id="4_20nbg"]
-[ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
-[ext_resource type="Texture2D" uid="uid://bgg27iu3ko4nc" path="res://Assets/backgrounds/clouds1.png" id="6_fsvs3"]
-[ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_k3xfa"]
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
 font = ExtResource("3_xvami")
@@ -127,20 +107,12 @@ _data = {
 texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 648.0
-<<<<<<< HEAD
 texture = ExtResource("1_f66ar")
-=======
-<<<<<<< HEAD
-texture = ExtResource("1_eoqhi")
-=======
-texture = ExtResource("1_g32nt")
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [node name="Player" type="Sprite2D" parent="."]
-position = Vector2(382, 526)
-scale = Vector2(0.533795, 0.506875)
-texture = ExtResource("2_mlcm6")
+position = Vector2(357, 531)
+scale = Vector2(0.0966283, 0.0966283)
+texture = ExtResource("2_h0glf")
 
 [node name="PlayerTitle" type="Label" parent="."]
 offset_left = 304.0
@@ -149,23 +121,6 @@ offset_right = 413.0
 offset_bottom = 481.0
 text = "[Arlor's Ally]"
 label_settings = SubResource("LabelSettings_dtav7")
-
-[node name="Maintitle" type="Label" parent="PlayerTitle"]
-layout_mode = 0
-offset_left = -167.0
-offset_top = -324.0
-offset_right = 733.0
-offset_bottom = -198.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_xvami")
-theme_override_font_sizes/font_size = 70
-text = "HUNT THE HONKER: 		
-
-INVASION FRENZY"
-horizontal_alignment = 1
-vertical_alignment = 1
 
 [node name="taptostart" type="Button" parent="PlayerTitle"]
 layout_mode = 0
@@ -200,7 +155,6 @@ scale = Vector2(0.0759259, 0.0759259)
 texture = ExtResource("4_20nbg")
 
 [node name="Clouds1" type="Sprite2D" parent="."]
-<<<<<<< HEAD
 position = Vector2(40, 114)
 texture = ExtResource("6_1e24j")
 script = ExtResource("7_ebt38")
@@ -244,51 +198,21 @@ script = ExtResource("7_ebt38")
 position = Vector2(1129, 84)
 texture = ExtResource("6_1e24j")
 script = ExtResource("7_ebt38")
-=======
-<<<<<<< HEAD
-position = Vector2(131, 55)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
 
-[node name="Clouds2" type="Sprite2D" parent="."]
-position = Vector2(393, 88)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
+[node name="Maintitle" type="Label" parent="."]
+offset_left = 137.0
+offset_top = 134.0
+offset_right = 1037.0
+offset_bottom = 260.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_xvami")
+theme_override_font_sizes/font_size = 70
+text = "HUNT THE HONKER: 		
 
-[node name="Clouds3" type="Sprite2D" parent="."]
-position = Vector2(447, 59)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
-
-[node name="Clouds4" type="Sprite2D" parent="."]
-position = Vector2(649, 102)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
-
-[node name="Clouds5" type="Sprite2D" parent="."]
-position = Vector2(822, 43)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
-
-[node name="Clouds6" type="Sprite2D" parent="."]
-position = Vector2(1000, 100)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
-
-[node name="Clouds7" type="Sprite2D" parent="."]
-position = Vector2(1113, 46)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
-
-[node name="Clouds8" type="Sprite2D" parent="."]
-position = Vector2(55, 119)
-texture = ExtResource("6_xivss")
-script = ExtResource("7_dgb7k")
-=======
-position = Vector2(155, 93)
-texture = ExtResource("6_fsvs3")
-script = ExtResource("7_k3xfa")
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
+INVASION FRENZY"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="PlayerTitle/taptostart" to="PlayerTitle/taptostart" method="_on_pressed"]

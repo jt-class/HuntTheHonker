@@ -2,23 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://cgfp8jriqv5h2"
+uid="uid://dmgm3aqb35102"
 path="res://.godot/imported/goosee.mp3-6610f642d1740b50bde1cfbbce970806.mp3str"
 
 [deps]
 
 source_file="res://assets/audios/goosee.mp3"
 dest_files=["res://.godot/imported/goosee.mp3-6610f642d1740b50bde1cfbbce970806.mp3str"]
-=======
-uid="uid://0op2fjwnscs2"
-path="res://.godot/imported/goosee.mp3-54cc71da1293768514818d4e44590f7c.mp3str"
-
-[deps]
-
-source_file="res://Assets/audios/goosee.mp3"
-dest_files=["res://.godot/imported/goosee.mp3-54cc71da1293768514818d4e44590f7c.mp3str"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

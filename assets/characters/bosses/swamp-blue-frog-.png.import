@@ -2,18 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://b12v02t3njaut"
+uid="uid://c0bcq3fyq20sd"
 path="res://.godot/imported/swamp-blue-frog-.png-82aa18c8f965f02b7cf67cb718e2af84.ctex"
-=======
-<<<<<<< HEAD
-uid="uid://d07143gi7vsv7"
-path="res://.godot/imported/swamp-blue-frog-.png-82aa18c8f965f02b7cf67cb718e2af84.ctex"
-=======
-uid="uid://cvqirbimor3g2"
-path="res://.godot/imported/swamp-blue-frog-.png-d8eba5318e90159f5304b22b67c32443.ctex"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

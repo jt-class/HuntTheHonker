@@ -2,18 +2,8 @@
 
 importer="wav"
 type="AudioStreamWAV"
-<<<<<<< HEAD
-uid="uid://rmwu2lq25toe"
+uid="uid://b63vg8mw80b4y"
 path="res://.godot/imported/AngryBird.wav-7f9028d5ba77088b3470d11c75a0b3ce.sample"
-=======
-<<<<<<< HEAD
-uid="uid://c13oxh0524v41"
-path="res://.godot/imported/AngryBird.wav-7f9028d5ba77088b3470d11c75a0b3ce.sample"
-=======
-uid="uid://c25boh3jvkymn"
-path="res://.godot/imported/AngryBird.wav-5b74cf9e8f268463c770f211477080c2.sample"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [deps]
 

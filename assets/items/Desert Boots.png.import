@@ -2,18 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://vnpvtwcww35u"
+uid="uid://wfac0a410540"
 path="res://.godot/imported/Desert Boots.png-ae9755e25d6cd2311ecf368221fcf4e7.ctex"
-=======
-<<<<<<< HEAD
-uid="uid://bkwc8qsbmv0oj"
-path="res://.godot/imported/Desert Boots.png-ae9755e25d6cd2311ecf368221fcf4e7.ctex"
-=======
-uid="uid://j4ld7jywma6o"
-path="res://.godot/imported/Desert Boots.png-68c02fc97bea9dde57b031eec1939fd2.ctex"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://d3hmdi1wy62t2"
+uid="uid://bhffh0f2t1iye"
 path="res://.godot/imported/mountain2.png-4be7a7340ff98d521fe7d3a10997ab8d.ctex"
-=======
-uid="uid://x0p7hgn4eh56"
-path="res://.godot/imported/mountain2.png-c0b27928b7a6cfbb11f99280de0c5d3f.ctex"
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/backgrounds/mountain2.png"
 dest_files=["res://.godot/imported/mountain2.png-4be7a7340ff98d521fe7d3a10997ab8d.ctex"]
-=======
-source_file="res://Assets/backgrounds/mountain2.png"
-dest_files=["res://.godot/imported/mountain2.png-c0b27928b7a6cfbb11f99280de0c5d3f.ctex"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

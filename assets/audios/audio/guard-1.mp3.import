@@ -2,18 +2,8 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://b7p04ra0co363"
+uid="uid://ch8ijw0xklecs"
 path="res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"
-=======
-<<<<<<< HEAD
-uid="uid://cq3cqoyybj34r"
-path="res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"
-=======
-uid="uid://cetle34kuj627"
-path="res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [deps]
 

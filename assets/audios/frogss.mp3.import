@@ -2,23 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://dmp7lwewt3hjg"
+uid="uid://cxh0j40t8amfs"
 path="res://.godot/imported/frogss.mp3-b993c51590fef645d2de52a83cb045e4.mp3str"
 
 [deps]
 
 source_file="res://assets/audios/frogss.mp3"
 dest_files=["res://.godot/imported/frogss.mp3-b993c51590fef645d2de52a83cb045e4.mp3str"]
-=======
-uid="uid://kmmu3ndxy3vw"
-path="res://.godot/imported/frogss.mp3-43409d32c90d2947c1a4406fff9b8e58.mp3str"
-
-[deps]
-
-source_file="res://Assets/audios/frogss.mp3"
-dest_files=["res://.godot/imported/frogss.mp3-43409d32c90d2947c1a4406fff9b8e58.mp3str"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

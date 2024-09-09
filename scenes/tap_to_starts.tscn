@@ -1,6 +1,7 @@
-[gd_scene load_steps=13 format=3 uid="uid://clhlw338bamre"]
+[gd_scene load_steps=14 format=3 uid="uid://clhlw338bamre"]
 
 [ext_resource type="Texture2D" uid="uid://d1lsqxjqa4pto" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
+[ext_resource type="Script" path="res://scripts/scene1_start.gd" id="1_wek68"]
 [ext_resource type="Texture2D" uid="uid://c70tbbjaoxjdg" path="res://assets/characters/PlayerChar/main.png" id="2_h0glf"]
 [ext_resource type="FontFile" uid="uid://cbwa1bkgq1e53" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
@@ -18,7 +19,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -30,7 +31,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -45,7 +46,7 @@ resource_name = "fade_in"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -57,7 +58,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -72,11 +73,11 @@ resource_name = "fade_out"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0.133333, 1),
+"times": PackedFloat32Array(0.133333, 0.933333),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
@@ -84,7 +85,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -102,6 +103,7 @@ _data = {
 }
 
 [node name="TapToStart" type="Node2D"]
+script = ExtResource("1_wek68")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
@@ -121,27 +123,6 @@ offset_right = 413.0
 offset_bottom = 481.0
 text = "[Arlor's Ally]"
 label_settings = SubResource("LabelSettings_dtav7")
-
-[node name="taptostart" type="Button" parent="PlayerTitle"]
-layout_mode = 0
-offset_left = 171.0
-offset_top = -107.0
-offset_right = 377.0
-offset_bottom = -76.0
-theme_override_fonts/font = ExtResource("3_xvami")
-theme_override_font_sizes/font_size = 40
-text = "Tap to Start"
-script = ExtResource("4_c3iy2")
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="PlayerTitle/taptostart"]
-libraries = {
-"": SubResource("AnimationLibrary_ncdm1")
-}
-
-[node name="ColorRect" type="ColorRect" parent="PlayerTitle/taptostart/AnimationPlayer"]
-visible = false
-offset_right = 1153.0
-offset_bottom = 652.0
 
 [node name="ArrowStart" type="Sprite2D" parent="."]
 position = Vector2(736, 360)
@@ -215,4 +196,26 @@ INVASION FRENZY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[connection signal="pressed" from="PlayerTitle/taptostart" to="PlayerTitle/taptostart" method="_on_pressed"]
+[node name="taptostart" type="Button" parent="."]
+offset_left = 475.0
+offset_top = 351.0
+offset_right = 681.0
+offset_bottom = 382.0
+theme_override_fonts/font = ExtResource("3_xvami")
+theme_override_font_sizes/font_size = 40
+text = "Tap to Start"
+script = ExtResource("4_c3iy2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../taptostart")
+libraries = {
+"": SubResource("AnimationLibrary_ncdm1")
+}
+
+[node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
+visible = false
+offset_right = 1153.0
+offset_bottom = 652.0
+
+[connection signal="pressed" from="taptostart" to="." method="_on_taptostart_pressed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

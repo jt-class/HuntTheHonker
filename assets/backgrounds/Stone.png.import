@@ -2,8 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://4nisnet5v0ab"
 path="res://.godot/imported/Stone.png-4003c1877cacd8083469428fb80ed01d.ctex"
+=======
+uid="uid://cvvtkuj2eq3w7"
+path="res://.godot/imported/Stone.png-f5ff9b5a0e9d7aa8440da0dbc5830951.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 metadata={
 "vram_texture": false
 }

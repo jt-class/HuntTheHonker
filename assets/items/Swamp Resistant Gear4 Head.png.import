@@ -2,8 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://80kijucrd64k"
 path="res://.godot/imported/Swamp Resistant Gear4 Head.png-4e3ca8b72b48b78d03ba51cde6bcdee4.ctex"
+=======
+uid="uid://dm5mokbew33ee"
+path="res://.godot/imported/Swamp Resistant Gear4 Head.png-3156a0a1401ac4d6b7f135a89f87fc45.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 metadata={
 "vram_texture": false
 }

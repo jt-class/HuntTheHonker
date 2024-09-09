@@ -2,8 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://btekxdhpy8342"
 path="res://.godot/imported/Stone steps.mp3-6cb6db84f16e6dc31eacc2f80abbfc3c.mp3str"
+=======
+uid="uid://dmq26qeqr4hrk"
+path="res://.godot/imported/Stone steps.mp3-a6ac0534f47fc24c02c57daf013865bb.mp3str"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 
 [deps]
 

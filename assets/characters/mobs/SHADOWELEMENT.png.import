@@ -2,8 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dxleoy4gndw1b"
 path="res://.godot/imported/SHADOWELEMENT.png-1848bbf435ea20c1ab2fb634245b0c98.ctex"
+=======
+uid="uid://yxkl4buaaci1"
+path="res://.godot/imported/SHADOWELEMENT.png-b37b51dba2b126faa487f1355a0303e4.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 metadata={
 "vram_texture": false
 }

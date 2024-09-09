@@ -2,8 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ct74xnyh7ujs3"
 path="res://.godot/imported/pixil-frame.png-b6fff749e3a99c1b484c92656dcebeca.ctex"
+=======
+uid="uid://bp3jxvets4kh4"
+path="res://.godot/imported/pixil-frame.png-a90f7c6cf35e57bcdd88815624f088cb.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 metadata={
 "vram_texture": false
 }

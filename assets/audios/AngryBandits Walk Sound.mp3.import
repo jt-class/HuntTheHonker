@@ -2,8 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://dqhpbd83q2u0e"
 path="res://.godot/imported/AngryBandits Walk Sound.mp3-9e179ea0328964775d006780a5fbe608.mp3str"
+=======
+uid="uid://dn4r6yl30rybe"
+path="res://.godot/imported/AngryBandits Walk Sound.mp3-594dddbbc0043383629e58ed662daf34.mp3str"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 
 [deps]
 

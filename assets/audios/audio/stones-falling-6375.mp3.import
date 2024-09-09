@@ -2,8 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://ykft8p1o25mt"
 path="res://.godot/imported/stones-falling-6375.mp3-a1722b19c341981f0a0273225603be24.mp3str"
+=======
+uid="uid://ckfuhgnleyh2y"
+path="res://.godot/imported/stones-falling-6375.mp3-eec25e155a96bd61bdbabde8093892ce.mp3str"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 
 [deps]
 

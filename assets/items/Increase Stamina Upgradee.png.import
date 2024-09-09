@@ -2,8 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bclnjyo3fmi7u"
 path="res://.godot/imported/Increase Stamina Upgradee.png-dffcfcae69178d5dc8a11d8067c49df1.ctex"
+=======
+uid="uid://cwfvpw2mxdoik"
+path="res://.godot/imported/Increase Stamina Upgradee.png-8ea030ea562f3da0b2388f5f1331d1ae.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
 metadata={
 "vram_texture": false
 }

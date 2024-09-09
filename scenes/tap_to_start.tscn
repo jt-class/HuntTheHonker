@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [gd_scene load_steps=6 format=3 uid="uid://d34m8nbuup23v"]
 
 [ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_51qkd"]
@@ -9,6 +10,11 @@
 font = ExtResource("3_pvxbb")
 font_size = 20
 font_color = Color(1, 1, 0, 1)
+=======
+[gd_scene load_steps=2 format=3 uid="uid://kqhc4w05oprr"]
+
+[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_51qkd"]
+>>>>>>> 8f5dc63d7eec67963532ca61677703d2ef572f30
 
 [node name="TapToStart" type="Node2D"]
 
@@ -16,6 +22,7 @@ font_color = Color(1, 1, 0, 1)
 offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_51qkd")
+<<<<<<< HEAD
 
 [node name="Player" type="Sprite2D" parent="."]
 position = Vector2(382, 526)
@@ -40,3 +47,5 @@ position = Vector2(419, 352)
 rotation = -3.14159
 scale = Vector2(0.0759259, 0.0759259)
 texture = ExtResource("4_isnpv")
+=======
+>>>>>>> 8f5dc63d7eec67963532ca61677703d2ef572f30

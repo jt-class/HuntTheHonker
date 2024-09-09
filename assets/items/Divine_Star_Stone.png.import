@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://onlpdld55mxk"
 path="res://.godot/imported/Divine_Star_Stone.png-1a4a1a5eb859f0fe437e3ab8b991e451.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://c67acvbknwd0d"
+path="res://.godot/imported/Divine_Star_Stone.png-1a4a1a5eb859f0fe437e3ab8b991e451.ctex"
+=======
+uid="uid://dnl683so4rlp5"
+path="res://.godot/imported/Divine_Star_Stone.png-7e7e9c62954df9c3600409071e52f657.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

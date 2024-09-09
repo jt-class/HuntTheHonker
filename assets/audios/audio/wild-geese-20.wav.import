@@ -2,8 +2,18 @@
 
 importer="wav"
 type="AudioStreamWAV"
+<<<<<<< HEAD
 uid="uid://hthvl2x4ev06"
 path="res://.godot/imported/wild-geese-20.wav-ded656dc4bb8d02c6b7c0f1fdee68b3e.sample"
+=======
+<<<<<<< HEAD
+uid="uid://j8tjmuyxi7ox"
+path="res://.godot/imported/wild-geese-20.wav-ded656dc4bb8d02c6b7c0f1fdee68b3e.sample"
+=======
+uid="uid://j6m3tndr61d0"
+path="res://.godot/imported/wild-geese-20.wav-572366599e2db4914533003a59d3d97e.sample"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [deps]
 

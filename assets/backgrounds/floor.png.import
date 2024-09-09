@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://brtr48t213l5d"
 path="res://.godot/imported/floor.png-b61f1b5e384fa4d06d1c3a2d66f73d75.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://de6oftny57ry6"
+path="res://.godot/imported/floor.png-b61f1b5e384fa4d06d1c3a2d66f73d75.ctex"
+=======
+uid="uid://bu7c0qr0ybcnv"
+path="res://.godot/imported/floor.png-5f3f899ed2431d0346b6873d0d6f9082.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

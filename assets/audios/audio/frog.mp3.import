@@ -2,8 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://c86kp2qyf73e6"
 path="res://.godot/imported/frog.mp3-10d6c8b00401619021e3ec43088788be.mp3str"
+=======
+<<<<<<< HEAD
+uid="uid://chveu2p4eri0d"
+path="res://.godot/imported/frog.mp3-10d6c8b00401619021e3ec43088788be.mp3str"
+=======
+uid="uid://cr0euve7vmj3d"
+path="res://.godot/imported/frog.mp3-5656d0de9bc6ac42340398c13ea62e20.mp3str"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [deps]
 

@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://b56ytrbqb8o5x"
 path="res://.godot/imported/Celestial Brown Curse Ring.png-5798471fe59269f062808b4ea605463a.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://hix1qgyefppd"
+path="res://.godot/imported/Celestial Brown Curse Ring.png-5798471fe59269f062808b4ea605463a.ctex"
+=======
+uid="uid://cn5oakmivmgwd"
+path="res://.godot/imported/Celestial Brown Curse Ring.png-fa195da31c93fc27e171ef605d2364ba.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

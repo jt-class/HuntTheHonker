@@ -2,16 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://b7pkeskpbjt5v"
 path="res://.godot/imported/menuside.png-4d061cd5977706b0d0a0efa74c6d5c53.ctex"
+=======
+uid="uid://bemqi1xijvgsi"
+path="res://.godot/imported/menuside.png-7c7d27ddcbe35459b8f2e6eedcb54e1c.ctex"
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/backgrounds/menuside.png"
 dest_files=["res://.godot/imported/menuside.png-4d061cd5977706b0d0a0efa74c6d5c53.ctex"]
+=======
+source_file="res://Assets/backgrounds/menuside.png"
+dest_files=["res://.godot/imported/menuside.png-7c7d27ddcbe35459b8f2e6eedcb54e1c.ctex"]
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

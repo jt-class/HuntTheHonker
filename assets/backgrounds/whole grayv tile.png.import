@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://px11hqpyxanm"
 path="res://.godot/imported/whole grayv tile.png-85f117fc0128778f7ba06d76cb3cd1b6.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://ddifqisqql58j"
+path="res://.godot/imported/whole grayv tile.png-85f117fc0128778f7ba06d76cb3cd1b6.ctex"
+=======
+uid="uid://diehjs8p62hat"
+path="res://.godot/imported/whole grayv tile.png-e7dbb6688ccfe24a1bcca2bc61b3e298.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

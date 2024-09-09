@@ -2,6 +2,7 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://bnr5teg1u3oet"
 path="res://.godot/imported/aggressive stones.mp3-5e0d06daa4f11a00960b0dfd3193ec97.mp3str"
 
@@ -9,6 +10,15 @@ path="res://.godot/imported/aggressive stones.mp3-5e0d06daa4f11a00960b0dfd3193ec
 
 source_file="res://assets/audios/aggressive stones.mp3"
 dest_files=["res://.godot/imported/aggressive stones.mp3-5e0d06daa4f11a00960b0dfd3193ec97.mp3str"]
+=======
+uid="uid://cviu5h4kp0gxd"
+path="res://.godot/imported/aggressive stones.mp3-691dd6b0c7e4a5333546109d0a0fb616.mp3str"
+
+[deps]
+
+source_file="res://Assets/audios/aggressive stones.mp3"
+dest_files=["res://.godot/imported/aggressive stones.mp3-691dd6b0c7e4a5333546109d0a0fb616.mp3str"]
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

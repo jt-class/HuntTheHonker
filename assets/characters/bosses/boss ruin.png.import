@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://djq1i1fjl33k"
+=======
+uid="uid://chiujxg8111id"
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 path="res://.godot/imported/boss ruin.png-ea4948be82cd0cc170d8846f882ded29.ctex"
 metadata={
 "vram_texture": false

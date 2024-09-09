@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://qptt4bje78kp"
+=======
+uid="uid://dnc60dvtm0qv3"
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 path="res://.godot/imported/outer-layer-cursor_LOQUIRE.png-9fd9cb18cfc567dfa3a670f7ec886ebd.ctex"
 metadata={
 "vram_texture": false

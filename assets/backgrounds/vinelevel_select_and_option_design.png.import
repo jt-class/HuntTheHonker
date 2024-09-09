@@ -2,16 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://7608mehmijp6"
 path="res://.godot/imported/vinelevel_select_and_option_design.png-e6bb2c41c6b3b0227cb86018b7768976.ctex"
+=======
+uid="uid://4hgvmc7thqqh"
+path="res://.godot/imported/vinelevel_select_and_option_design.png-9b8bce212e3577ca0733dbb752bb7d10.ctex"
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/backgrounds/vinelevel_select_and_option_design.png"
 dest_files=["res://.godot/imported/vinelevel_select_and_option_design.png-e6bb2c41c6b3b0227cb86018b7768976.ctex"]
+=======
+source_file="res://Assets/backgrounds/vinelevel_select_and_option_design.png"
+dest_files=["res://.godot/imported/vinelevel_select_and_option_design.png-9b8bce212e3577ca0733dbb752bb7d10.ctex"]
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

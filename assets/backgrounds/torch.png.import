@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://j7pyi7kj7xhu"
 path="res://.godot/imported/torch.png-d991d89d7d38aac04c79c2bdd0b6281f.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://bexmwmevqdrr"
+path="res://.godot/imported/torch.png-d991d89d7d38aac04c79c2bdd0b6281f.ctex"
+=======
+uid="uid://bxuyvjbgxu0yf"
+path="res://.godot/imported/torch.png-3d764ca4874e3fad04fe950f648d1f4a.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

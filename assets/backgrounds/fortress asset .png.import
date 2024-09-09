@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://c3mpbdp45bfgr"
 path="res://.godot/imported/fortress asset .png-f02b6dd9e266c3b313d7aaa27181dcca.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://cn3jwonckwqus"
+path="res://.godot/imported/fortress asset .png-f02b6dd9e266c3b313d7aaa27181dcca.ctex"
+=======
+uid="uid://dnqgbc0bm70l7"
+path="res://.godot/imported/fortress asset .png-072418fb1572e4d3ae0f51d6022b52ba.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

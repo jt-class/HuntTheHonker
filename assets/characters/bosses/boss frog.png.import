@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ey0s6vxrssbo"
+=======
+uid="uid://d4d4prdvxtpax"
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 path="res://.godot/imported/boss frog.png-0821a17211880bd1fde2f4f9e0b74fa8.ctex"
 metadata={
 "vram_texture": false

@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ba8ate0ht6vsd"
 path="res://.godot/imported/STONE_GOLEM.png-b65271f3645228e3ac138151b4420a8f.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://b8gj8t52qek4o"
+path="res://.godot/imported/STONE_GOLEM.png-b65271f3645228e3ac138151b4420a8f.ctex"
+=======
+uid="uid://n2g2wfg3cb1n"
+path="res://.godot/imported/STONE_GOLEM.png-3daf65e2baad61f7c65f40a339e571c6.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

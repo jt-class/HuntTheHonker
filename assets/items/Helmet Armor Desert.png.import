@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dfwri7fj8v0tm"
 path="res://.godot/imported/Helmet Armor Desert.png-d721fb2dc76aba25ee88d9b5cb1637c1.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://cvvnsd5c0l3kg"
+path="res://.godot/imported/Helmet Armor Desert.png-d721fb2dc76aba25ee88d9b5cb1637c1.ctex"
+=======
+uid="uid://ds0v6tvobw3dc"
+path="res://.godot/imported/Helmet Armor Desert.png-008887fbfb744897a66a3bbb110085f3.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

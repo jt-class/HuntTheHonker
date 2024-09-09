@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://drq2jcnm3c56u"
 path="res://.godot/imported/player.png-9f2fba62c08addefa1d299ba87b82ef0.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://g6m5gdpxopxa"
+path="res://.godot/imported/player.png-9f2fba62c08addefa1d299ba87b82ef0.ctex"
+=======
+uid="uid://b43vkpi40iqt3"
+path="res://.godot/imported/player.png-c6331ff5b7d53b88f1a605b86de8d3cc.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

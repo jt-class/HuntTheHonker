@@ -2,8 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bygmpe5ibpobo"
 path="res://.godot/imported/CURSED_SPIRIT.png-966b693924458a59037e6fc6dbe52709.ctex"
+=======
+<<<<<<< HEAD
+uid="uid://dg4e4m1ugb7cr"
+path="res://.godot/imported/CURSED_SPIRIT.png-966b693924458a59037e6fc6dbe52709.ctex"
+=======
+uid="uid://bn05kdlmag0vn"
+path="res://.godot/imported/CURSED_SPIRIT.png-d3281103daf05cc924ae87d8217138f6.ctex"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

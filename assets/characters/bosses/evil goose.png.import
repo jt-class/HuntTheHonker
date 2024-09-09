@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dej4kgfen0i5i"
+=======
+uid="uid://dv3xtsx7odkbb"
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 path="res://.godot/imported/evil goose.png-ec426b8ab415a82478734d33445c7e97.ctex"
 metadata={
 "vram_texture": false

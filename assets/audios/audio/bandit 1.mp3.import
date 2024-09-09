@@ -2,8 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://kfdu3ujci82m"
 path="res://.godot/imported/bandit 1.mp3-6bf21ba18a61bbf2482700e0e25a1d29.mp3str"
+=======
+<<<<<<< HEAD
+uid="uid://c15yd1bmgg7xv"
+path="res://.godot/imported/bandit 1.mp3-6bf21ba18a61bbf2482700e0e25a1d29.mp3str"
+=======
+uid="uid://c5b454kwajuj0"
+path="res://.godot/imported/bandit 1.mp3-250b7ecd89b12f60d6b73638ef68a0b3.mp3str"
+>>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [deps]
 

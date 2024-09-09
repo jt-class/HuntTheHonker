@@ -2,6 +2,7 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://dk3rtx2vrf8wu"
 path="res://.godot/imported/footstep-Forest.mp3-f497f61e79b0dc386871b4c2e5f370f1.mp3str"
 
@@ -9,6 +10,15 @@ path="res://.godot/imported/footstep-Forest.mp3-f497f61e79b0dc386871b4c2e5f370f1
 
 source_file="res://assets/audios/footstep-Forest.mp3"
 dest_files=["res://.godot/imported/footstep-Forest.mp3-f497f61e79b0dc386871b4c2e5f370f1.mp3str"]
+=======
+uid="uid://bhfl2hhh4ulmo"
+path="res://.godot/imported/footstep-Forest.mp3-56ceadd7f1a2afe529aeae977471b951.mp3str"
+
+[deps]
+
+source_file="res://Assets/audios/footstep-Forest.mp3"
+dest_files=["res://.godot/imported/footstep-Forest.mp3-56ceadd7f1a2afe529aeae977471b951.mp3str"]
+>>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

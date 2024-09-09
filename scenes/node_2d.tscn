@@ -1,18 +1,18 @@
 [gd_scene load_steps=11 format=3 uid="uid://bgh5ngq2jnyd5"]
 
-[ext_resource type="Texture2D" uid="uid://dbcotdcshj7r1" path="res://assets/backgrounds/Defining po.png" id="1_328mb"]
-[ext_resource type="Texture2D" uid="uid://byiyjnnfl50m2" path="res://assets/backgrounds/settings.png" id="1_ols8b"]
+[ext_resource type="Texture2D" uid="uid://dbcotdcshj7r1" path="res://Assets/backgrounds/Defining po.png" id="1_328mb"]
+[ext_resource type="Texture2D" uid="uid://byiyjnnfl50m2" path="res://Assets/backgrounds/settings.png" id="1_ols8b"]
 [ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="3_2i0ce"]
-[ext_resource type="Texture2D" uid="uid://hlxcc8l35lg" path="res://assets/backgrounds/Exit.png" id="4_5ym47"]
+[ext_resource type="Texture2D" uid="uid://hlxcc8l35lg" path="res://Assets/backgrounds/Exit.png" id="4_5ym47"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d13ve"]
-bg_color = Color(1, 1, 1, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tkdci"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3dgnh"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_56rfb"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3dgnh"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tkdci"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d13ve"]
+bg_color = Color(1, 1, 1, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_h8j5f"]
 font = ExtResource("3_2i0ce")
@@ -33,10 +33,10 @@ offset_left = 88.0
 offset_top = 88.0
 offset_right = 368.0
 offset_bottom = 160.0
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ve")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_tkdci")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_56rfb")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_3dgnh")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_56rfb")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tkdci")
+theme_override_styles/normal = SubResource("StyleBoxFlat_d13ve")
 
 [node name="Settings" type="Sprite2D" parent="Button"]
 light_mask = 0
@@ -45,6 +45,7 @@ scale = Vector2(0.104492, 0.104492)
 texture = ExtResource("1_ols8b")
 
 [node name="Label" type="Label" parent="Button"]
+layout_mode = 0
 offset_left = 104.0
 offset_top = 24.0
 offset_right = 249.0

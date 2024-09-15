@@ -1,0 +1,46 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://biekk473r0vwl"
+=======
+<<<<<<< HEAD
+uid="uid://cvh77elvp0eym"
+=======
+uid="uid://cuisg1axql841"
+<<<<<<< HEAD
+path="res://.godot/imported/Swamp Resistant Gear2 Pants.png-d2fb799842c81e9a16557d27b94b66c3.ctex"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Swamp Resistant Gear2 Pants.png-17eec5b016fd794d24936ed403cf3c3b.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/items/Swamp Resistant Gear2 Pants.png"
+dest_files=["res://.godot/imported/Swamp Resistant Gear2 Pants.png-d2fb799842c81e9a16557d27b94b66c3.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

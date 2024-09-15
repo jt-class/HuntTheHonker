@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD:assets/characters/mobs/CURSED_SPIRIT.png.import
+uid="uid://ce6py6qw2cfm6"
+path="res://.godot/imported/CURSED_SPIRIT.png-d3281103daf05cc924ae87d8217138f6.ctex"
+=======
+uid="uid://b7nrx5ketfhpq"
+path="res://.godot/imported/Option.png-36c8e47393bb19fd0f3e47fc255a293b.ctex"
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4:assets/icons/Option.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD:assets/characters/mobs/CURSED_SPIRIT.png.import
+source_file="res://Assets/characters/mobs/CURSED_SPIRIT.png"
+dest_files=["res://.godot/imported/CURSED_SPIRIT.png-d3281103daf05cc924ae87d8217138f6.ctex"]
+=======
+source_file="res://assets/icons/Option.png"
+dest_files=["res://.godot/imported/Option.png-36c8e47393bb19fd0f3e47fc255a293b.ctex"]
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4:assets/icons/Option.png.import
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

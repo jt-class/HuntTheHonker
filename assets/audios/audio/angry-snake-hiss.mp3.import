@@ -2,8 +2,20 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://c5epw3p2l4lls"
+=======
 uid="uid://cr80ich2uyexu"
+<<<<<<< HEAD
 path="res://.godot/imported/angry-snake-hiss.mp3-82bc5cdb61402085c4c015b573edd2ad.mp3str"
+=======
+<<<<<<< HEAD
+path="res://.godot/imported/angry-snake-hiss.mp3-82bc5cdb61402085c4c015b573edd2ad.mp3str"
+=======
+>>>>>>> origin/main
+path="res://.godot/imported/angry-snake-hiss.mp3-78096930e42f1e86542d62baed8b2d00.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
 
 [deps]
 

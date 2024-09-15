@@ -2,8 +2,24 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://buvsjnuo8dmjh"
+=======
+<<<<<<< HEAD
+uid="uid://buvsjnuo8dmjh"
+=======
 uid="uid://uyh7qeaarisq"
+<<<<<<< HEAD
 path="res://.godot/imported/Power up 2.0.mp3-77138df2f01eb9adf6ccf18775cb7a31.mp3str"
+=======
+<<<<<<< HEAD
+path="res://.godot/imported/Power up 2.0.mp3-77138df2f01eb9adf6ccf18775cb7a31.mp3str"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Power up 2.0.mp3-e99a782617d6986757058a887448dffd.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
 
 [deps]
 

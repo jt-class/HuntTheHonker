@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD:assets/characters/mobs/STONE_GOLEM.png.import
+uid="uid://dsk0hvgtw7hcu"
+path="res://.godot/imported/STONE_GOLEM.png-3daf65e2baad61f7c65f40a339e571c6.ctex"
+=======
+uid="uid://realgdpprkpr"
+path="res://.godot/imported/sidebar-bg.png-dd0845ab6e27dc0f06e0df823dd19faf.ctex"
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4:assets/backgrounds/sidebar-bg.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD:assets/characters/mobs/STONE_GOLEM.png.import
+source_file="res://Assets/characters/mobs/STONE_GOLEM.png"
+dest_files=["res://.godot/imported/STONE_GOLEM.png-3daf65e2baad61f7c65f40a339e571c6.ctex"]
+=======
+source_file="res://assets/backgrounds/sidebar-bg.png"
+dest_files=["res://.godot/imported/sidebar-bg.png-dd0845ab6e27dc0f06e0df823dd19faf.ctex"]
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4:assets/backgrounds/sidebar-bg.png.import
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

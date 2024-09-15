@@ -2,8 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://2powef8s1d3v"
+=======
+<<<<<<< HEAD
+uid="uid://brkhqlir5f6mg"
+=======
 uid="uid://baufshegua5je"
+<<<<<<< HEAD
 path="res://.godot/imported/HONKERLPYALFOLLOWER.png-6fc9faa5cca2e60220b53dcecddd3302.ctex"
+=======
+<<<<<<< HEAD
+path="res://.godot/imported/HONKERLPYALFOLLOWER.png-6fc9faa5cca2e60220b53dcecddd3302.ctex"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/HONKERLPYALFOLLOWER.png-9eb2fe767fc7e04b5ea99dd149cc84d1.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+>>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
 metadata={
 "vram_texture": false
 }

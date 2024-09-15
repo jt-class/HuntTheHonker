@@ -3,15 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbcotdcshj7r1"
+
 path="res://.godot/imported/Defining po.png-79b0d3b26ed462d9f52f61e006ebf7db.ctex"
+
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+
 source_file="res://assets/backgrounds/Defining po.png"
 dest_files=["res://.godot/imported/Defining po.png-79b0d3b26ed462d9f52f61e006ebf7db.ctex"]
+
 
 [params]
 

@@ -3,15 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d301q5k8xe0f5"
+
 path="res://.godot/imported/white.png-a909046b1b341460038d99d1209f4495.ctex"
+
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+
 source_file="res://assets/backgrounds/white.png"
 dest_files=["res://.godot/imported/white.png-a909046b1b341460038d99d1209f4495.ctex"]
+
 
 [params]
 

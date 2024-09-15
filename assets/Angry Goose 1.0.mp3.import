@@ -1,0 +1,31 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://vbjq11ncitjy"
+=======
+<<<<<<< HEAD
+uid="uid://vbjq11ncitjy"
+=======
+uid="uid://ctabpr7nbad28"
+<<<<<<< HEAD
+path="res://.godot/imported/Angry Goose 1.0.mp3-efa379dba1d9e696921eac711f181399.mp3str"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Angry Goose 1.0.mp3-c1a01bd9e9c7c0932051c23b0c76fa8d.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+
+[deps]
+
+source_file="res://Assets/Angry Goose 1.0.mp3"
+dest_files=["res://.godot/imported/Angry Goose 1.0.mp3-efa379dba1d9e696921eac711f181399.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,46 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://ccpqekbusjhfk"
+=======
+<<<<<<< HEAD
+uid="uid://bdytpe7v4kg18"
+=======
+uid="uid://dhhac5i4mvoj"
+<<<<<<< HEAD
+path="res://.godot/imported/Increase Stamina Upgrade.png-ee632f411e4b0b349b31791e9546f300.ctex"
+=======
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Increase Stamina Upgrade.png-9a87c72c7c043c37871b0dfacdf94e99.ctex"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/items/Increase Stamina Upgrade.png"
+dest_files=["res://.godot/imported/Increase Stamina Upgrade.png-ee632f411e4b0b349b31791e9546f300.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

@@ -2,30 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://xtgntxlutt7k"
-=======
-<<<<<<< HEAD
-uid="uid://fq27yvdl5x4u"
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
+uid="uid://bd7im00tyrl4o"
 path="res://.godot/imported/powerup2.mp3-61104d4c674d992c694b86fd1fdb52d1.mp3str"
 
 [deps]
 
 source_file="res://assets/audios/powerup2.mp3"
 dest_files=["res://.godot/imported/powerup2.mp3-61104d4c674d992c694b86fd1fdb52d1.mp3str"]
-<<<<<<< HEAD
-=======
-=======
-uid="uid://cs6ovrcngwe80"
-path="res://.godot/imported/powerup2.mp3-f49c6a5f8d0b05298644a9e8944bc941.mp3str"
-
-[deps]
-
-source_file="res://Assets/audios/powerup2.mp3"
-dest_files=["res://.godot/imported/powerup2.mp3-f49c6a5f8d0b05298644a9e8944bc941.mp3str"]
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

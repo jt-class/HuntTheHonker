@@ -2,18 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://dtlgsobg4aimq"
+uid="uid://xk4n72ck4exo"
 path="res://.godot/imported/fortress tile gray.png-5580df20c5c3e593846475a65380f923.ctex"
-=======
-<<<<<<< HEAD
-uid="uid://bw6h38dht6u4u"
-path="res://.godot/imported/fortress tile gray.png-5580df20c5c3e593846475a65380f923.ctex"
-=======
-uid="uid://capvwifk1waqr"
-path="res://.godot/imported/fortress tile gray.png-ebe80292ee14f0323a06151b214065e1.ctex"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

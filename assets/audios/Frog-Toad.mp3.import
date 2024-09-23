@@ -7,7 +7,7 @@ valid=false
 
 [deps]
 
-source_file="res://Assets/audios/Frog-Toad.mp3"
+source_file="res://assets/audios/Frog-Toad.mp3"
 
 [params]
 

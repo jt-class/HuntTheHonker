@@ -2,23 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://bcie1yu2bpwio"
+uid="uid://dumdqqsshta6g"
 path="res://.godot/imported/Water x Birds.mp3-c89c6559c4b78b4d6b0922c76c17f3d9.mp3str"
 
 [deps]
 
 source_file="res://assets/audios/Water x Birds.mp3"
 dest_files=["res://.godot/imported/Water x Birds.mp3-c89c6559c4b78b4d6b0922c76c17f3d9.mp3str"]
-=======
-uid="uid://cwelyumuv1na5"
-path="res://.godot/imported/Water x Birds.mp3-8ec56aa6b8c37da8c67fa35ba41ad347.mp3str"
-
-[deps]
-
-source_file="res://Assets/audios/Water x Birds.mp3"
-dest_files=["res://.godot/imported/Water x Birds.mp3-8ec56aa6b8c37da8c67fa35ba41ad347.mp3str"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

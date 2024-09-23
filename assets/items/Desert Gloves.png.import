@@ -2,18 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://x68i8g3d7w1n"
+uid="uid://de41085frkbww"
 path="res://.godot/imported/Desert Gloves.png-e03b611c43518dda64cd5d9d18323319.ctex"
-=======
-<<<<<<< HEAD
-uid="uid://c35f3a7gwv2yc"
-path="res://.godot/imported/Desert Gloves.png-e03b611c43518dda64cd5d9d18323319.ctex"
-=======
-uid="uid://dndj38kixuxm0"
-path="res://.godot/imported/Desert Gloves.png-1722fa488972daa07909f62fe1846be3.ctex"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 metadata={
 "vram_texture": false
 }

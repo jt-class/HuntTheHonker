@@ -2,18 +2,8 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://djlvmj0ybfl1e"
+uid="uid://bdanplwst3mdm"
 path="res://.godot/imported/goose.mp3-a5822e8daf955dc344ab4a06d963e469.mp3str"
-=======
-<<<<<<< HEAD
-uid="uid://uymd7i0omm1t"
-path="res://.godot/imported/goose.mp3-a5822e8daf955dc344ab4a06d963e469.mp3str"
-=======
-uid="uid://duccxjr5sn4y2"
-path="res://.godot/imported/goose.mp3-e479a5667f7cd1bd584c6265aa50bc95.mp3str"
->>>>>>> ab3127b3f0e81d784f32b7787467f6866a78b505
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [deps]
 

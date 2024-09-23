@@ -1,11 +1,11 @@
 [gd_scene load_steps=13 format=3 uid="uid://clhlw338bamre"]
 
-[ext_resource type="Texture2D" uid="uid://7owokf6ew7hq" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
-[ext_resource type="Texture2D" uid="uid://ctuo2kwgi57qu" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://lwasebpajk51" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://b8brax8nh1gp1" path="res://assets/backgrounds/bgstartup.png" id="1_f66ar"]
+[ext_resource type="Texture2D" uid="uid://bv28resgjq3qg" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="FontFile" uid="uid://dkmuulre4ty0h" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
-[ext_resource type="Texture2D" uid="uid://wf4qftsaa365" path="res://assets/backgrounds/clouds1.png" id="6_1e24j"]
+[ext_resource type="Texture2D" uid="uid://chbt4s20rgtud" path="res://assets/backgrounds/clouds1.png" id="6_1e24j"]
 [ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_ebt38"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]

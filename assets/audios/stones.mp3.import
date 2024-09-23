@@ -2,23 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://xn3xuu1tfkd8"
+uid="uid://d4ll7cqj6qxoy"
 path="res://.godot/imported/stones.mp3-5a027e18f69f361f60572a94750ef793.mp3str"
 
 [deps]
 
 source_file="res://assets/audios/stones.mp3"
 dest_files=["res://.godot/imported/stones.mp3-5a027e18f69f361f60572a94750ef793.mp3str"]
-=======
-uid="uid://dxsqht8tfg8rn"
-path="res://.godot/imported/stones.mp3-53d7f110d4da8147a21fbab6534306c1.mp3str"
-
-[deps]
-
-source_file="res://Assets/audios/stones.mp3"
-dest_files=["res://.godot/imported/stones.mp3-53d7f110d4da8147a21fbab6534306c1.mp3str"]
->>>>>>> 0bef98f272dfb4ca17def15b060358dc70a6b8a9
 
 [params]
 

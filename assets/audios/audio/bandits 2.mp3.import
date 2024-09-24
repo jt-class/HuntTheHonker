@@ -2,21 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://yk2fct4duygc"
-=======
-uid="uid://cilx8s2go764q"
-<<<<<<< HEAD
-path="res://.godot/imported/bandits 2.mp3-a53d338abf952bd32f1832ff8bb0a6a9.mp3str"
-=======
->>>>>>> origin/main
+uid="uid://dcfua2uw5kixj"
 path="res://.godot/imported/bandits 2.mp3-673653e72021efad81dcc76e72481da5.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/audio/bandits 2.mp3"
-dest_files=["res://.godot/imported/bandits 2.mp3-a53d338abf952bd32f1832ff8bb0a6a9.mp3str"]
+source_file="res://assets/audios/audio/bandits 2.mp3"
+dest_files=["res://.godot/imported/bandits 2.mp3-673653e72021efad81dcc76e72481da5.mp3str"]
 
 [params]
 

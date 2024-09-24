@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://idsapa67bpdo"
-=======
-<<<<<<< HEAD
-uid="uid://ndvq3s1rg5p3"
-=======
-uid="uid://bmkh57j0todne"
-<<<<<<< HEAD
-path="res://.godot/imported/Desert Boots 2.png-bcc9cc70a716d639e916d68875663ae5.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://b7txy24mtxftq"
 path="res://.godot/imported/Desert Boots 2.png-636589f6e6e933d05b53d41c3eb13797.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Desert Boots 2.png"
-dest_files=["res://.godot/imported/Desert Boots 2.png-bcc9cc70a716d639e916d68875663ae5.ctex"]
+source_file="res://assets/items/Desert Boots 2.png"
+dest_files=["res://.godot/imported/Desert Boots 2.png-636589f6e6e933d05b53d41c3eb13797.ctex"]
 
 [params]
 

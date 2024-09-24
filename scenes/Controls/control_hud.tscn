@@ -1,0 +1,28 @@
+
+[gd_scene load_steps=5 format=3 uid="uid://cj2y6t5xdtjqh"]
+
+
+[ext_resource type="PackedScene" uid="uid://dm43kg62us8d0" path="res://scenes/Controls/joy_stick.tscn" id="1_jaekw"]
+[ext_resource type="Texture2D" uid="uid://or2d70aexvkd" path="res://Assets/items/third_attack_button.png" id="2_16ajh"]
+[ext_resource type="Texture2D" uid="uid://cmeo13gcevk1u" path="res://Assets/items/shield_button.png" id="3_duep1"]
+[ext_resource type="Texture2D" uid="uid://bqhtip8eh5hd0" path="res://Assets/items/attack_button.png" id="4_y625d"]
+
+[node name="ControlHud" type="Node2D"]
+
+[node name="JoyStick" parent="." instance=ExtResource("1_jaekw")]
+position = Vector2(86, 384)
+
+[node name="ShootButton" type="TouchScreenButton" parent="."]
+position = Vector2(785, 412)
+scale = Vector2(0.771428, 0.765714)
+texture_normal = ExtResource("2_16ajh")
+
+[node name="DefendButton" type="TouchScreenButton" parent="."]
+position = Vector2(887, 266)
+scale = Vector2(0.731428, 0.76)
+texture_normal = ExtResource("3_duep1")
+
+[node name="AttackButton" type="TouchScreenButton" parent="."]
+position = Vector2(937, 384)
+scale = Vector2(1.09143, 1.09143)
+texture_normal = ExtResource("4_y625d")

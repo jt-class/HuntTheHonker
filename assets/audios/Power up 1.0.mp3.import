@@ -1,0 +1,36 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://bxyoi3vsy3tst"
+path="res://.godot/imported/Power up 1.0.mp3-4c4765263651452cb3e41a831f312c20.mp3str"
+=======
+<<<<<<< HEAD
+uid="uid://cvrsk702dniy1"
+=======
+<<<<<<< HEAD
+uid="uid://cq4ipu0w5agwm"
+=======
+<<<<<<< HEAD
+uid="uid://wgkby0pcyqvp"
+=======
+uid="uid://cq4ipu0w5agwm"
+>>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
+>>>>>>> origin/main
+>>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+path="res://.godot/imported/Power up 1.0.mp3-0b1bd635181477775172fecf94ea0f4d.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+
+[deps]
+
+source_file="res://Assets/audios/Power up 1.0.mp3"
+dest_files=["res://.godot/imported/Power up 1.0.mp3-4c4765263651452cb3e41a831f312c20.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

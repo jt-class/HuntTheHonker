@@ -1,0 +1,27 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://b7svc32y8tods"
+=======
+uid="uid://dlc5rwgwjt8mt"
+<<<<<<< HEAD
+path="res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"
+=======
+>>>>>>> origin/main
+path="res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+
+[deps]
+
+source_file="res://Assets/audios/audio/guard-1.mp3"
+dest_files=["res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

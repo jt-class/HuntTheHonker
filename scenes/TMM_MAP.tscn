@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1ome8bmgw33d"]
+
+[ext_resource type="Script" path="res://scripts/TMM_map_backbtn.gd" id="1_8h37e"]
+
+[node name="TffMap" type="Node2D"]
+
+[node name="Back" type="Button" parent="."]
+offset_left = 488.0
+offset_top = 339.0
+offset_right = 648.0
+offset_bottom = 370.0
+text = "Back to Level Select
+"
+script = ExtResource("1_8h37e")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 454.0
+offset_top = 163.0
+offset_right = 674.0
+offset_bottom = 232.0
+bbcode_enabled = true
+text = "[center]THE MARSH 
+OF 
+MISCHIEF[/center]"
+fit_content = true
+scroll_active = false
+
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

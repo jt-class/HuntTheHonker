@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmiqlp85epe2m"
-path="res://.godot/imported/Option.png-36c8e47393bb19fd0f3e47fc255a293b.ctex"
+uid="uid://cypqiydi0hiho"
+path="res://.godot/imported/STONE_GOLEM.png-b65271f3645228e3ac138151b4420a8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icons/Option.png"
-dest_files=["res://.godot/imported/Option.png-36c8e47393bb19fd0f3e47fc255a293b.ctex"]
+source_file="res://assets/characters/mobs/STONE_GOLEM.png"
+dest_files=["res://.godot/imported/STONE_GOLEM.png-b65271f3645228e3ac138151b4420a8f.ctex"]
 
 [params]
 

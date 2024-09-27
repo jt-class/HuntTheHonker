@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhgdhvje8fpq5"]
+
+[ext_resource type="Script" path="res://scripts/TFC_map_backbtn.gd" id="1_e1ev2"]
+
+[node name="TffMap" type="Node2D"]
+
+[node name="Back" type="Button" parent="."]
+offset_left = 488.0
+offset_top = 339.0
+offset_right = 648.0
+offset_bottom = 370.0
+text = "Back to Level Select
+"
+script = ExtResource("1_e1ev2")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 448.0
+offset_top = 184.0
+offset_right = 675.0
+offset_bottom = 253.0
+bbcode_enabled = true
+text = "[center]THE 
+FORTRESS
+OF CHAOS[/center]"
+fit_content = true
+
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

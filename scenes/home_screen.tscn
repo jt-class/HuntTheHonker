@@ -6,6 +6,7 @@
 
 [ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
 [ext_resource type="Texture2D" uid="uid://c45k52tnuf3bx" path="res://assets/icons/backbutton.png" id="4_4t388"]
+[ext_resource type="Script" path="res://scripts/homescreen_back.gd" id="4_dx6qh"]
 [ext_resource type="Texture2D" uid="uid://cxaii0aqhemi1" path="res://assets/icons/obj-icon.png" id="5_xodm2"]
 [ext_resource type="Texture2D" uid="uid://d05s22nfh5iol" path="res://assets/icons/titles-icon.png" id="6_jchnh"]
 [ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
@@ -88,7 +89,7 @@ grow_vertical = 2
 scale = Vector2(0.0525129, 0.0200885)
 texture = ExtResource("2_vc1ce")
 
-[node name="Exit" type="Button" parent="Side Bar"]
+[node name="Back" type="Button" parent="Side Bar"]
 layout_mode = 0
 offset_left = 9.56458
 offset_top = 0.868409
@@ -99,7 +100,8 @@ theme_type_variation = &"FlatButton"
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_gvghu")
 theme_override_font_sizes/font_size = 16
-text = "EXIT GAME"
+text = "Back"
+script = ExtResource("4_dx6qh")
 
 [node name="Objectives" type="Button" parent="Side Bar"]
 layout_mode = 0

@@ -2,29 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-<<<<<<< HEAD
-uid="uid://umnj5mvn3m1r"
-=======
-<<<<<<< HEAD
-uid="uid://b5o0mdcgimvje"
-=======
-uid="uid://cle0gxahk03xd"
-<<<<<<< HEAD
-path="res://.godot/imported/Celestial Keys.png-309a1ab3b365ca7e59f5d040eae2cc93.ctex"
-=======
-<<<<<<< HEAD
-path="res://.godot/imported/Celestial Keys.png-309a1ab3b365ca7e59f5d040eae2cc93.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://dbum55q7w0c2"
 path="res://.godot/imported/Celestial Keys.png-116b90c9885072b2add0f428642ae5fd.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
->>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
-=======
-uid="uid://b5an61dpya621"
-path="res://.godot/imported/Celestial Keys.png-116b90c9885072b2add0f428642ae5fd.ctex"
->>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 metadata={
 "vram_texture": false
 }

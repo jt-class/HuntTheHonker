@@ -2,34 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-<<<<<<< HEAD
-uid="uid://ki14h8aeh5nb"
-path="res://.godot/imported/Guards.mp3-53b555e71de6388c0dd7dbae38195138.mp3str"
-=======
-<<<<<<< HEAD
-uid="uid://dg8ucpaegc3er"
-=======
-<<<<<<< HEAD
-uid="uid://bed7opr35tmwn"
-=======
-<<<<<<< HEAD
-uid="uid://b0mfnhu7ibcqt"
-=======
-uid="uid://bed7opr35tmwn"
->>>>>>> 1ba63daf9703935a35268309204eb8cc8b6d3ed7
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
-=======
-uid="uid://b650x4r445t5t"
->>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
+uid="uid://d1q4lxwvi6xdq"
 path="res://.godot/imported/Guards.mp3-33e1c598462e63d1495fbf3ec03fd0ca.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/Guards.mp3"
-dest_files=["res://.godot/imported/Guards.mp3-53b555e71de6388c0dd7dbae38195138.mp3str"]
+source_file="res://assets/audios/Guards.mp3"
+dest_files=["res://.godot/imported/Guards.mp3-33e1c598462e63d1495fbf3ec03fd0ca.mp3str"]
 
 [params]
 

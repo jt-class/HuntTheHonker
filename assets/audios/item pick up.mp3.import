@@ -2,25 +2,8 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-<<<<<<< HEAD
-uid="uid://cr3xfpefe0ncg"
-=======
-uid="uid://drwiqt2m4jglm"
-<<<<<<< HEAD
-path="res://.godot/imported/item pick up.mp3-e09912d6fbbb200e3d327ac5b4f62b0e.mp3str"
-=======
-<<<<<<< HEAD
-path="res://.godot/imported/item pick up.mp3-e09912d6fbbb200e3d327ac5b4f62b0e.mp3str"
-=======
->>>>>>> origin/main
+uid="uid://86vgpb24ojhb"
 path="res://.godot/imported/item pick up.mp3-d4755b7c922736f48a3f6d7d3e120ef5.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
->>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
-=======
-uid="uid://bbtnfyxajovwk"
-path="res://.godot/imported/item pick up.mp3-d4755b7c922736f48a3f6d7d3e120ef5.mp3str"
->>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 
 [deps]
 

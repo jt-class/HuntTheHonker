@@ -2,25 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-<<<<<<< HEAD
-uid="uid://b04a4n74gbohn"
-=======
-uid="uid://xsskkpn8w00n"
-<<<<<<< HEAD
-path="res://.godot/imported/whole blue tile.png-2638934749758b84f6b982ffc739da7a.ctex"
-=======
-<<<<<<< HEAD
-path="res://.godot/imported/whole blue tile.png-2638934749758b84f6b982ffc739da7a.ctex"
-=======
->>>>>>> origin/main
+uid="uid://x8wky73a4op7"
 path="res://.godot/imported/whole blue tile.png-80606909d5d37b8d492c70ce7898f209.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
->>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
-=======
-uid="uid://bp0gswqkpijwm"
-path="res://.godot/imported/whole blue tile.png-80606909d5d37b8d492c70ce7898f209.ctex"
->>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 metadata={
 "vram_texture": false
 }

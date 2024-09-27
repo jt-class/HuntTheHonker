@@ -2,25 +2,8 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-<<<<<<< HEAD
-uid="uid://0u27ffk36kuy"
-=======
-uid="uid://bb24f5did8gks"
-<<<<<<< HEAD
-path="res://.godot/imported/Angry bird.mp3-72137e0cb91ef0cd34b1e64dfa1d5bac.mp3str"
-=======
-<<<<<<< HEAD
-path="res://.godot/imported/Angry bird.mp3-72137e0cb91ef0cd34b1e64dfa1d5bac.mp3str"
-=======
->>>>>>> origin/main
+uid="uid://da3eo0e6qmxan"
 path="res://.godot/imported/Angry bird.mp3-a3afe98c8641ea55f4203bb21d846055.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
->>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
-=======
-uid="uid://jowsdfkpufb8"
-path="res://.godot/imported/Angry bird.mp3-a3afe98c8641ea55f4203bb21d846055.mp3str"
->>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 
 [deps]
 

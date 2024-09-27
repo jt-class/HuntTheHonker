@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://ccagscrlqfw6q"
 =======
 uid="uid://dgixltdr55c72"
@@ -16,11 +17,15 @@ path="res://.godot/imported/stones-falling-6375.mp3-eec25e155a96bd61bdbabde80938
 path="res://.godot/imported/stones-falling-6375.mp3-a1722b19c341981f0a0273225603be24.mp3str"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://ybrfijtwtujv"
+path="res://.godot/imported/stones-falling-6375.mp3-a1722b19c341981f0a0273225603be24.mp3str"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 
 [deps]
 
-source_file="res://Assets/audios/audio/stones-falling-6375.mp3"
-dest_files=["res://.godot/imported/stones-falling-6375.mp3-eec25e155a96bd61bdbabde8093892ce.mp3str"]
+source_file="res://assets/audios/audio/stones-falling-6375.mp3"
+dest_files=["res://.godot/imported/stones-falling-6375.mp3-a1722b19c341981f0a0273225603be24.mp3str"]
 
 [params]
 

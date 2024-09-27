@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://cbtfnprdx2u4v"
 =======
 uid="uid://c4w12f5x2nms0"
@@ -16,14 +17,18 @@ path="res://.godot/imported/path4.png-73189cba885676647f7d8215dc328d65.ctex"
 path="res://.godot/imported/path4.png-b4911dc60c1a8e8917f03810b1e202ca.ctex"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://rcv1sqcnpu7g"
+path="res://.godot/imported/path4.png-b4911dc60c1a8e8917f03810b1e202ca.ctex"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/path4.png"
-dest_files=["res://.godot/imported/path4.png-73189cba885676647f7d8215dc328d65.ctex"]
+source_file="res://assets/backgrounds/path4.png"
+dest_files=["res://.godot/imported/path4.png-b4911dc60c1a8e8917f03810b1e202ca.ctex"]
 
 [params]
 

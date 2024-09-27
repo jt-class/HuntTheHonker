@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://syq2xvxgigqe"
 =======
 <<<<<<< HEAD
@@ -20,14 +21,18 @@ path="res://.godot/imported/Red Ring Celestial Strength.png-a2227d5a7e34921f5b82
 path="res://.godot/imported/Red Ring Celestial Strength.png-3b0fc61f5c2e4f7ebd87690c545fddc5.ctex"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://drxulb3yhvn2p"
+path="res://.godot/imported/Red Ring Celestial Strength.png-3b0fc61f5c2e4f7ebd87690c545fddc5.ctex"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Red Ring Celestial Strength.png"
-dest_files=["res://.godot/imported/Red Ring Celestial Strength.png-a2227d5a7e34921f5b8274ad1ff88596.ctex"]
+source_file="res://assets/items/Red Ring Celestial Strength.png"
+dest_files=["res://.godot/imported/Red Ring Celestial Strength.png-3b0fc61f5c2e4f7ebd87690c545fddc5.ctex"]
 
 [params]
 

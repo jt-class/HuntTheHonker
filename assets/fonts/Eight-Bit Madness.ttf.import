@@ -3,6 +3,7 @@
 importer="font_data_dynamic"
 type="FontFile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://vf05a3ybfs6e"
 =======
 <<<<<<< HEAD
@@ -20,11 +21,15 @@ path="res://.godot/imported/Eight-Bit Madness.ttf-94d457341a315293ea3e379c3f8c84
 path="res://.godot/imported/Eight-Bit Madness.ttf-f85daff2dd7f1589c2e348b56e14c03e.fontdata"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://ca0ju4opyn708"
+path="res://.godot/imported/Eight-Bit Madness.ttf-f85daff2dd7f1589c2e348b56e14c03e.fontdata"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 
 [deps]
 
-source_file="res://Assets/fonts/Eight-Bit Madness.ttf"
-dest_files=["res://.godot/imported/Eight-Bit Madness.ttf-94d457341a315293ea3e379c3f8c843a.fontdata"]
+source_file="res://assets/fonts/Eight-Bit Madness.ttf"
+dest_files=["res://.godot/imported/Eight-Bit Madness.ttf-f85daff2dd7f1589c2e348b56e14c03e.fontdata"]
 
 [params]
 

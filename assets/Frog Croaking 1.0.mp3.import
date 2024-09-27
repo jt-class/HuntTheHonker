@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://dlovxk4f50m3l"
 =======
 <<<<<<< HEAD
@@ -20,11 +21,15 @@ path="res://.godot/imported/Frog Croaking 1.0.mp3-c9306a680e269346c773b5937a7118
 path="res://.godot/imported/Frog Croaking 1.0.mp3-ebb818c10a2c9e9b76853fe3b5532a57.mp3str"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://bfhoahahshctg"
+path="res://.godot/imported/Frog Croaking 1.0.mp3-ebb818c10a2c9e9b76853fe3b5532a57.mp3str"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 
 [deps]
 
-source_file="res://Assets/Frog Croaking 1.0.mp3"
-dest_files=["res://.godot/imported/Frog Croaking 1.0.mp3-c9306a680e269346c773b5937a711873.mp3str"]
+source_file="res://assets/Frog Croaking 1.0.mp3"
+dest_files=["res://.godot/imported/Frog Croaking 1.0.mp3-ebb818c10a2c9e9b76853fe3b5532a57.mp3str"]
 
 [params]
 

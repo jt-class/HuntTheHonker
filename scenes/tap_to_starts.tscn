@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://clhlw338bamre"]
 
 [ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_ilskg"]
-[ext_resource type="Texture2D" uid="uid://dmc3o7jo7ghmq" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://vrnghtg7rtt2" path="res://Assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="FontFile" uid="uid://ca0ju4opyn708" path="res://Assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
 

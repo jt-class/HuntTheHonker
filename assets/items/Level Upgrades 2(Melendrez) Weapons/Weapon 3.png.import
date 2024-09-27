@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://veyqy7nyf7nr"
-path="res://.godot/imported/Weapon 3.png-7ff908c939c9a669007e79a15b1319de.ctex"
+path="res://.godot/imported/Weapon 3.png-c3f6b316b3d3594cc2c8f8555d5bd884.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Level Upgrades 2(Melendrez) Weapons/Weapon 3.png"
-dest_files=["res://.godot/imported/Weapon 3.png-7ff908c939c9a669007e79a15b1319de.ctex"]
+source_file="res://assets/items/Level Upgrades 2(Melendrez) Weapons/Weapon 3.png"
+dest_files=["res://.godot/imported/Weapon 3.png-c3f6b316b3d3594cc2c8f8555d5bd884.ctex"]
 
 [params]
 

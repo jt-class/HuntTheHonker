@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://bgh5ngq2jnyd5"]
 
-[ext_resource type="Texture2D" uid="uid://dbcotdcshj7r1" path="res://Assets/backgrounds/Defining po.png" id="1_328mb"]
-[ext_resource type="Texture2D" uid="uid://byiyjnnfl50m2" path="res://Assets/backgrounds/settings.png" id="1_ols8b"]
+[ext_resource type="Texture2D" uid="uid://dbcotdcshj7r1" path="res://assets/backgrounds/Defining po.png" id="1_328mb"]
+[ext_resource type="Texture2D" uid="uid://byiyjnnfl50m2" path="res://assets/backgrounds/settings.png" id="1_ols8b"]
 [ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="3_2i0ce"]
-[ext_resource type="Texture2D" uid="uid://hlxcc8l35lg" path="res://Assets/backgrounds/Exit.png" id="4_5ym47"]
+[ext_resource type="Texture2D" uid="uid://hlxcc8l35lg" path="res://assets/backgrounds/Exit.png" id="4_5ym47"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3dgnh"]
 

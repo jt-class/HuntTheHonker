@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://dulmxjlo28kr4"
 path="res://.godot/imported/Snake.mp3-ed837d8cb390ddffafddbe5f4570c62b.mp3str"
 =======
@@ -26,6 +27,15 @@ path="res://.godot/imported/Snake.mp3-d71b14c63060b8c60d43800af6adb922.mp3str"
 
 source_file="res://Assets/audios/Snake.mp3"
 dest_files=["res://.godot/imported/Snake.mp3-ed837d8cb390ddffafddbe5f4570c62b.mp3str"]
+=======
+uid="uid://56j5el88obpv"
+path="res://.godot/imported/snake.mp3-029fcc7e4942bd588045214113682521.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/snake.mp3"
+dest_files=["res://.godot/imported/snake.mp3-029fcc7e4942bd588045214113682521.mp3str"]
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 
 [params]
 

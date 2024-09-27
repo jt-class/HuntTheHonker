@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://bl3uh1vg8kdlf"
 =======
 uid="uid://dmc3o7jo7ghmq"
@@ -16,14 +17,18 @@ path="res://.godot/imported/player.png-c6331ff5b7d53b88f1a605b86de8d3cc.ctex"
 path="res://.godot/imported/player.png-9f2fba62c08addefa1d299ba87b82ef0.ctex"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://vrnghtg7rtt2"
+path="res://.godot/imported/player.png-9f2fba62c08addefa1d299ba87b82ef0.ctex"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/characters/PlayerChar/player.png"
-dest_files=["res://.godot/imported/player.png-c6331ff5b7d53b88f1a605b86de8d3cc.ctex"]
+source_file="res://assets/characters/PlayerChar/player.png"
+dest_files=["res://.godot/imported/player.png-9f2fba62c08addefa1d299ba87b82ef0.ctex"]
 
 [params]
 

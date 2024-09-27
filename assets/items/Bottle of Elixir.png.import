@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://fj27wn40y5rs"
 =======
 <<<<<<< HEAD
@@ -20,14 +21,18 @@ path="res://.godot/imported/Bottle of Elixir.png-bf186d1566229142daf7a7a8299680c
 path="res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"
 >>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 >>>>>>> bfd456a1ce7fcd720c6ea2bc0e81bb8b5e69c6d4
+=======
+uid="uid://bbp6xxpqf6emm"
+path="res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"
+>>>>>>> 850697db8e7b6bab675aef2ce396a5bec7ad0672
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Bottle of Elixir.png"
-dest_files=["res://.godot/imported/Bottle of Elixir.png-bf186d1566229142daf7a7a8299680c9.ctex"]
+source_file="res://assets/items/Bottle of Elixir.png"
+dest_files=["res://.godot/imported/Bottle of Elixir.png-ab4a4e6eea6d54c47416f3179a6724c7.ctex"]
 
 [params]
 

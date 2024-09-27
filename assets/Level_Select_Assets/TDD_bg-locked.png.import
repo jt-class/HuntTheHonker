@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2fsp7kox2lhe"
-path="res://.godot/imported/TDD_bg-locked.png-e6f0678340e10331f5abf4adbcfdd0d9.ctex"
+path="res://.godot/imported/TDD_bg-locked.png-69a8a003274059985cc80da7c721b6db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Level_Select_Assets/TDD_bg-locked.png"
-dest_files=["res://.godot/imported/TDD_bg-locked.png-e6f0678340e10331f5abf4adbcfdd0d9.ctex"]
+source_file="res://assets/Level_Select_Assets/TDD_bg-locked.png"
+dest_files=["res://.godot/imported/TDD_bg-locked.png-69a8a003274059985cc80da7c721b6db.ctex"]
 
 [params]
 

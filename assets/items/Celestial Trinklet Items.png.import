@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://dvtqsh2xalnyo"
-=======
-<<<<<<< HEAD
-uid="uid://xsadno7ee7q1"
-=======
-uid="uid://hjog1rf66m0g"
-<<<<<<< HEAD
-path="res://.godot/imported/Celestial Trinklet Items.png-338caaac4097b31aa79abdf259fb1b5a.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://doilcer405pvm"
 path="res://.godot/imported/Celestial Trinklet Items.png-d5fcf98d9f3611d95115acf8680d1808.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Celestial Trinklet Items.png"
-dest_files=["res://.godot/imported/Celestial Trinklet Items.png-338caaac4097b31aa79abdf259fb1b5a.ctex"]
+source_file="res://assets/items/Celestial Trinklet Items.png"
+dest_files=["res://.godot/imported/Celestial Trinklet Items.png-d5fcf98d9f3611d95115acf8680d1808.ctex"]
 
 [params]
 

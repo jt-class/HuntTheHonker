@@ -2,21 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://boe88cjkjr4br"
-=======
-uid="uid://cb2vnqomx2egr"
-<<<<<<< HEAD
-path="res://.godot/imported/sand-106366.mp3-70913c5f45eba5aa956d35ebcdc4dad3.mp3str"
-=======
->>>>>>> origin/main
+uid="uid://crb2tu8kb35xe"
 path="res://.godot/imported/sand-106366.mp3-1f56d9de6e5c39598009a4fdc7d6809f.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/audio/sand-106366.mp3"
-dest_files=["res://.godot/imported/sand-106366.mp3-70913c5f45eba5aa956d35ebcdc4dad3.mp3str"]
+source_file="res://assets/audios/audio/sand-106366.mp3"
+dest_files=["res://.godot/imported/sand-106366.mp3-1f56d9de6e5c39598009a4fdc7d6809f.mp3str"]
 
 [params]
 

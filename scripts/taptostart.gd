@@ -1,8 +1,4 @@
 extends Button
-@onready var transition = $AnimationPlayer
-func _on_pressed():
-	transition.play("fade_out")
-	
 
 	
 var height := 5.0

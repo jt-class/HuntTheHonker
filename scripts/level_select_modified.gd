@@ -265,6 +265,7 @@ func _on_start_btn_tff_pressed() -> void:
 	tmm_locked = false
 	check_tff() # temporary, replace with Euree's navigation logic
 	check_status()
+	get_tree().change_scene_to_file("res://scenes/TFF_MAP.tscn")
 
 func _on_start_btn_tmm_pressed() -> void:
 	tmm_finished = true
@@ -275,6 +276,7 @@ func _on_start_btn_tmm_pressed() -> void:
 	trt_locked = false
 	check_tmm() # temporary, replace with Euree's navigation logic
 	check_status()
+	get_tree().change_scene_to_file("res://scenes/TMM_MAP.tscn")
 
 func _on_start_btn_trt_pressed() -> void:
 	trt_finished = true
@@ -285,6 +287,7 @@ func _on_start_btn_trt_pressed() -> void:
 	tfc_locked = false
 	check_trt() # temporary, replace with Euree's navigation logic
 	check_status()
+	get_tree().change_scene_to_file("res://scenes/TRT_MAP.tscn")
 
 func _on_start_btn_tfc_pressed() -> void:
 	tfc_finished = true
@@ -292,3 +295,4 @@ func _on_start_btn_tfc_pressed() -> void:
 	tfc_locked = false
 	check_tfc() # temporary, replace with Euree's navigation logic
 	check_status()
+	get_tree().change_scene_to_file("res://scenes/TFC_MAP.tscn")

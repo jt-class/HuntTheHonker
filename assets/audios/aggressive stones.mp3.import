@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dv4bdfmkfu1hl"
+path="res://.godot/imported/aggressive stones.mp3-5e0d06daa4f11a00960b0dfd3193ec97.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/aggressive stones.mp3"
+dest_files=["res://.godot/imported/aggressive stones.mp3-5e0d06daa4f11a00960b0dfd3193ec97.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

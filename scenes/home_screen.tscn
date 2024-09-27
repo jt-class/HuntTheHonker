@@ -1,21 +1,14 @@
-<<<<<<< HEAD
 [gd_scene load_steps=10 format=3 uid="uid://tlfwq6qqftpb"]
-=======
-[gd_scene load_steps=7 format=3 uid="uid://tlfwq6qqftpb"]
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Texture2D" uid="uid://realgdpprkpr" path="res://assets/backgrounds/sidebar-bg.png" id="2_vc1ce"]
-[ext_resource type="FontFile" uid="uid://vf05a3ybfs6e" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
+[ext_resource type="FontFile" uid="uid://ca0ju4opyn708" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
 [ext_resource type="Texture2D" uid="uid://c45k52tnuf3bx" path="res://assets/icons/backbutton.png" id="4_4t388"]
 [ext_resource type="Texture2D" uid="uid://cxaii0aqhemi1" path="res://assets/icons/obj-icon.png" id="5_xodm2"]
 [ext_resource type="Texture2D" uid="uid://d05s22nfh5iol" path="res://assets/icons/titles-icon.png" id="6_jchnh"]
-<<<<<<< HEAD
-[ext_resource type="Texture2D" uid="uid://bl3uh1vg8kdlf" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
+[ext_resource type="Texture2D" uid="uid://vrnghtg7rtt2" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
 [ext_resource type="Texture2D" uid="uid://b7nrx5ketfhpq" path="res://assets/icons/Option.png" id="8_4alw3"]
 [ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://assets/icons/levelselect.png" id="9_l0px0"]
-=======
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 
 [node name="HomeScreen" type="Control"]
 layout_mode = 3
@@ -109,7 +102,6 @@ texture = ExtResource("5_xodm2")
 position = Vector2(19.9987, 24.5639)
 scale = Vector2(0.0537302, 0.0229984)
 texture = ExtResource("6_jchnh")
-<<<<<<< HEAD
 
 [node name="Player" type="Sprite2D" parent="."]
 position = Vector2(687, 285)
@@ -150,5 +142,3 @@ text = "Options"
 position = Vector2(664, 487)
 scale = Vector2(0.833526, 0.957974)
 texture = ExtResource("9_l0px0")
-=======
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec

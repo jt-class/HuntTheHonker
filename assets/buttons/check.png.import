@@ -4,6 +4,8 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu6vsb8xw73xa"
 path="res://.godot/imported/check.png-1a0e1109fdd3a7c54300983df182fe68.ctex"
+uid="uid://cu6vsb8xw73xa"
+path="res://.godot/imported/check.png-991069442caaf8a8797cb3e0cd8ec69f.ctex"
 metadata={
 "vram_texture": false
 }
@@ -12,6 +14,8 @@ metadata={
 
 source_file="res://assets/buttons/check.png"
 dest_files=["res://.godot/imported/check.png-1a0e1109fdd3a7c54300983df182fe68.ctex"]
+source_file="res://Assets/maps/check.png"
+dest_files=["res://.godot/imported/check.png-991069442caaf8a8797cb3e0cd8ec69f.ctex"]
 
 [params]
 

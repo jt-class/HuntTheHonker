@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://tlfwq6qqftpb"]
+[gd_scene load_steps=11 format=3 uid="uid://tlfwq6qqftpb"]
 
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Texture2D" uid="uid://realgdpprkpr" path="res://assets/backgrounds/sidebar-bg.png" id="2_vc1ce"]
 [ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
 [ext_resource type="Texture2D" uid="uid://c45k52tnuf3bx" path="res://assets/icons/backbutton.png" id="4_4t388"]
+[ext_resource type="Script" path="res://scripts/homescreen_back.gd" id="4_dx6qh"]
 [ext_resource type="Texture2D" uid="uid://cxaii0aqhemi1" path="res://assets/icons/obj-icon.png" id="5_xodm2"]
 [ext_resource type="Texture2D" uid="uid://d05s22nfh5iol" path="res://assets/icons/titles-icon.png" id="6_jchnh"]
 [ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
@@ -60,6 +61,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_gvghu")
 theme_override_font_sizes/font_size = 16
 text = "Back"
+script = ExtResource("4_dx6qh")
 
 [node name="Objectives" type="Button" parent="Side Bar"]
 layout_mode = 0
@@ -142,3 +144,5 @@ text = "Options"
 position = Vector2(664, 487)
 scale = Vector2(0.833526, 0.957974)
 texture = ExtResource("9_l0px0")
+
+[connection signal="pressed" from="Side Bar/Back" to="Side Bar/Back" method="_on_Back_button_pressed"]

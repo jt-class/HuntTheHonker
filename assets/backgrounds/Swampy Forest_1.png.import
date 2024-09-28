@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://du3vdy2t53ag2"
-=======
-<<<<<<< HEAD
-uid="uid://ngp7uwx3b2xw"
-=======
-uid="uid://b8dqki3j4okls"
-<<<<<<< HEAD
-path="res://.godot/imported/Swampy Forest_1.png-9180639c85d85724b6e67909f428c52d.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://bflickpoqb3lm"
 path="res://.godot/imported/Swampy Forest_1.png-35392940e4bce5691e596858e86500f4.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/Swampy Forest_1.png"
-dest_files=["res://.godot/imported/Swampy Forest_1.png-9180639c85d85724b6e67909f428c52d.ctex"]
+source_file="res://assets/backgrounds/Swampy Forest_1.png"
+dest_files=["res://.godot/imported/Swampy Forest_1.png-35392940e4bce5691e596858e86500f4.ctex"]
 
 [params]
 

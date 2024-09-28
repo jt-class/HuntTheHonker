@@ -2,28 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://c0q7idmk5bes0"
-=======
-<<<<<<< HEAD
-uid="uid://catbo477y0xki"
-=======
-uid="uid://b24h4yh01cmqy"
-<<<<<<< HEAD
-path="res://.godot/imported/Dizzy Potion.png-6ed53401e3639d863433cf1c1894e2a0.ctex"
-=======
->>>>>>> origin/main
->>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
+uid="uid://b7h1kygrekr1k"
 path="res://.godot/imported/Dizzy Potion.png-d11d4130f5b951be37ad526b319dcecc.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Dizzy Potion.png"
-dest_files=["res://.godot/imported/Dizzy Potion.png-6ed53401e3639d863433cf1c1894e2a0.ctex"]
+source_file="res://assets/items/Dizzy Potion.png"
+dest_files=["res://.godot/imported/Dizzy Potion.png-d11d4130f5b951be37ad526b319dcecc.ctex"]
 
 [params]
 

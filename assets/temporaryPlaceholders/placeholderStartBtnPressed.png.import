@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d20842f6njxk6"
-path="res://.godot/imported/placeholderStartBtnPressed.png-f7ffefefb794ef927fb149cc23c576cd.ctex"
+path="res://.godot/imported/placeholderStartBtnPressed.png-109d0091e042cb365fd6cbca40520f73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/temporaryPlaceholders/placeholderStartBtnPressed.png"
-dest_files=["res://.godot/imported/placeholderStartBtnPressed.png-f7ffefefb794ef927fb149cc23c576cd.ctex"]
+source_file="res://assets/temporaryPlaceholders/placeholderStartBtnPressed.png"
+dest_files=["res://.godot/imported/placeholderStartBtnPressed.png-109d0091e042cb365fd6cbca40520f73.ctex"]
 
 [params]
 

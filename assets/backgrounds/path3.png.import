@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://4cvqovfs7y24"
 =======
 <<<<<<< HEAD
@@ -14,16 +15,18 @@ path="res://.godot/imported/path3.png-1d7e20a2d5bf7eae1e30f0ccec2ef62c.ctex"
 =======
 >>>>>>> origin/main
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://6j2dbhxk3k61"
+>>>>>>> main
 path="res://.godot/imported/path3.png-25c75229dfe0effb6b9006394c43f881.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/path3.png"
-dest_files=["res://.godot/imported/path3.png-1d7e20a2d5bf7eae1e30f0ccec2ef62c.ctex"]
+source_file="res://assets/backgrounds/path3.png"
+dest_files=["res://.godot/imported/path3.png-25c75229dfe0effb6b9006394c43f881.ctex"]
 
 [params]
 

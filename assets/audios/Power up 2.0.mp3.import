@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://cef1hlwc0ibh3"
 =======
 <<<<<<< HEAD
@@ -23,13 +24,15 @@ uid="uid://b51b4s66re3dd"
 >>>>>>> origin/main
 >>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://u1fqmbt4e8bc"
+>>>>>>> main
 path="res://.godot/imported/Power up 2.0.mp3-778415ea6c8639dc76e8fd6fb6d6b977.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/Power up 2.0.mp3"
-dest_files=["res://.godot/imported/Power up 2.0.mp3-352e03709c55497f54e66f2c09fab07a.mp3str"]
+source_file="res://assets/audios/Power up 2.0.mp3"
+dest_files=["res://.godot/imported/Power up 2.0.mp3-778415ea6c8639dc76e8fd6fb6d6b977.mp3str"]
 
 [params]
 

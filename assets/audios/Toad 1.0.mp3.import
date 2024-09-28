@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://e1k5oqoksbs"
 =======
 <<<<<<< HEAD
@@ -23,13 +24,15 @@ uid="uid://doi2jgv8b6e6b"
 >>>>>>> origin/main
 >>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://d07erle1ls6jw"
+>>>>>>> main
 path="res://.godot/imported/Toad 1.0.mp3-5e5e452df02ce4740ff192c1fcfc9998.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/Toad 1.0.mp3"
-dest_files=["res://.godot/imported/Toad 1.0.mp3-882526d56b5faf54bcedc985f04207de.mp3str"]
+source_file="res://assets/audios/Toad 1.0.mp3"
+dest_files=["res://.godot/imported/Toad 1.0.mp3-5e5e452df02ce4740ff192c1fcfc9998.mp3str"]
 
 [params]
 

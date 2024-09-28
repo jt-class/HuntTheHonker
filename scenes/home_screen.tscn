@@ -1,12 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [gd_scene load_steps=11 format=3 uid="uid://tlfwq6qqftpb"]
 =======
 [gd_scene load_steps=10 format=3 uid="uid://tlfwq6qqftpb"]
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+[gd_scene load_steps=11 format=3 uid="uid://tlfwq6qqftpb"]
+>>>>>>> main
 
 [ext_resource type="Script" path="res://scenes/home_screen.gd" id="1_6ydlu"]
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Texture2D" uid="uid://realgdpprkpr" path="res://assets/backgrounds/sidebar-bg.png" id="2_vc1ce"]
+<<<<<<< HEAD
 [ext_resource type="FontFile" uid="uid://cymr7ep1rgbhd" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
 [ext_resource type="Texture2D" uid="uid://c45k52tnuf3bx" path="res://assets/icons/backbutton.png" id="4_4t388"]
 [ext_resource type="Texture2D" uid="uid://cxaii0aqhemi1" path="res://assets/icons/obj-icon.png" id="5_xodm2"]
@@ -16,6 +21,13 @@
 =======
 [ext_resource type="Texture2D" uid="uid://bl3uh1vg8kdlf" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+[ext_resource type="FontFile" uid="uid://cwb31d4s3ig54" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_gvghu"]
+[ext_resource type="Texture2D" uid="uid://c45k52tnuf3bx" path="res://assets/icons/backbutton.png" id="4_4t388"]
+[ext_resource type="Texture2D" uid="uid://cxaii0aqhemi1" path="res://assets/icons/obj-icon.png" id="5_xodm2"]
+[ext_resource type="Texture2D" uid="uid://d05s22nfh5iol" path="res://assets/icons/titles-icon.png" id="6_jchnh"]
+[ext_resource type="Texture2D" uid="uid://d0jdi7ludqap6" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
+>>>>>>> main
 [ext_resource type="Texture2D" uid="uid://b7nrx5ketfhpq" path="res://assets/icons/Option.png" id="8_4alw3"]
 [ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://assets/icons/levelselect.png" id="9_l0px0"]
 
@@ -148,7 +160,11 @@ theme_override_fonts/font = ExtResource("3_gvghu")
 theme_override_font_sizes/font_size = 36
 text = "Options"
 
+<<<<<<< HEAD
 [node name="Optionbutton" type="Button" parent="Option"]
+=======
+[node name="OptionButton" type="Button" parent="Option"]
+>>>>>>> main
 self_modulate = Color(1, 1, 0.996078, 0)
 offset_left = -50.0
 offset_top = -44.0
@@ -161,7 +177,12 @@ position = Vector2(664, 487)
 scale = Vector2(0.833526, 0.957974)
 texture = ExtResource("9_l0px0")
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [connection signal="pressed" from="Option/Optionbutton" to="." method="_on_option_button_pressed"]
 =======
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+
+[connection signal="pressed" from="Option/OptionButton" to="." method="_on_option_button_pressed"]
+>>>>>>> main

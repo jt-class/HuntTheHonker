@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://du72wutmvhsgc"
 =======
 <<<<<<< HEAD
@@ -18,16 +19,18 @@ path="res://.godot/imported/overview of all Swamp Resistant Gear.png-dcd0f3d5634
 >>>>>>> origin/main
 >>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://bkgvlbvxiwxp5"
+>>>>>>> main
 path="res://.godot/imported/overview of all Swamp Resistant Gear.png-88dffdb9ad10e1f3457d281f479839b1.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/overview of all Swamp Resistant Gear.png"
-dest_files=["res://.godot/imported/overview of all Swamp Resistant Gear.png-dcd0f3d56349f7aa6d67ce2c4b1c67e6.ctex"]
+source_file="res://assets/items/overview of all Swamp Resistant Gear.png"
+dest_files=["res://.godot/imported/overview of all Swamp Resistant Gear.png-88dffdb9ad10e1f3457d281f479839b1.ctex"]
 
 [params]
 

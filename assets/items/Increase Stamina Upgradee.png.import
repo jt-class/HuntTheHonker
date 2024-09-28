@@ -3,6 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://oamxon17xxb7"
 =======
 <<<<<<< HEAD
@@ -18,16 +19,18 @@ path="res://.godot/imported/Increase Stamina Upgradee.png-8ea030ea562f3da0b2388f
 >>>>>>> origin/main
 >>>>>>> 7f0e2bb75e50977d257ffd25065a9bab69775cec
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://c476n1gbpcjtd"
+>>>>>>> main
 path="res://.godot/imported/Increase Stamina Upgradee.png-dffcfcae69178d5dc8a11d8067c49df1.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/items/Increase Stamina Upgradee.png"
-dest_files=["res://.godot/imported/Increase Stamina Upgradee.png-8ea030ea562f3da0b2388f5f1331d1ae.ctex"]
+source_file="res://assets/items/Increase Stamina Upgradee.png"
+dest_files=["res://.godot/imported/Increase Stamina Upgradee.png-dffcfcae69178d5dc8a11d8067c49df1.ctex"]
 
 [params]
 

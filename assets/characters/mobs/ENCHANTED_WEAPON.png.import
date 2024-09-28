@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ubiu3uija52e"
+=======
+uid="uid://cos5v15175jq2"
+>>>>>>> main
 path="res://.godot/imported/ENCHANTED_WEAPON.png-439a95938427228b84527a3d0244f2a5.ctex"
 metadata={
 "vram_texture": false

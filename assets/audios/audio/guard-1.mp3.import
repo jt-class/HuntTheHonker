@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://dmgi56pee0jah"
 =======
 <<<<<<< HEAD
@@ -14,13 +15,15 @@ path="res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"
 =======
 >>>>>>> origin/main
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://cs61fnd1c5lvu"
+>>>>>>> main
 path="res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/audio/guard-1.mp3"
-dest_files=["res://.godot/imported/guard-1.mp3-42550813358d569a996c0f6313eb7c07.mp3str"]
+source_file="res://assets/audios/audio/guard-1.mp3"
+dest_files=["res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"]
 
 [params]
 

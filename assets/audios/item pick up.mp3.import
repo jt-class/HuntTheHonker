@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://dyj4r0q1jyana"
 =======
 <<<<<<< HEAD
@@ -14,13 +15,15 @@ path="res://.godot/imported/item pick up.mp3-e09912d6fbbb200e3d327ac5b4f62b0e.mp
 =======
 >>>>>>> origin/main
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://cn8uvb115yfsp"
+>>>>>>> main
 path="res://.godot/imported/item pick up.mp3-d4755b7c922736f48a3f6d7d3e120ef5.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/item pick up.mp3"
-dest_files=["res://.godot/imported/item pick up.mp3-e09912d6fbbb200e3d327ac5b4f62b0e.mp3str"]
+source_file="res://assets/audios/item pick up.mp3"
+dest_files=["res://.godot/imported/item pick up.mp3-d4755b7c922736f48a3f6d7d3e120ef5.mp3str"]
 
 [params]
 

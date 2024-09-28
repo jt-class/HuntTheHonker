@@ -3,6 +3,7 @@
 importer="mp3"
 type="AudioStreamMP3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 uid="uid://bflfvacce06lr"
 =======
 <<<<<<< HEAD
@@ -14,13 +15,15 @@ path="res://.godot/imported/frogs.mp3-949eef4ac890107921d5c31b3e899970.mp3str"
 =======
 >>>>>>> origin/main
 >>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
+=======
+uid="uid://ck04xcgunxc4x"
+>>>>>>> main
 path="res://.godot/imported/frogs.mp3-d62e2605242e311548e33df550309477.mp3str"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://Assets/audios/frogs.mp3"
-dest_files=["res://.godot/imported/frogs.mp3-949eef4ac890107921d5c31b3e899970.mp3str"]
+source_file="res://assets/audios/frogs.mp3"
+dest_files=["res://.godot/imported/frogs.mp3-d62e2605242e311548e33df550309477.mp3str"]
 
 [params]
 

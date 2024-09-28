@@ -2,11 +2,7 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-<<<<<<< HEAD
-uid="uid://b7svc32y8tods"
-=======
-uid="uid://dlc5rwgwjt8mt"
->>>>>>> origin/main
+uid="uid://dmgi56pee0jah"
 path="res://.godot/imported/guard-1.mp3-fa9b8a32d5e80a615feedc4111f261ae.mp3str"
 
 [deps]

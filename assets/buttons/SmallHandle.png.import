@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd02dyhsnpgrp"
-path="res://.godot/imported/SmallHandle.png-fbabde997a6f20781ca99af60b898874.ctex"
+path="res://.godot/imported/SmallHandle.png-a474beeaa427d2ba01ed20f453429cb8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/buttons/SmallHandle.png"
-dest_files=["res://.godot/imported/SmallHandle.png-fbabde997a6f20781ca99af60b898874.ctex"]
+source_file="res://Assets/buttons/SmallHandle.png"
+dest_files=["res://.godot/imported/SmallHandle.png-a474beeaa427d2ba01ed20f453429cb8.ctex"]
 
 [params]
 

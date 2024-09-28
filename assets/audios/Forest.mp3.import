@@ -2,13 +2,25 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://beyocucr2mq4l"
+=======
+<<<<<<< HEAD
+uid="uid://80c0nl14hmvo"
+=======
+uid="uid://cr27f0b8dtkws"
+<<<<<<< HEAD
+path="res://.godot/imported/Forest.mp3-504d26ea7378932984c98b580c95668f.mp3str"
+=======
+>>>>>>> origin/main
+>>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
 path="res://.godot/imported/Forest.mp3-2de0e36ca810ac9aa320f07198362b3d.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://assets/audios/Forest.mp3"
-dest_files=["res://.godot/imported/Forest.mp3-2de0e36ca810ac9aa320f07198362b3d.mp3str"]
+source_file="res://Assets/audios/Forest.mp3"
+dest_files=["res://.godot/imported/Forest.mp3-504d26ea7378932984c98b580c95668f.mp3str"]
 
 [params]
 

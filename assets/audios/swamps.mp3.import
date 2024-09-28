@@ -2,13 +2,25 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< HEAD
 uid="uid://rjegnfrr8sjn"
+=======
+<<<<<<< HEAD
+uid="uid://dqb08ceku246p"
+=======
+uid="uid://cn6ljeuixeama"
+<<<<<<< HEAD
+path="res://.godot/imported/swamps.mp3-fc2792e74d522aec28175bb476665239.mp3str"
+=======
+>>>>>>> origin/main
+>>>>>>> 95c742639e05e0c9f359b7e207af716d9056a468
 path="res://.godot/imported/swamps.mp3-5afb64d0af531b08c49bfa8811230cbb.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 
 [deps]
 
-source_file="res://assets/audios/swamps.mp3"
-dest_files=["res://.godot/imported/swamps.mp3-5afb64d0af531b08c49bfa8811230cbb.mp3str"]
+source_file="res://Assets/audios/swamps.mp3"
+dest_files=["res://.godot/imported/swamps.mp3-fc2792e74d522aec28175bb476665239.mp3str"]
 
 [params]
 

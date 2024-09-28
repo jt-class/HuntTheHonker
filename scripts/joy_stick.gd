@@ -11,7 +11,7 @@ func _ready():
 
 func _input(event):
 	if event is InputEventScreenTouch:
-		if event.pressed:
+		if event.pressed && get_global_mouse_position():
 			set_process(true)
 		elif not event.pressed:
 			set_process(false)

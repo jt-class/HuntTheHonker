@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtod0oue3r85v"
+path="res://.godot/imported/Water x Birds.mp3-8ec56aa6b8c37da8c67fa35ba41ad347.mp3str"
+
+[deps]
+
+source_file="res://Assets/audios/Water x Birds.mp3"
+dest_files=["res://.godot/imported/Water x Birds.mp3-8ec56aa6b8c37da8c67fa35ba41ad347.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

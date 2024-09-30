@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://clhlw338bamre"]
 
-[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_ilskg"]
-[ext_resource type="Texture2D" uid="uid://dmc3o7jo7ghmq" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
-[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
+[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://Assets/backgrounds/HonkerTapToStart.png" id="1_ilskg"]
+[ext_resource type="Texture2D" uid="uid://i5n7cefndbnd" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="FontFile" uid="uid://d0qicplp0ygeg" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://Assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]

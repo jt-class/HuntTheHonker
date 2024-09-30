@@ -12,4 +12,4 @@ func _process(delta: float) -> void:
 	
 func _on_button_pressed():
 	var new_scene = preload("res://scenes/level_select.gd")
-	get_tree().change_scene_to(new_scene)
+	get_tree().change_scene_to(new_scene) 

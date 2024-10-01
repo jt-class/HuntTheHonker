@@ -1,0 +1,27 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+<<<<<<< HEAD
+uid="uid://0u27ffk36kuy"
+=======
+uid="uid://bb24f5did8gks"
+<<<<<<< HEAD
+path="res://.godot/imported/Angry bird.mp3-72137e0cb91ef0cd34b1e64dfa1d5bac.mp3str"
+=======
+>>>>>>> origin/main
+path="res://.godot/imported/Angry bird.mp3-a3afe98c8641ea55f4203bb21d846055.mp3str"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+
+[deps]
+
+source_file="res://Assets/audios/Angry bird.mp3"
+dest_files=["res://.godot/imported/Angry bird.mp3-72137e0cb91ef0cd34b1e64dfa1d5bac.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

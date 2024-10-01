@@ -1,0 +1,32 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+<<<<<<< HEAD
+uid="uid://dw78dicheud0a"
+=======
+uid="uid://1eycqsb8m2hh"
+<<<<<<< HEAD
+path="res://.godot/imported/wild-geese-20.wav-572366599e2db4914533003a59d3d97e.sample"
+=======
+>>>>>>> origin/main
+path="res://.godot/imported/wild-geese-20.wav-ded656dc4bb8d02c6b7c0f1fdee68b3e.sample"
+>>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
+
+[deps]
+
+source_file="res://Assets/audios/audio/wild-geese-20.wav"
+dest_files=["res://.godot/imported/wild-geese-20.wav-572366599e2db4914533003a59d3d97e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

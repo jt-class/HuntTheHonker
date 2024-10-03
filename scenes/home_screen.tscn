@@ -1,6 +1,4 @@
-
-[gd_scene load_steps=18 format=3 uid="uid://tlfwq6qqftpb"]
-
+[gd_scene load_steps=15 format=3 uid="uid://tlfwq6qqftpb"]
 
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Script" path="res://scripts/scene2_home.gd" id="1_nd80q"]
@@ -13,11 +11,6 @@
 [ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
 [ext_resource type="Texture2D" uid="uid://dmiqlp85epe2m" path="res://assets/icons/Option.png" id="8_4alw3"]
 [ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://assets/icons/levelselect.png" id="9_l0px0"]
-[ext_resource type="Script" path="res://scenes/option_button.gd" id="11_2rh6h"]
-[ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="11_balpw"]
-
-
-
 
 [sub_resource type="Animation" id="Animation_obh6d"]
 length = 0.001
@@ -171,32 +164,19 @@ offset_right = 663.0
 offset_bottom = 412.0
 text = "ARLOR'S ALLY"
 
-[node name="OptionImage" type="Sprite2D" parent="."]
+[node name="Option" type="Sprite2D" parent="."]
 position = Vector2(1072, 73)
 scale = Vector2(0.72, 0.7)
 texture = ExtResource("8_4alw3")
 
-[node name="OptionButton" type="Button" parent="."]
-offset_left = 1018.0
-offset_top = 108.0
-offset_right = 1131.0
-offset_bottom = 168.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("11_balpw")
+[node name="Label" type="Label" parent="Option"]
+offset_left = -54.1666
+offset_top = 72.8571
+offset_right = 58.8334
+offset_bottom = 99.8571
+theme_override_fonts/font = ExtResource("3_gvghu")
 theme_override_font_sizes/font_size = 36
-theme_override_styles/focus = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_o8sgn")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_o8sgn")
 text = "Options"
-script = ExtResource("11_2rh6h")
 
 [node name="LevelSelect" type="Sprite2D" parent="."]
 position = Vector2(664, 487)
@@ -209,11 +189,5 @@ libraries = {
 }
 
 [node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
-
-offset_left = -5.0
-offset_top = 1.0
-offset_right = 1151.0
-offset_bottom = 652.0
-
-[connection signal="pressed" from="OptionButton" to="OptionButton" method="_on_pressed"]
-
+offset_right = 1156.0
+offset_bottom = 651.0

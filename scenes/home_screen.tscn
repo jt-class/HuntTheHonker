@@ -1,4 +1,6 @@
+
 [gd_scene load_steps=18 format=3 uid="uid://tlfwq6qqftpb"]
+
 
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Script" path="res://scripts/scene2_home.gd" id="1_nd80q"]
@@ -14,7 +16,8 @@
 [ext_resource type="Script" path="res://scenes/option_button.gd" id="11_2rh6h"]
 [ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="11_balpw"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o8sgn"]
+
+
 
 [sub_resource type="Animation" id="Animation_obh6d"]
 length = 0.001
@@ -206,9 +209,11 @@ libraries = {
 }
 
 [node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
+
 offset_left = -5.0
 offset_top = 1.0
 offset_right = 1151.0
 offset_bottom = 652.0
 
 [connection signal="pressed" from="OptionButton" to="OptionButton" method="_on_pressed"]
+

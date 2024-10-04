@@ -1,18 +1,30 @@
 [gd_scene load_steps=5 format=3 uid="uid://dm43kg62us8d0"]
 
-[ext_resource type="Texture2D" uid="uid://q2faeebqmo5t" path="res://Assets/items/cursor_LOQUIRE.png" id="1_7wxg2"]
-[ext_resource type="Texture2D" uid="uid://co3mkxlhe5alw" path="res://Assets/items/outer-layer-cursor_LOQUIRE.png" id="1_vtnv6"]
+[ext_resource type="Texture2D" uid="uid://ciqs0yq744n8k" path="res://assets/items/cursor_LOQUIRE.png" id="1_7wxg2"]
+[ext_resource type="Texture2D" uid="uid://eh64if37six8" path="res://assets/items/outer-layer-cursor_LOQUIRE.png" id="1_vtnv6"]
 [ext_resource type="Script" path="res://scripts/joy_stick.gd" id="2_6xjyl"]
+[ext_resource type="Script" path="res://scripts/knob.gd" id="4_1284y"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_fbsrf"]
-radius = 150.0
-
-[node name="JoyStick" type="TouchScreenButton"]
-scale = Vector2(0.5, 0.5)
-texture_normal = ExtResource("1_vtnv6")
-shape = SubResource("CircleShape2D_fbsrf")
+[node name="joyStick" type="Node2D"]
 script = ExtResource("2_6xjyl")
 
+[node name="Ring" type="Sprite2D" parent="."]
+position = Vector2(0, -2)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_vtnv6")
+
 [node name="Knob" type="Sprite2D" parent="."]
-position = Vector2(178, 178)
+position = Vector2(-1, 0)
+scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_7wxg2")
+script = ExtResource("4_1284y")
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -95.0
+offset_top = -97.0
+offset_right = 95.0
+offset_bottom = 94.0
+
+[connection signal="button_down" from="Button" to="Knob" method="_on_button_button_down"]
+[connection signal="button_up" from="Button" to="Knob" method="_on_button_button_up"]

@@ -1,10 +1,13 @@
-[gd_scene load_steps=11 format=3 uid="uid://clhlw338bamre"]
+[gd_scene load_steps=14 format=3 uid="uid://clhlw338bamre"]
 
-[ext_resource type="Texture2D" uid="uid://d15q6f2sud6c4" path="res://assets/backgrounds/HonkerTapToStart.png" id="1_ilskg"]
-[ext_resource type="Texture2D" uid="uid://dmc3o7jo7ghmq" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
-[ext_resource type="FontFile" uid="uid://dvm3ijp6awli5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
+[ext_resource type="Texture2D" uid="uid://2s7os4uxrk2j" path="res://assets/backgrounds/bgstartup.png" id="1_cvrd4"]
+[ext_resource type="Script" path="res://scripts/scene1_start.gd" id="1_w78qs"]
+[ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
+[ext_resource type="Texture2D" uid="uid://ry0cfy2ronr6" path="res://assets/backgrounds/clouds1.png" id="6_pdxbm"]
+[ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_is48t"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
 font = ExtResource("3_xvami")
@@ -16,7 +19,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -28,7 +31,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -43,7 +46,7 @@ resource_name = "fade_in"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -55,7 +58,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -70,7 +73,7 @@ resource_name = "fade_out"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimationPlayer/ColorRect:self_modulate")
+tracks/0/path = NodePath("../AnimationPlayer/ColorRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -82,7 +85,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("AnimationPlayer/ColorRect:visible")
+tracks/1/path = NodePath("../AnimationPlayer/ColorRect:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -100,11 +103,13 @@ _data = {
 }
 
 [node name="TapToStart" type="Node2D"]
+script = ExtResource("1_w78qs")
 
 [node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
 offset_right = 1152.0
 offset_bottom = 648.0
-texture = ExtResource("1_ilskg")
+texture = ExtResource("1_cvrd4")
 
 [node name="Player" type="Sprite2D" parent="."]
 position = Vector2(382, 526)
@@ -136,27 +141,6 @@ INVASION FRENZY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="taptostart" type="Button" parent="PlayerTitle"]
-layout_mode = 0
-offset_left = 171.0
-offset_top = -107.0
-offset_right = 377.0
-offset_bottom = -76.0
-theme_override_fonts/font = ExtResource("3_xvami")
-theme_override_font_sizes/font_size = 40
-text = "Tap to Start"
-script = ExtResource("4_c3iy2")
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="PlayerTitle/taptostart"]
-libraries = {
-"": SubResource("AnimationLibrary_ncdm1")
-}
-
-[node name="ColorRect" type="ColorRect" parent="PlayerTitle/taptostart/AnimationPlayer"]
-visible = false
-offset_right = 1153.0
-offset_bottom = 652.0
-
 [node name="ArrowStart" type="Sprite2D" parent="."]
 position = Vector2(736, 360)
 scale = Vector2(0.0759259, 0.0759259)
@@ -168,4 +152,71 @@ rotation = -3.14159
 scale = Vector2(0.0759259, 0.0759259)
 texture = ExtResource("4_20nbg")
 
-[connection signal="pressed" from="PlayerTitle/taptostart" to="PlayerTitle/taptostart" method="_on_pressed"]
+[node name="Clouds1" type="Sprite2D" parent="."]
+position = Vector2(17, 100)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds2" type="Sprite2D" parent="."]
+position = Vector2(200, 48)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds3" type="Sprite2D" parent="."]
+position = Vector2(438, 59)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds4" type="Sprite2D" parent="."]
+position = Vector2(379, 83)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds5" type="Sprite2D" parent="."]
+position = Vector2(628, 81)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds6" type="Sprite2D" parent="."]
+position = Vector2(753, 40)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds7" type="Sprite2D" parent="."]
+position = Vector2(913, 81)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds8" type="Sprite2D" parent="."]
+position = Vector2(948, 53)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="Clouds9" type="Sprite2D" parent="."]
+position = Vector2(1124, 87)
+texture = ExtResource("6_pdxbm")
+script = ExtResource("7_is48t")
+
+[node name="taptostart" type="Button" parent="."]
+offset_left = 475.0
+offset_top = 351.0
+offset_right = 681.0
+offset_bottom = 382.0
+theme_override_fonts/font = ExtResource("3_xvami")
+theme_override_font_sizes/font_size = 40
+text = "Tap to Start"
+script = ExtResource("4_c3iy2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../taptostart")
+libraries = {
+"": SubResource("AnimationLibrary_ncdm1")
+}
+
+[node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
+visible = false
+offset_right = 1153.0
+offset_bottom = 652.0
+
+[connection signal="pressed" from="taptostart" to="." method="_on_taptostart_pressed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

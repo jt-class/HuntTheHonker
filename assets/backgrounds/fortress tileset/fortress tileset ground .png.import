@@ -2,24 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://mxkp2d1mh1wr"
-=======
-uid="uid://dwmxd1aq5ski2"
-<<<<<<< HEAD
-path="res://.godot/imported/fortress tileset ground .png-29450b43ddf39c528de534ba7c7d3011.ctex"
-=======
->>>>>>> origin/main
+uid="uid://degilj35ey3mv"
 path="res://.godot/imported/fortress tileset ground .png-241201e26c413247f1bbdd29928487d1.ctex"
->>>>>>> de233211b4ba1dcd8ae77b64f0252f604901c28e
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgrounds/fortress tileset/fortress tileset ground .png"
-dest_files=["res://.godot/imported/fortress tileset ground .png-29450b43ddf39c528de534ba7c7d3011.ctex"]
+source_file="res://assets/backgrounds/fortress tileset/fortress tileset ground .png"
+dest_files=["res://.godot/imported/fortress tileset ground .png-241201e26c413247f1bbdd29928487d1.ctex"]
 
 [params]
 

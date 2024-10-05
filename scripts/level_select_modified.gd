@@ -379,7 +379,7 @@ func _on_start_btn_tdd_pressed() -> void:
 	animation_player.play("FadeOut_StartBtn")
 	await wait_for_seconds(1)
 	check_status()
-	#get_tree().change_scene_to_file("res://scenes/TMM_MAP.tscn")
+	#get_tree().change_scene_to_file("res://scenes/TDD_MAP.tscn")
 
 func _on_start_btn_trt_pressed() -> void:
 	trt_finished = true

@@ -124,8 +124,9 @@ func check_status() -> void:
 
 # NOTE: Open, checked, and locked buttons
 func simulate_hover(button):
-	var hover_style = button.get_theme_stylebox("hover")
-	button.add_theme_stylebox_override("normal", hover_style)
+	var normal_texture = button.texture_normal
+	button.texture_normal = button.texture_hover
+	button.texture_hover = normal_texture
 
 #TFF ----------------------------------------------------------------
 func open_tff() -> void:

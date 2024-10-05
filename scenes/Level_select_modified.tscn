@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=3 uid="uid://di4mye6daxuib"]
+[gd_scene load_steps=48 format=3 uid="uid://di4mye6daxuib"]
 
 [ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://assets/backgrounds/BG_LEVEL-SELECT.png" id="1_f1tgk"]
 [ext_resource type="Script" path="res://scripts/level_select_modified.gd" id="1_iiuwp"]
@@ -21,42 +21,6 @@
 [ext_resource type="Texture2D" uid="uid://dnynmugx8g73q" path="res://assets/Level_Select_Assets/TDD_bg.png" id="15_1glkt"]
 [ext_resource type="Texture2D" uid="uid://bi7mfvorppgiq" path="res://assets/buttons/back_button_pressed.png" id="15_8g56u"]
 [ext_resource type="Texture2D" uid="uid://bjtulbqhtuak6" path="res://assets/icons/lock_broken.png" id="23_3xiuy"]
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vd7n6"]
-texture = ExtResource("2_nvqql")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r8n0n"]
-texture = ExtResource("2_nvqql")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gjcv4"]
-texture = ExtResource("3_5ol23")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_imgmm"]
-texture = ExtResource("4_ct5fr")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jlppx"]
-texture = ExtResource("4_ct5fr")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b8yxa"]
-texture = ExtResource("5_q020b")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ms5dv"]
-texture = ExtResource("6_7o04g")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cu70m"]
-texture = ExtResource("6_7o04g")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4i7ax"]
-texture = ExtResource("6_jkp5n")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xxfpy"]
-texture = ExtResource("8_5jjau")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vihv3"]
-texture = ExtResource("8_5jjau")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cvjxy"]
-texture = ExtResource("9_mchqs")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2nq0p"]
 atlas = ExtResource("6_mvvau")
@@ -982,12 +946,12 @@ theme_override_constants/margin_bottom = 12
 layout_mode = 2
 theme_override_constants/separation = 9
 
-[node name="TFF" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TFF" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_vd7n6")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_r8n0n")
-theme_override_styles/normal = SubResource("StyleBoxTexture_gjcv4")
+texture_normal = ExtResource("3_5ol23")
+texture_hover = ExtResource("2_nvqql")
+stretch_mode = 0
 
 [node name="LevelTitleTFF" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFF"]
 layout_mode = 0
@@ -1057,12 +1021,12 @@ text = "[center]GO[/center]"
 fit_content = true
 scroll_active = false
 
-[node name="TMM" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TMM" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_imgmm")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_jlppx")
-theme_override_styles/normal = SubResource("StyleBoxTexture_b8yxa")
+texture_normal = ExtResource("5_q020b")
+texture_hover = ExtResource("4_ct5fr")
+stretch_mode = 0
 
 [node name="LevelTitleTMM" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TMM"]
 layout_mode = 0
@@ -1206,12 +1170,12 @@ text = "[center]GO[/center]"
 fit_content = true
 scroll_active = false
 
-[node name="TRT" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TRT" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_ms5dv")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_cu70m")
-theme_override_styles/normal = SubResource("StyleBoxTexture_4i7ax")
+texture_normal = ExtResource("6_jkp5n")
+texture_hover = ExtResource("6_7o04g")
+stretch_mode = 0
 
 [node name="LevelTitleTRT" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TRT"]
 layout_mode = 0
@@ -1280,12 +1244,12 @@ text = "[center]GO[/center]"
 fit_content = true
 scroll_active = false
 
-[node name="TFC" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TFC" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_xxfpy")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_vihv3")
-theme_override_styles/normal = SubResource("StyleBoxTexture_cvjxy")
+texture_normal = ExtResource("9_mchqs")
+texture_hover = ExtResource("8_5jjau")
+stretch_mode = 0
 
 [node name="LevelTitleTFC" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFC"]
 layout_mode = 0

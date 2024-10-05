@@ -353,3 +353,7 @@ NOTE:
 		Check what to do to player idol in last level/scene
 		Transition out or something
 """
+
+
+func _on_back_btn_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/home_screen.tscn")

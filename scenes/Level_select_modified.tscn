@@ -1175,3 +1175,4 @@ libraries = {
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFC" to="MarginContainer/HBoxContainer/TFC" method="_on_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFC/StartBtnTFC" to="." method="_on_start_btn_tfc_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFC/GoTFC" to="." method="_on_go_tfc_pressed"]
+[connection signal="pressed" from="BackBtn" to="." method="_on_back_btn_pressed"]

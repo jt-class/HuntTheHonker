@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://tlfwq6qqftpb"]
+[gd_scene load_steps=19 format=3 uid="uid://tlfwq6qqftpb"]
 
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Script" path="res://scripts/scene2_home.gd" id="1_nd80q"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
 [ext_resource type="Texture2D" uid="uid://dmiqlp85epe2m" path="res://assets/icons/Option.png" id="8_4alw3"]
 [ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://assets/icons/levelselect.png" id="9_l0px0"]
+[ext_resource type="Script" path="res://scenes/level_select.gd" id="12_s3ixp"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uc5ec"]
 
@@ -164,10 +165,11 @@ text = "TITLE: [                  		         ]"
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 556.0
-offset_top = 389.0
-offset_right = 663.0
-offset_bottom = 412.0
+offset_left = 616.0
+offset_top = 178.0
+offset_right = 723.0
+offset_bottom = 201.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
 text = "ARLOR'S ALLY"
 
 [node name="Option" type="Sprite2D" parent="."]
@@ -188,6 +190,7 @@ text = "Options"
 position = Vector2(664, 487)
 scale = Vector2(0.833526, 0.957974)
 texture = ExtResource("9_l0px0")
+script = ExtResource("12_s3ixp")
 
 [node name="LevelSelectNav" type="Button" parent="."]
 layout_mode = 0

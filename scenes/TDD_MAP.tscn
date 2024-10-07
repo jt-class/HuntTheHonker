@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://c13o3fk3w20qx"]
+
+[ext_resource type="Script" path="res://scripts/TFF_map_backbtn.gd" id="1_ux8qf"]
+
+[node name="TffMap" type="Node2D"]
+
+[node name="Back" type="Button" parent="."]
+offset_left = 488.0
+offset_top = 339.0
+offset_right = 648.0
+offset_bottom = 370.0
+text = "Back to Level Select
+"
+script = ExtResource("1_ux8qf")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 503.0
+offset_top = 183.0
+offset_right = 637.0
+offset_bottom = 252.0
+bbcode_enabled = true
+text = "[center]THE
+DESERT OF 
+DECEPTION[/center]"
+fit_content = true
+
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

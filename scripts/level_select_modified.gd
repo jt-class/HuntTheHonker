@@ -9,6 +9,10 @@ var tmm_finished = false
 var tmm_ready = false
 var tmm_locked = true
 
+var tdd_finished = false
+var tdd_ready = false
+var tdd_locked = true
+
 var trt_finished = false
 var trt_ready = false
 var trt_locked = true
@@ -32,6 +36,14 @@ var sb_tmm # start button
 var li_tmm # lock image
 var ci_tmm # check image
 var go_tmm # go button
+
+#TDD
+var tdd_btn # main button
+var lt_tdd # level title
+var sb_tdd # start button
+var li_tdd # lock image
+var ci_tdd # check image
+var go_tdd # go button
 
 #TRT
 var trt_btn # main button
@@ -77,6 +89,14 @@ func _ready() -> void:
 	ci_tmm = $MarginContainer/HBoxContainer/TMM/CheckImgTMM # check image
 	go_tmm = $MarginContainer/HBoxContainer/TMM/GoTMM # go button
 	
+	#TDD
+	tdd_btn = $MarginContainer/HBoxContainer/TDD # main button
+	lt_tdd = $MarginContainer/HBoxContainer/TDD/LevelTitleTDD # level title
+	sb_tdd = $MarginContainer/HBoxContainer/TDD/StartBtnTDD # start button
+	li_tdd = $MarginContainer/HBoxContainer/TDD/LockImgTDD # lock image
+	ci_tdd = $MarginContainer/HBoxContainer/TDD/CheckImgTDD # check image
+	go_tdd = $MarginContainer/HBoxContainer/TDD/GoTDD # go button
+	
 	#TRT
 	trt_btn = $MarginContainer/HBoxContainer/TRT # main button
 	lt_trt = $MarginContainer/HBoxContainer/TRT/LevelTitleTRT # level title
@@ -98,13 +118,15 @@ func _ready() -> void:
 func check_status() -> void:
 	tff_status()
 	tmm_status()
+	tdd_status()
 	trt_status()
 	tfc_status()
 
 # NOTE: Open, checked, and locked buttons
 func simulate_hover(button):
-	var hover_style = button.get_theme_stylebox("hover")
-	button.add_theme_stylebox_override("normal", hover_style)
+	var normal_texture = button.texture_normal
+	button.texture_normal = button.texture_hover
+	button.texture_hover = normal_texture
 
 #TFF ----------------------------------------------------------------
 func open_tff() -> void:
@@ -145,6 +167,26 @@ func lock_tmm() -> void:
 	li_tmm.show()
 	ci_tmm.hide()
 	go_tmm.hide()
+
+#TDD ----------------------------------------------------------------
+func open_tdd() -> void:
+	sb_tdd.show()
+	li_tdd.hide()
+	ci_tdd.hide()
+	go_tdd.hide()
+	simulate_hover(tdd_btn)
+
+func check_tdd() -> void:
+	sb_tdd.hide()
+	li_tdd.hide()
+	ci_tdd.show()
+	go_tdd.hide()
+
+func lock_tdd() -> void:
+	sb_tdd.hide()
+	li_tdd.show()
+	ci_tdd.hide()
+	go_tdd.hide()
 
 #TRT ----------------------------------------------------------------
 func open_trt() -> void:
@@ -206,6 +248,16 @@ func tmm_status() -> void:
 		await wait_for_seconds(0.2)
 		animation_player.play("FadeIn_GoBtn")
 
+func tdd_status() -> void:
+	if (tdd_locked == true):
+		lock_tdd()
+	elif (tdd_ready == true):
+		lock_tdd()
+		go_tdd.show()
+		go_tdd.modulate = Color(1, 1, 1, 0)
+		await wait_for_seconds(0.2)
+		animation_player.play("FadeIn_GoBtn")
+
 func trt_status() -> void:
 	if (trt_locked == true):
 		lock_trt()
@@ -253,10 +305,10 @@ func _on_go_tmm_pressed() -> void:
 	await wait_for_seconds(0.3)
 	animation_player.play("FadeIn_StartBtn")
 
-func _on_go_trt_pressed() -> void:
-	animation_player.play("BreakLock_TRT")
+func _on_go_tdd_pressed() -> void:
+	animation_player.play("BreakLock_TDD")
 	await wait_for_seconds(1.3)
-	open_trt()
+	open_tdd()
 	animation_player.play("charEnter_3")
 	player_idol.play("walkingAnimation")
 	await wait_for_seconds(1)
@@ -266,11 +318,24 @@ func _on_go_trt_pressed() -> void:
 	await wait_for_seconds(0.3)
 	animation_player.play("FadeIn_StartBtn")
 
+func _on_go_trt_pressed() -> void:
+	animation_player.play("BreakLock_TRT")
+	await wait_for_seconds(1.3)
+	open_trt()
+	animation_player.play("charEnter_4")
+	player_idol.play("walkingAnimation")
+	await wait_for_seconds(1)
+	player_idol.play("idleAnimation")
+	check_tdd()
+	animation_player.play("CheckMark_TDD")
+	await wait_for_seconds(0.3)
+	animation_player.play("FadeIn_StartBtn")
+
 func _on_go_tfc_pressed() -> void:
 	animation_player.play("BreakLock_TFC")
 	await wait_for_seconds(1.3)
 	open_tfc()
-	animation_player.play("charEnter_4")
+	animation_player.play("charEnter_5")
 	player_idol.play("walkingAnimation")
 	await wait_for_seconds(1)
 	player_idol.play("idleAnimation")
@@ -290,19 +355,31 @@ func _on_start_btn_tff_pressed() -> void:
 	animation_player.play("FadeOut_StartBtn")
 	await wait_for_seconds(1)
 	check_status()
-	get_tree().change_scene_to_file("res://scenes/TFF_MAP.tscn")
+	#get_tree().change_scene_to_file("res://scenes/TFF_MAP.tscn")
 
 func _on_start_btn_tmm_pressed() -> void:
 	tmm_finished = true
 	tmm_ready = false
 	tmm_locked = false
+	tdd_finished = false
+	tdd_ready = true
+	tdd_locked = false
+	animation_player.play("FadeOut_StartBtn")
+	await wait_for_seconds(1)
+	check_status()
+	#get_tree().change_scene_to_file("res://scenes/TMM_MAP.tscn")
+
+func _on_start_btn_tdd_pressed() -> void:
+	tdd_finished = true
+	tdd_ready = false
+	tdd_locked = false
 	trt_finished = false
 	trt_ready = true
 	trt_locked = false
 	animation_player.play("FadeOut_StartBtn")
 	await wait_for_seconds(1)
 	check_status()
-	get_tree().change_scene_to_file("res://scenes/TMM_MAP.tscn")
+	#get_tree().change_scene_to_file("res://scenes/TDD_MAP.tscn")
 
 func _on_start_btn_trt_pressed() -> void:
 	trt_finished = true
@@ -314,7 +391,7 @@ func _on_start_btn_trt_pressed() -> void:
 	animation_player.play("FadeOut_StartBtn")
 	await wait_for_seconds(1)
 	check_status()
-	get_tree().change_scene_to_file("res://scenes/TRT_MAP.tscn")
+	#get_tree().change_scene_to_file("res://scenes/TRT_MAP.tscn")
 
 func _on_start_btn_tfc_pressed() -> void:
 	tfc_finished = true
@@ -323,7 +400,7 @@ func _on_start_btn_tfc_pressed() -> void:
 	animation_player.play("FadeOut_StartBtn")
 	await wait_for_seconds(1)
 	check_status()
-	get_tree().change_scene_to_file("res://scenes/TFC_MAP.tscn")
+	#get_tree().change_scene_to_file("res://scenes/TFC_MAP.tscn")
 	
 	"""
 	NOTE:

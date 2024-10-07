@@ -8,7 +8,6 @@
 [ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="6_jfrgy"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e7pn5"]
-
 [sub_resource type="LabelSettings" id="LabelSettings_h8j5f"]
 font = ExtResource("3_2i0ce")
 font_size = 100
@@ -30,7 +29,25 @@ Button/styles/normal = SubResource("StyleBoxFlat_1ny8x")
 default_font = ExtResource("3_2i0ce")
 default_font_size = 18
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jjw74"]
+bg_color = Color(0.621, 0.149, 0.055, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k478s"]
+bg_color = Color(0.431373, 0.14902, 0.054902, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Theme" id="Theme_x2p74"]
+Button/font_sizes/font_size = 16
+Button/fonts/font = ExtResource("3_2i0ce")
+Button/styles/hover_mirrored = SubResource("StyleBoxFlat_jjw74")
+Button/styles/normal = SubResource("StyleBoxFlat_k478s")
 
 [node name="DefiningPo" type="Sprite2D" parent="."]
 position = Vector2(576.5, 324)
@@ -44,7 +61,7 @@ offset_right = 1084.0
 offset_bottom = 92.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_e7pn5")
 
-[node name="Exit" type="Sprite2D" parent="Button2"]
+[node name="Exit Sprite2D" type="Sprite2D" parent="Exit Button"]
 position = Vector2(26.0001, 25)
 scale = Vector2(0.412, 0.412)
 texture = ExtResource("4_5ym47")

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Hunt The Honker: Invasion Frenzy"
-run/main_scene="res://scenes/home_screen.tscn"
+run/main_scene="res://scenes/tap_to_starts.tscn"
 config/features=PackedStringArray("4.3")
 config/icon="res://icon.svg"
 

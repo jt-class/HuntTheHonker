@@ -1,25 +1,34 @@
-[gd_scene load_steps=11 format=3 uid="uid://bgh5ngq2jnyd5"]
+[gd_scene load_steps=12 format=3 uid="uid://bgh5ngq2jnyd5"]
 
 [ext_resource type="Texture2D" uid="uid://dbcotdcshj7r1" path="res://assets/backgrounds/Defining po.png" id="1_328mb"]
 [ext_resource type="Texture2D" uid="uid://byiyjnnfl50m2" path="res://assets/backgrounds/settings.png" id="1_ols8b"]
 [ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="3_2i0ce"]
+[ext_resource type="Texture2D" uid="uid://bp561o2ljsw2i" path="res://scenes/123.png" id="3_31uth"]
 [ext_resource type="Texture2D" uid="uid://hlxcc8l35lg" path="res://assets/backgrounds/Exit.png" id="4_5ym47"]
+[ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="6_jfrgy"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3dgnh"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_56rfb"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tkdci"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d13ve"]
-bg_color = Color(1, 1, 1, 1)
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e7pn5"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_h8j5f"]
 font = ExtResource("3_2i0ce")
-font_size = 38
+font_size = 100
 font_color = Color(0, 0, 0, 1)
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e7pn5"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ny8x"]
+bg_color = Color(0.466667, 0.14902, 0, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="Theme" id="Theme_ik6xm"]
+default_font = ExtResource("6_jfrgy")
+default_font_size = 18
+Button/styles/normal = SubResource("StyleBoxFlat_1ny8x")
+
+[sub_resource type="Theme" id="Theme_qjn7g"]
+default_font = ExtResource("3_2i0ce")
+default_font_size = 18
 
 [node name="Node2D" type="Node2D"]
 
@@ -27,31 +36,6 @@ font_color = Color(0, 0, 0, 1)
 position = Vector2(576.5, 324)
 scale = Vector2(0.600521, 0.601852)
 texture = ExtResource("1_328mb")
-
-[node name="Button" type="Button" parent="."]
-offset_left = 88.0
-offset_top = 88.0
-offset_right = 368.0
-offset_bottom = 160.0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_3dgnh")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_56rfb")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_tkdci")
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ve")
-
-[node name="Settings" type="Sprite2D" parent="Button"]
-light_mask = 0
-position = Vector2(45.25, 34.75)
-scale = Vector2(0.104492, 0.104492)
-texture = ExtResource("1_ols8b")
-
-[node name="Label" type="Label" parent="Button"]
-layout_mode = 0
-offset_left = 104.0
-offset_top = 24.0
-offset_right = 249.0
-offset_bottom = 70.0
-text = "OPTIONS"
-label_settings = SubResource("LabelSettings_h8j5f")
 
 [node name="Button2" type="Button" parent="."]
 offset_left = 1034.0
@@ -64,3 +48,83 @@ theme_override_styles/normal = SubResource("StyleBoxEmpty_e7pn5")
 position = Vector2(26.0001, 25)
 scale = Vector2(0.412, 0.412)
 texture = ExtResource("4_5ym47")
+
+[node name="OPTIONS" type="Sprite2D" parent="."]
+position = Vector2(233, 115)
+scale = Vector2(0.418518, 0.303704)
+texture = ExtResource("3_31uth")
+
+[node name="Label" type="Label" parent="OPTIONS"]
+offset_left = -146.0
+offset_top = -20.0
+offset_right = 185.0
+offset_bottom = 98.0
+text = "OPTIONS"
+label_settings = SubResource("LabelSettings_h8j5f")
+
+[node name="Settings" type="Sprite2D" parent="OPTIONS"]
+light_mask = 0
+position = Vector2(-238.341, 25.5183)
+scale = Vector2(0.249671, 0.344059)
+texture = ExtResource("1_ols8b")
+
+[node name="Audio Button" type="Button" parent="."]
+offset_left = 179.0
+offset_top = 193.0
+offset_right = 321.0
+offset_bottom = 234.0
+theme = SubResource("Theme_ik6xm")
+text = "AUDIO"
+
+[node name="Graphics Button" type="Button" parent="."]
+offset_left = 333.0
+offset_top = 194.0
+offset_right = 475.0
+offset_bottom = 235.0
+theme = SubResource("Theme_ik6xm")
+text = "GRAPHICS"
+
+[node name="Leave Game Button" type="Button" parent="."]
+offset_left = 916.0
+offset_top = 534.0
+offset_right = 1058.0
+offset_bottom = 575.0
+theme = SubResource("Theme_ik6xm")
+text = "LEAVE GAME"
+
+[node name="Audio VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 185.0
+offset_top = 243.0
+offset_right = 783.0
+offset_bottom = 512.0
+theme = SubResource("Theme_qjn7g")
+
+[node name="MasterV Label" type="Label" parent="Audio VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "MASTER VOLUME"
+vertical_alignment = 2
+
+[node name="MasterV Slider" type="HSlider" parent="Audio VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="SFX Label" type="Label" parent="Audio VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "SFX VOLUME"
+vertical_alignment = 2
+
+[node name="SFX Slider" type="HSlider" parent="Audio VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="MusicV Label" type="Label" parent="Audio VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "MUSIC VOLUME"
+vertical_alignment = 2
+
+[node name="MusicV Slider" type="HSlider" parent="Audio VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3

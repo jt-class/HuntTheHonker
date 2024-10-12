@@ -1,11 +1,123 @@
-[gd_scene load_steps=5 format=3 uid="uid://dvdwuinkirijd"]
+[gd_scene load_steps=12 format=3 uid="uid://dvdwuinkirijd"]
 
-[ext_resource type="Texture2D" uid="uid://bbywyr2ainw01" path="res://assets/characters/PlayerChar/main.png" id="1_ak87p"]
 [ext_resource type="PackedScene" uid="uid://cj2y6t5xdtjqh" path="res://scenes/Controls/control_hud.tscn" id="2_b6rng"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_vgcyi"]
+[ext_resource type="Texture2D" uid="uid://bqwo4rhs41pkp" path="res://assets/characters/PlayerChar/spritesheetChar_edit2.png" id="3_cdpel"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_n8w6g"]
 radius = 79.2591
+
+[sub_resource type="Animation" id="Animation_yj51k"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+
+[sub_resource type="Animation" id="Animation_r5vo4"]
+resource_name = "AttackRight"
+length = 0.5
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [28, 29, 30, 31, 28]
+}
+
+[sub_resource type="Animation" id="Animation_4b1io"]
+resource_name = "IdleRight"
+length = 0.1
+loop_mode = 1
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [7]
+}
+
+[sub_resource type="Animation" id="Animation_6e5dq"]
+resource_name = "RunRight"
+length = 0.3
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [7, 8, 9]
+}
+
+[sub_resource type="Animation" id="Animation_k3687"]
+resource_name = "Defend"
+length = 0.2
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [42, 43, 44, 45, 45]
+}
+
+[sub_resource type="Animation" id="Animation_qydui"]
+resource_name = "Shoot"
+length = 0.3
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [35, 36, 36]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3603g"]
+_data = {
+"Attack": SubResource("Animation_r5vo4"),
+"Defend": SubResource("Animation_k3687"),
+"Idle": SubResource("Animation_4b1io"),
+"RESET": SubResource("Animation_yj51k"),
+"Run": SubResource("Animation_6e5dq"),
+"Shoot": SubResource("Animation_qydui")
+}
 
 [node name="TestScene" type="Node2D"]
 position = Vector2(575, 336)
@@ -19,9 +131,18 @@ position = Vector2(-568, -303)
 script = ExtResource("2_vgcyi")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("1_ak87p")
+position = Vector2(-1.71661e-05, 1.00001)
+scale = Vector2(5.44146, 5.44146)
+texture = ExtResource("3_cdpel")
+hframes = 7
+vframes = 8
+frame = 9
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(1, 0)
 shape = SubResource("CircleShape2D_n8w6g")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
+libraries = {
+"": SubResource("AnimationLibrary_3603g")
+}

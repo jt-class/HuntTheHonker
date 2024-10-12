@@ -41,7 +41,9 @@ func _physics_process(delta):
 	# Handle shooting action
 	if is_shooting:
 		animationPlayer.play("Shoot")
+		return  # Prevents movement while shooting
 	
+	# Handle movement
 	if direction:
 		velocity = direction * speed
 		

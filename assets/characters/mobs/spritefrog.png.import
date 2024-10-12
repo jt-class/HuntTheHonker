@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbhlgbaixwy7a"
-path="res://.godot/imported/GameDevForest (1).png-42c77a794fbccc267457ca00b89226b4.ctex"
+uid="uid://b5ee634xxjear"
+path="res://.godot/imported/spritefrog.png-9f247da2b7d934d0bcd40e414309b83f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/maps/GameDevForest (1).png"
-dest_files=["res://.godot/imported/GameDevForest (1).png-42c77a794fbccc267457ca00b89226b4.ctex"]
+source_file="res://assets/characters/mobs/spritefrog.png"
+dest_files=["res://.godot/imported/spritefrog.png-9f247da2b7d934d0bcd40e414309b83f.ctex"]
 
 [params]
 

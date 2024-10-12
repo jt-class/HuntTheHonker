@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbhlgbaixwy7a"
-path="res://.godot/imported/GameDevForest (1).png-42c77a794fbccc267457ca00b89226b4.ctex"
+uid="uid://dq28ixc3ndaf"
+path="res://.godot/imported/spritesnake.png-c8638744e953a86e8610494baa540d56.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/maps/GameDevForest (1).png"
-dest_files=["res://.godot/imported/GameDevForest (1).png-42c77a794fbccc267457ca00b89226b4.ctex"]
+source_file="res://assets/characters/mobs/spritesnake.png"
+dest_files=["res://.godot/imported/spritesnake.png-c8638744e953a86e8610494baa540d56.ctex"]
 
 [params]
 

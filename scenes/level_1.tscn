@@ -1,6 +1,6 @@
 [gd_scene load_steps=19 format=4 uid="uid://d13ol5i60boby"]
 
-[ext_resource type="Texture2D" uid="uid://cbhlgbaixwy7a" path="res://assets/LEVEL1_DENSEDFOREST/GameDevForest (1).png" id="1_msdm4"]
+[ext_resource type="Texture2D" uid="uid://cbhlgbaixwy7a" path="res://assets/maps/GameDevForest (1).png" id="1_msdm4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sx2on"]
 texture = ExtResource("1_msdm4")
@@ -3897,12 +3897,10 @@ polygon = PackedVector2Array(321.383, 496.189, 268.395, 522.067, 254.572, 533.31
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(934.774, 382.05)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_p7ie3")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(934.774, 262.784)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_5vcqp")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="whole map/Area2D"]
@@ -3938,12 +3936,10 @@ shape = SubResource("CircleShape2D_mdk40")
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(820.159, 42.7555)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_fnvfr")
 
 [node name="CollisionShape2D8" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(174.894, 42.7555)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_lq0vq")
 
 [node name="CollisionShape2D9" type="CollisionShape2D" parent="whole map/Area2D"]
@@ -3952,32 +3948,26 @@ shape = SubResource("CircleShape2D_77w2v")
 
 [node name="CollisionShape2D10" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(534.486, 39.38)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_gm0vt")
 
 [node name="CollisionShape2D11" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(686.146, 38.8806)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_l1h3g")
 
 [node name="CollisionShape2D12" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(896.762, 37.1929)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_oc0cl")
 
 [node name="CollisionShape2D13" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(1144.61, 37.7555)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_6cr5u")
 
 [node name="CollisionShape2D14" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(1322.48, 73.1975)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_iip4y")
 
 [node name="CollisionShape2D15" type="CollisionShape2D" parent="whole map/Area2D"]
 position = Vector2(591.505, 758.347)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_8bwuo")
 
 [node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="whole map/Area2D"]

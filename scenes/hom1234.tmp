@@ -188,12 +188,12 @@ theme_override_font_sizes/font_size = 36
 text = "Options"
 
 [node name="OptionButtonNav" type="Button" parent="."]
+visibility_layer = 512
 layout_mode = 0
 offset_left = 1022.0
 offset_top = 35.0
 offset_right = 1126.0
 offset_bottom = 141.0
-flat = true
 script = ExtResource("11_2f4x6")
 
 [node name="LevelSelect" type="Sprite2D" parent="."]

@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
 [ext_resource type="Texture2D" uid="uid://dmiqlp85epe2m" path="res://assets/icons/Option.png" id="8_4alw3"]
 [ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://assets/icons/levelselect.png" id="9_l0px0"]
-[ext_resource type="Script" path="res://scenes/OptionButtonNav.gd" id="11_2f4x6"]
+[ext_resource type="Script" path="res://scenes/OptionNavButton.gd" id="11_mo0w4"]
 [ext_resource type="Script" path="res://scenes/level_select.gd" id="12_s3ixp"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uc5ec"]
@@ -187,14 +187,13 @@ theme_override_fonts/font = ExtResource("3_gvghu")
 theme_override_font_sizes/font_size = 36
 text = "Options"
 
-[node name="OptionButtonNav" type="Button" parent="."]
-layout_mode = 0
+[node name="OptionNav" type="Button" parent="."]
+visibility_layer = 0
 offset_left = 1022.0
 offset_top = 35.0
 offset_right = 1126.0
 offset_bottom = 141.0
-flat = true
-script = ExtResource("11_2f4x6")
+script = ExtResource("11_mo0w4")
 
 [node name="LevelSelect" type="Sprite2D" parent="."]
 position = Vector2(664, 487)
@@ -224,5 +223,4 @@ offset_top = -8.0
 offset_right = 2131.0
 offset_bottom = 643.0
 
-[connection signal="pressed" from="OptionButtonNav" to="." method="_on_OptionNav_pressed"]
 [connection signal="pressed" from="LevelSelectNav" to="." method="_on_level_select_nav_pressed"]

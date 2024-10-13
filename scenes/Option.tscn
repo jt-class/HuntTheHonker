@@ -1,13 +1,16 @@
-[gd_scene load_steps=12 format=3 uid="uid://bgh5ngq2jnyd5"]
+[gd_scene load_steps=15 format=3 uid="uid://ctxls3mpfxuat"]
 
 [ext_resource type="Texture2D" uid="uid://dbcotdcshj7r1" path="res://assets/backgrounds/Defining po.png" id="1_328mb"]
 [ext_resource type="Texture2D" uid="uid://byiyjnnfl50m2" path="res://assets/backgrounds/settings.png" id="1_ols8b"]
+[ext_resource type="Script" path="res://scenes/exit_button.gd" id="2_5abim"]
 [ext_resource type="FontFile" uid="uid://dn6qfg0fvriqe" path="res://fonts/Eight-Bit Madness.ttf" id="3_2i0ce"]
 [ext_resource type="Texture2D" uid="uid://bp561o2ljsw2i" path="res://scenes/123.png" id="3_31uth"]
 [ext_resource type="Texture2D" uid="uid://hlxcc8l35lg" path="res://assets/backgrounds/Exit.png" id="4_5ym47"]
 [ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="6_jfrgy"]
+[ext_resource type="Script" path="res://scenes/leave_game_button.gd" id="8_l1xu7"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e7pn5"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_h8j5f"]
 font = ExtResource("3_2i0ce")
 font_size = 100
@@ -29,39 +32,24 @@ Button/styles/normal = SubResource("StyleBoxFlat_1ny8x")
 default_font = ExtResource("3_2i0ce")
 default_font_size = 18
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jjw74"]
-bg_color = Color(0.621, 0.149, 0.055, 1)
-corner_radius_top_left = 20
-corner_radius_top_right = 20
-corner_radius_bottom_right = 20
-corner_radius_bottom_left = 20
+[sub_resource type="Theme" id="Theme_g4s1o"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k478s"]
-bg_color = Color(0.431373, 0.14902, 0.054902, 1)
-corner_radius_top_left = 20
-corner_radius_top_right = 20
-corner_radius_bottom_right = 20
-corner_radius_bottom_left = 20
-
-[sub_resource type="Theme" id="Theme_x2p74"]
-Button/font_sizes/font_size = 16
-Button/fonts/font = ExtResource("3_2i0ce")
-Button/styles/hover_mirrored = SubResource("StyleBoxFlat_jjw74")
-Button/styles/normal = SubResource("StyleBoxFlat_k478s")
+[node name="Node2D" type="Node2D"]
 
 [node name="DefiningPo" type="Sprite2D" parent="."]
 position = Vector2(576.5, 324)
 scale = Vector2(0.600521, 0.601852)
 texture = ExtResource("1_328mb")
 
-[node name="Button2" type="Button" parent="."]
+[node name="ExitButton" type="Button" parent="."]
 offset_left = 1034.0
 offset_top = 40.0
 offset_right = 1084.0
 offset_bottom = 92.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_e7pn5")
+script = ExtResource("2_5abim")
 
-[node name="Exit Sprite2D" type="Sprite2D" parent="Exit Button"]
+[node name="Exit" type="Sprite2D" parent="ExitButton"]
 position = Vector2(26.0001, 25)
 scale = Vector2(0.412, 0.412)
 texture = ExtResource("4_5ym47")
@@ -108,6 +96,7 @@ offset_right = 1058.0
 offset_bottom = 575.0
 theme = SubResource("Theme_ik6xm")
 text = "LEAVE GAME"
+script = ExtResource("8_l1xu7")
 
 [node name="Audio VBoxContainer" type="VBoxContainer" parent="."]
 offset_left = 185.0
@@ -145,3 +134,14 @@ vertical_alignment = 2
 [node name="MusicV Slider" type="HSlider" parent="Audio VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+
+[node name="ConfirmationDialog" type="ConfirmationDialog" parent="."]
+title = ""
+initial_position = 1
+theme = SubResource("Theme_g4s1o")
+ok_button_text = "Yes"
+dialog_text = "Are you sure you want to leave the game?"
+
+[connection signal="pressed" from="ExitButton" to="ExitButton" method="_on_pressed"]
+[connection signal="pressed" from="Leave Game Button" to="Leave Game Button" method="_on_pressed"]
+[connection signal="confirmed" from="ConfirmationDialog" to="Leave Game Button" method="_on_confirmation_dialog_confirmed"]

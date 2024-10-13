@@ -8,3 +8,7 @@ func _ready() -> void:
 
 func _on_level_select_nav_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/Level_select_modified.tscn")
+
+
+func _on_OptionNav_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/Option.tscn")

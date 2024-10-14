@@ -1,0 +1,92 @@
+[gd_scene load_steps=12 format=3 uid="uid://boi1muff8k8ta"]
+
+[ext_resource type="Script" path="res://scripts/enemy.gd" id="1_vrqds"]
+[ext_resource type="Texture2D" uid="uid://bsvig0s485yg6" path="res://assets/characters/bosses/BossHawk_Spritesheet.png" id="2_lc8eq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c3fpg"]
+atlas = ExtResource("2_lc8eq")
+region = Rect2(0, 0, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fn5h"]
+atlas = ExtResource("2_lc8eq")
+region = Rect2(44, 0, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kl5om"]
+atlas = ExtResource("2_lc8eq")
+region = Rect2(88, 0, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvkj4"]
+atlas = ExtResource("2_lc8eq")
+region = Rect2(132, 0, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jho2h"]
+atlas = ExtResource("2_lc8eq")
+region = Rect2(176, 0, 44, 45)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k80y1"]
+animations = [{
+"frames": [{
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_c3fpg")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_1fn5h")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_kl5om")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_pvkj4")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_jho2h")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p4qp5"]
+radius = 203.022
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cgnnc"]
+radius = 15.0333
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1argx"]
+radius = 51.0098
+
+[node name="enemy" type="CharacterBody2D"]
+script = ExtResource("1_vrqds")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -1.90735e-06)
+scale = Vector2(2.29545, 2.29545)
+sprite_frames = SubResource("SpriteFrames_k80y1")
+animation = &"idle"
+frame_progress = 0.158292
+offset = Vector2(0, -6)
+
+[node name="detection_area" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+shape = SubResource("CircleShape2D_p4qp5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_cgnnc")
+
+[node name="enemy_hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_hitbox"]
+position = Vector2(2, -10)
+shape = SubResource("CircleShape2D_1argx")
+
+[node name="take_damage_cooldown" type="Timer" parent="."]
+wait_time = 0.5
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
+[connection signal="body_entered" from="enemy_hitbox" to="." method="_on_enemy_hitbox_body_entered"]
+[connection signal="body_exited" from="enemy_hitbox" to="." method="_on_enemy_hitbox_body_exited"]
+[connection signal="timeout" from="take_damage_cooldown" to="." method="_on_take_damage_cooldown_timeout"]

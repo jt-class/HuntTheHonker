@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://dvdwuinkirijd"]
+[gd_scene load_steps=14 format=3 uid="uid://dvdwuinkirijd"]
 
 [ext_resource type="PackedScene" uid="uid://cj2y6t5xdtjqh" path="res://scenes/Controls/control_hud.tscn" id="2_b6rng"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="2_vgcyi"]
@@ -109,26 +109,9 @@ tracks/0/keys = {
 "values": [35, 36, 36]
 }
 
-[sub_resource type="Animation" id="Animation_k6sor"]
-resource_name = "Death"
-step = 0.2
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.4, 0.6, 0.8),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [49, 50, 51, 52, 53, 54]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3603g"]
 _data = {
 "Attack": SubResource("Animation_r5vo4"),
-"Death": SubResource("Animation_k6sor"),
 "Defend": SubResource("Animation_k3687"),
 "Idle": SubResource("Animation_4b1io"),
 "RESET": SubResource("Animation_yj51k"),

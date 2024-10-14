@@ -1,23 +1,27 @@
 extends CharacterBody2D
 
-@onready var joystick = $"../Camera2D/ControlHud/JoyStick"
-@onready var btn_Attack = $"../Camera2D/ControlHud/AttackButton"
-@onready var btn_Defend = $"../Camera2D/ControlHud/DefendButton"
-@onready var btn_Shoot = $"../Camera2D/ControlHud/ShootButton"
+@onready var joystick = $"../Control/ControlHud/JoyStick"
+@onready var btn_Attack = $"../Control/ControlHud/AttackButton"
+@onready var btn_Defend = $"../Control/ControlHud/DefendButton"
+@onready var btn_Shoot = $"../Control/ControlHud/ShootButton"
+var dash_key = KEY_SHIFT
 var speed = 300
+const DASH_SPEED = 900.0
+var can_dash = true
+
 
 @onready var animationPlayer = $AnimationPlayer
 @onready var sprite = $Sprite2D  # Reference to Sprite2D node
 
 var enemy_inattack_range = false
 var enemy_attack_cooldown = true
-var health = 100
+var health = 1000
 var player_alive = true
 
 
 var is_attacking = false
 var is_defending = false
-var is_shooting = false
+var is_dashing = false
 var death_animation_finished
 var defend_animation_finished = false  # Track if the defend animation has finished
 
@@ -26,7 +30,7 @@ func _ready():
 	btn_Attack.connect("pressed", Callable(self, "_on_AttackButton_pressed"))
 	btn_Defend.connect("pressed", Callable(self, "_on_DefendButton_pressed"))
 	btn_Defend.connect("released", Callable(self, "_on_DefendButton_released"))
-	btn_Shoot.connect("pressed", Callable(self, "_on_ShootButton_pressed"))
+	btn_Shoot.connect("pressed", Callable(self, "_on_DashButton_pressed"))
 
 	# Connect  animation finished signal
 	animationPlayer.connect("animation_finished", Callable(self, "_on_AnimationPlayer_animation_finished"))
@@ -34,6 +38,10 @@ func _ready():
 func _physics_process(delta):
 	player_movement(delta)
 	enemy_attack()
+	
+		 # Check for keyboard dash input
+	if Input.is_key_pressed(dash_key):
+		_on_DashButton_pressed()  # Only call dash if it's not already dashing
 	
 	if health <= 0 and player_alive:
 		player_alive = false
@@ -58,8 +66,10 @@ func player_movement(delta):
 			animationPlayer.play("Defend")
 		return  # Prevents movement while defending
 	
-	# Handle shooting action
-	if is_shooting:
+	# Handle dashin action
+	if is_dashing:
+		velocity = direction * DASH_SPEED  # Increase speed for dash
+		move_and_slide()
 		animationPlayer.play("Shoot")
 		return  # Prevents movement while shooting
 	
@@ -106,20 +116,19 @@ func _on_DefendButton_released():
 		animationPlayer.stop()  # Stop only if the animation is finished
 
 # Function to handle shoot button press
-func _on_ShootButton_pressed():
-	is_shooting = true
-	animationPlayer.play("Shoot")
+func _on_DashButton_pressed():
+	if can_dash:
+		is_dashing = true
+		can_dash = false
+		$dash_timer.start()
+		$dash_cooldown.start()
+		animationPlayer.play("Shoot")
 
-# Function to handle shoot button release
-func _on_ShootButton_released():
-	is_shooting = false
 
 # Reset actions when animations finish
 func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name == "Attack":
 		is_attacking = false
-	elif anim_name == "Shoot":
-		is_shooting = false
 	elif anim_name == "Defend":
 		defend_animation_finished = true  # Mark the defend animation as finished
 	#elif anim_name == "Death":
@@ -154,3 +163,11 @@ func _on_deal_attack_timer_timeout() -> void:
 	$deal_attack_timer.stop()
 	global.player_current_attack = false
 	is_attacking = false
+
+
+func _on_dash_timer_timeout() -> void:
+	is_dashing = false
+
+
+func _on_dash_cooldown_timeout() -> void:
+	can_dash = true

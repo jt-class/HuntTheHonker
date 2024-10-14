@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dvdwuinkirijd"]
+
+[ext_resource type="Texture2D" uid="uid://bbywyr2ainw01" path="res://assets/characters/PlayerChar/main.png" id="1_ak87p"]
+[ext_resource type="PackedScene" uid="uid://cj2y6t5xdtjqh" path="res://scenes/Controls/control_hud.tscn" id="2_b6rng"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="2_vgcyi"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_n8w6g"]
+radius = 79.2591
+
+[node name="TestScene" type="Node2D"]
+position = Vector2(575, 336)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="ControlHud" parent="Camera2D" instance=ExtResource("2_b6rng")]
+position = Vector2(-568, -303)
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("2_vgcyi")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_ak87p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_n8w6g")

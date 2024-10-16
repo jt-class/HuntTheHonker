@@ -5,6 +5,7 @@ extends CharacterBody2D
 @onready var btn_Defend = $"../Control/ControlHud/DefendButton"
 @onready var btn_Shoot = $"../Control/ControlHud/ShootButton"
 var dash_key = KEY_SHIFT
+var attack_key = KEY_SPACE
 var speed = 300
 const DASH_SPEED = 900.0
 var can_dash = true
@@ -13,12 +14,13 @@ var can_dash = true
 @onready var animationPlayer = $AnimationPlayer
 @onready var sprite = $Sprite2D  # Reference to Sprite2D node
 
+var current_enemy = null
 var enemy_inattack_range = false
 var enemy_attack_cooldown = true
-var health = 1000
+var health = 200
 var player_alive = true
 
-
+var damage_dealt = false  # Track if damage has been dealt during the attack
 var is_attacking = false
 var is_defending = false
 var is_dashing = false
@@ -38,10 +40,14 @@ func _ready():
 func _physics_process(delta):
 	player_movement(delta)
 	enemy_attack()
+	update_health()
 	
 		 # Check for keyboard dash input
 	if Input.is_key_pressed(dash_key):
 		_on_DashButton_pressed()  # Only call dash if it's not already dashing
+		
+	if Input.is_key_pressed(attack_key):
+		_on_AttackButton_pressed()
 	
 	if health <= 0 and player_alive:
 		player_alive = false
@@ -94,6 +100,7 @@ func _on_AttackButton_pressed():
 	is_attacking = true
 	animationPlayer.play("Attack")
 	global.player_current_attack = true
+	damage_dealt = false  # Reset this flag when starting an attack
 	print(global.player_current_attack)
 
 # Function to handle attack button release
@@ -129,6 +136,9 @@ func _on_DashButton_pressed():
 func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name == "Attack":
 		is_attacking = false
+		global.player_current_attack = false
+		damage_dealt = false  # Reset this flag when the attack ends
+
 	elif anim_name == "Defend":
 		defend_animation_finished = true  # Mark the defend animation as finished
 	#elif anim_name == "Death":
@@ -141,18 +151,21 @@ func player():
 func _on_player_hitbox_body_entered(body: Node2D) -> void:
 	if body.has_method("enemy"):
 		enemy_inattack_range = true
+		current_enemy = body
 
 func _on_player_hitbox_body_exited(body: Node2D) -> void:
 	if body.has_method("enemy"):
 		enemy_inattack_range = false
+		current_enemy = null  # Clear the reference when out of range
 
 func enemy_attack():
 	if enemy_inattack_range and enemy_attack_cooldown and !is_defending == true:
-		health = health - 10
-		enemy_attack_cooldown = false
-		$attack_cooldown.start()
-		
-		print(health)
+		if current_enemy:  # Ensure there is a valid enemy reference
+			health -= current_enemy.attack_value  # Reduce health by the current enemy's attack value
+			enemy_attack_cooldown = false
+			$attack_cooldown.start()
+
+			print("Player took damage! Health: ", health)
 
 
 func _on_attack_cooldown_timeout() -> void:
@@ -163,6 +176,7 @@ func _on_deal_attack_timer_timeout() -> void:
 	$deal_attack_timer.stop()
 	global.player_current_attack = false
 	is_attacking = false
+	damage_dealt = false  # Ensure it's reset after attack cooldown
 
 
 func _on_dash_timer_timeout() -> void:
@@ -171,3 +185,14 @@ func _on_dash_timer_timeout() -> void:
 
 func _on_dash_cooldown_timeout() -> void:
 	can_dash = true
+
+
+func update_health():
+	var healthbar = $Healthbar
+	healthbar.value = health
+	
+	if health >= 200:
+		healthbar.visible = false
+	else:
+		healthbar.visible = true
+	

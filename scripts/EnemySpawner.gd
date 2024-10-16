@@ -1,7 +1,11 @@
 extends Node2D
 
 @onready var main = get_node(".")
-var enemy_scene := preload("res://scenes/enemy.tscn")
+var enemy_scene1 := preload("res://scenes/enemy_frog.tscn")
+var enemy_scene2 := preload("res://scenes/enemy_snake.tscn")
+var boss_scene2 := preload("res://scenes/boss_bird.tscn")
+
+
 var spawn_points := []  # List of spawn points
 var current_wave = 1
 var active_enemies = []
@@ -28,7 +32,13 @@ func spawn_wave() -> void:
 func spawn_enemy() -> void:
 	# Use the next spawn point in the set order
 	var spawn = spawn_points[spawn_index]
-	var enemy = enemy_scene.instantiate()
+	var enemy = null
+	if current_wave == 1:
+		enemy = enemy_scene1.instantiate()
+	elif current_wave == 2:
+		enemy = enemy_scene2.instantiate()
+	elif current_wave ==3:
+		enemy = boss_scene2.instantiate()
 	enemy.position = spawn.position
 	enemy.EnemySpawner = self  # Set EnemySpawner reference in enemy
 	main.add_child(enemy)

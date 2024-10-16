@@ -1,0 +1,205 @@
+[gd_scene load_steps=13 format=3 uid="uid://c2idl6pirdqf6"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_27f1h"]
+[ext_resource type="Texture2D" uid="uid://bqwo4rhs41pkp" path="res://assets/characters/PlayerChar/spritesheetChar_edit2.png" id="2_egglk"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_n8w6g"]
+radius = 69.0072
+
+[sub_resource type="Animation" id="Animation_r5vo4"]
+resource_name = "AttackRight"
+length = 0.5
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [28, 29, 30, 31, 28]
+}
+
+[sub_resource type="Animation" id="Animation_k6sor"]
+resource_name = "Death"
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [49, 50, 51, 52, 53, 54]
+}
+
+[sub_resource type="Animation" id="Animation_k3687"]
+resource_name = "Defend"
+length = 0.2
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [42, 43, 44, 45, 45]
+}
+
+[sub_resource type="Animation" id="Animation_4b1io"]
+resource_name = "IdleRight"
+loop_mode = 1
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_yj51k"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [9]
+}
+
+[sub_resource type="Animation" id="Animation_6e5dq"]
+resource_name = "RunRight"
+length = 0.3
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [7, 8, 9]
+}
+
+[sub_resource type="Animation" id="Animation_qydui"]
+resource_name = "Shoot"
+length = 0.3
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [35, 36, 36]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3603g"]
+_data = {
+"Attack": SubResource("Animation_r5vo4"),
+"Death": SubResource("Animation_k6sor"),
+"Defend": SubResource("Animation_k3687"),
+"Idle": SubResource("Animation_4b1io"),
+"RESET": SubResource("Animation_yj51k"),
+"Run": SubResource("Animation_6e5dq"),
+"Shoot": SubResource("Animation_qydui")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bsp71"]
+radius = 103.238
+
+[node name="Player" type="CharacterBody2D"]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_27f1h")
+
+[node name="PlayerCam" type="Camera2D" parent="."]
+zoom = Vector2(0.7, 0.7)
+limit_left = 0
+limit_top = 130
+limit_right = 6641
+limit_bottom = 3800
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.71661e-05, 1.00001)
+scale = Vector2(5.44146, 5.44146)
+texture = ExtResource("2_egglk")
+offset = Vector2(-1, -2)
+hframes = 7
+vframes = 8
+frame = 9
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 20)
+shape = SubResource("CircleShape2D_n8w6g")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3603g")
+}
+
+[node name="player_hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player_hitbox"]
+position = Vector2(5, 4)
+shape = SubResource("CircleShape2D_bsp71")
+
+[node name="attack_cooldown" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="deal_attack_timer" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="dash_cooldown" type="Timer" parent="."]
+process_callback = 0
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="dash_timer" type="Timer" parent="."]
+wait_time = 0.2
+
+[node name="Healthbar" type="ProgressBar" parent="."]
+modulate = Color(0.714711, 0.887411, 0.64248, 1)
+offset_left = -53.0
+offset_top = 86.0
+offset_right = 163.0
+offset_bottom = 113.0
+scale = Vector2(0.5, 0.5)
+show_percentage = false
+
+[connection signal="body_entered" from="player_hitbox" to="." method="_on_player_hitbox_body_entered"]
+[connection signal="body_exited" from="player_hitbox" to="." method="_on_player_hitbox_body_exited"]
+[connection signal="timeout" from="attack_cooldown" to="." method="_on_attack_cooldown_timeout"]
+[connection signal="timeout" from="deal_attack_timer" to="." method="_on_deal_attack_timer_timeout"]
+[connection signal="timeout" from="dash_cooldown" to="." method="_on_dash_cooldown_timeout"]
+[connection signal="timeout" from="dash_timer" to="." method="_on_dash_timer_timeout"]

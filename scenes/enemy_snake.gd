@@ -3,8 +3,10 @@ extends CharacterBody2D
 var speed = 75
 var player_chase = false
 var player = null
+var attack_value = 8   #attack value for this enemy
 
-var health = 100
+
+var health = 40
 var player_inattack_zone = false
 var can_take_damage = true
 
@@ -17,17 +19,20 @@ func enemy():
 	pass
 	
 func _physics_process(delta):
-	animationPlayer.play("idle")
-	
 	deal_with_damage()
+	update_health()
 	
 	if player_chase:
+		animationPlayer.play("walk")
 		position += (player.position - position)/speed
 		
 		if(player.position.x - position.x) < 0:
 			animationPlayer.flip_h = false
 		else:
 			animationPlayer.flip_h = true
+			
+	else:
+		animationPlayer.play("idle")
 
 func _on_detection_area_body_entered(body):
 	player = body
@@ -50,11 +55,13 @@ func _on_enemy_hitbox_body_exited(body: Node2D) -> void:
 
 # Handle damage when in attack zone
 func deal_with_damage():
-	if player_inattack_zone and global.player_current_attack:
-		if can_take_damage:
+	if player_inattack_zone and global.player_current_attack == true:
+		# Check if damage hasn't been dealt yet
+		if can_take_damage == true and player.damage_dealt == false:
 			health -= 20  # Reduce enemy health
 			$take_damage_cooldown.start()  # Start damage cooldown
 			can_take_damage = false
+			player.damage_dealt = true  # Mark damage as dealt for this attack
 			print("Enemy took damage, health:", health)
 			if health <= 0:
 				die()
@@ -68,3 +75,13 @@ func die():
 # Reset the ability to take damage after cooldown
 func _on_take_damage_cooldown_timeout() -> void:
 	can_take_damage = true
+	
+func update_health():
+	var healthbar = $healthbar
+	
+	healthbar.value = health
+	
+	if health >= 40:
+		healthbar.visible = false
+	else:
+		healthbar.visible = true

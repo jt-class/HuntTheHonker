@@ -10,7 +10,6 @@ var speed = 300
 const DASH_SPEED = 900.0
 var can_dash = true
 
-
 @onready var animationPlayer = $AnimationPlayer
 @onready var sprite = $Sprite2D  # Reference to Sprite2D node
 

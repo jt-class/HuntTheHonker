@@ -3,6 +3,9 @@
 [ext_resource type="Script" path="res://scripts/enemy_frog.gd" id="1_udgyg"]
 [ext_resource type="Texture2D" uid="uid://nrrscacxhris" path="res://assets/characters/mobs/spritefrog.png" id="2_m0q1n"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_cgnnc"]
+radius = 15.0333
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_h4hdi"]
 atlas = ExtResource("2_m0q1n")
 region = Rect2(0, 0, 45, 46)
@@ -54,14 +57,16 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_p4qp5"]
 radius = 113.004
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_cgnnc"]
-radius = 15.0333
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_1argx"]
 radius = 51.0098
 
 [node name="enemy_frog" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 3
 script = ExtResource("1_udgyg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_cgnnc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -1.90735e-06)
@@ -71,17 +76,16 @@ animation = &"walk"
 offset = Vector2(0, -6)
 
 [node name="detection_area" type="Area2D" parent="."]
-collision_layer = 2
+collision_layer = 4
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
 position = Vector2(0, -6)
 shape = SubResource("CircleShape2D_p4qp5")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_cgnnc")
-
 [node name="enemy_hitbox" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_hitbox"]
 position = Vector2(2, -10)

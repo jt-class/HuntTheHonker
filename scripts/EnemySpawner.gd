@@ -55,6 +55,11 @@ func on_enemy_killed(enemy) -> void:
 	active_enemies.erase(enemy)  # Remove enemy from active list
 	if active_enemies.size() == 0 and enemies_spawned_in_wave == enemies_per_wave[current_wave]:
 		if current_wave < 3:
+			if current_wave == 1:
+				print("wave 1 completed!")
+			elif current_wave ==2:
+				print("wave 2 completed!")
+				
 			current_wave += 1
 			spawn_wave()
 		else:

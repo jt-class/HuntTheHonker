@@ -37,10 +37,12 @@ func _physics_process(delta):
 
 func _on_detection_area_body_entered(body):
 	player = body
+	print("player spotted")
 	player_chase = true
 
 
 func _on_detection_area_body_exited(body):
+	print("player left")
 	player = null
 	player_chase = false
 

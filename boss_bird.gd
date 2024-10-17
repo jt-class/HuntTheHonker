@@ -3,8 +3,9 @@ extends CharacterBody2D
 var speed = 50
 var player_chase = false
 var player = null
-var attack_value = 12   #attack value for this enemy
-
+var attack_value = 15   #attack value for this enemy
+var show_hitbox = false
+@onready var hitbox = $enemy_hitbox/CollisionShape2D
 
 var health = 150
 var player_inattack_zone = false
@@ -47,11 +48,15 @@ func _on_detection_area_body_exited(body):
 # When the player enters the enemy's attack zone (hitbox)
 func _on_enemy_hitbox_body_entered(body: Node2D) -> void:
 	if body.has_method("player"):  # Ensure it's the player
-		player_inattack_zone = true
+		$AttackRangeDrawer.set_hitbox_visible(true)
+		print("Commencing attack")
+		$attack_indicator_timer.start(1)
+		
 
 # When the player exits the enemy's attack zone (hitbox)
 func _on_enemy_hitbox_body_exited(body: Node2D) -> void:
 	if body.has_method("player"):  # Ensure it's the player
+		queue_redraw()  # Trigger redraw
 		player_inattack_zone = false
 
 # Handle damage when in attack zone
@@ -86,3 +91,18 @@ func update_health():
 		healthbar.visible = false
 	else:
 		healthbar.visible = true
+
+func _draw():
+	if show_hitbox:
+		var shape = $enemy_hitbox/CollisionShape2D.shape
+		if shape is CircleShape2D:
+			var radius = shape.radius
+			draw_circle(Vector2.ZERO, radius, Color(1, 0, 0, 0.5))  # Draw red circle
+		elif shape is RectangleShape2D:
+			var extents = shape.extents
+			draw_rect(Rect2(Vector2(-extents.x, -extents.y), extents * 2), Color(0, 1, 0, 0.5))  # Draw green rectangle
+
+func _on_attack_indicator_timer_timeout() -> void:
+	$AttackRangeDrawer.set_hitbox_visible(false)
+	player_inattack_zone = true 
+	print("Attack Finished")

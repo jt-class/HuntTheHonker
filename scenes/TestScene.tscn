@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dvdwuinkirijd"]
+[gd_scene load_steps=5 format=3 uid="uid://dvdwuinkirijd"]
 
 [ext_resource type="PackedScene" uid="uid://c2idl6pirdqf6" path="res://scenes/player.tscn" id="1_4ldp5"]
+[ext_resource type="PackedScene" uid="uid://drka44qeqnqf7" path="res://scenes/boss_bird.tscn" id="2_62xyx"]
 [ext_resource type="PackedScene" uid="uid://cre1krl8nqse4" path="res://scenes/control.tscn" id="2_kyydj"]
 [ext_resource type="PackedScene" uid="uid://brvq8abd3e5yi" path="res://scenes/enemy_spawner.tscn" id="5_20mnw"]
 
@@ -12,3 +13,7 @@ position = Vector2(575, 336)
 [node name="Control" parent="." instance=ExtResource("2_kyydj")]
 
 [node name="EnemySpawner" parent="." instance=ExtResource("5_20mnw")]
+
+[node name="boss_bird" parent="." instance=ExtResource("2_62xyx")]
+position = Vector2(-202, -124)
+scale = Vector2(2, 2)

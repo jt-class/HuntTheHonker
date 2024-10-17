@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://b388whxpniuoa" path="res://assets/items/shield_button.png" id="3_duep1"]
 [ext_resource type="Texture2D" uid="uid://x53c31uelby8" path="res://assets/items/attack_button.png" id="4_y625d"]
 
-[node name="ControlHud" type="Node2D"]
+[node name="ControlHud" type="CanvasLayer"]
 
 [node name="JoyStick" parent="." instance=ExtResource("1_jaekw")]
 position = Vector2(146, 470)

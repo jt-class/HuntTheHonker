@@ -14,10 +14,15 @@ config/name="Hunt The Honker: Invasion Frenzy"
 config/features=PackedStringArray("4.3")
 config/icon="res://icon.svg"
 
+[autoload]
+
+global="*res://scripts/global.gd"
+
 [input_devices]
 
 pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"

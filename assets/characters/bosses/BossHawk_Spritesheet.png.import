@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6elgtho7cr5t"
-path="res://.godot/imported/spritesnake.png-c8638744e953a86e8610494baa540d56.ctex"
+uid="uid://bsvig0s485yg6"
+path="res://.godot/imported/BossHawk_Spritesheet.png-58f1aa9c7a85d72eafedad1e868fdef7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/mobs/spritesnake.png"
-dest_files=["res://.godot/imported/spritesnake.png-c8638744e953a86e8610494baa540d56.ctex"]
+source_file="res://assets/characters/bosses/BossHawk_Spritesheet.png"
+dest_files=["res://.godot/imported/BossHawk_Spritesheet.png-58f1aa9c7a85d72eafedad1e868fdef7.ctex"]
 
 [params]
 

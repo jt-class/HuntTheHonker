@@ -1,7 +1,48 @@
-[gd_scene load_steps=17 format=3 uid="uid://drka44qeqnqf7"]
+[gd_scene load_steps=28 format=3 uid="uid://drka44qeqnqf7"]
 
 [ext_resource type="Script" path="res://boss_bird.gd" id="1_dac8b"]
 [ext_resource type="Texture2D" uid="uid://bsvig0s485yg6" path="res://assets/characters/bosses/BossHawk_Spritesheet.png" id="2_5ao4m"]
+[ext_resource type="Script" path="res://scenes/attack_range_drawer.gd" id="2_mnmo1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iidaj"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(0, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vs56h"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(44, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mbjo"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(88, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a6a5m"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(132, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yg0i3"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(176, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o7i21"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(220, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_02pqb"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(264, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqvdj"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(308, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2k6cu"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(352, 45, 44, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2wd5l"]
+atlas = ExtResource("2_5ao4m")
+region = Rect2(396, 45, 44, 45)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q5hl0"]
 atlas = ExtResource("2_5ao4m")
@@ -45,6 +86,41 @@ region = Rect2(176, 0, 44, 45)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_an0lc"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iidaj")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_vs56h")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_6mbjo")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_a6a5m")
+}, {
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_yg0i3")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_o7i21")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_02pqb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqvdj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2k6cu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2wd5l")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 11.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_q5hl0")
@@ -96,18 +172,23 @@ radius = 41.1947
 radius = 81.7435
 
 [node name="boss_bird" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 3
 script = ExtResource("1_dac8b")
+
+[node name="AttackRangeDrawer" type="Node2D" parent="."]
+script = ExtResource("2_mnmo1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -1.90735e-06)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_an0lc")
-animation = &"idle"
+animation = &"attack"
+frame_progress = 0.476388
 offset = Vector2(0, -6)
 
 [node name="detection_area" type="Area2D" parent="."]
-visible = false
-collision_layer = 2
+collision_layer = 4
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
@@ -119,15 +200,22 @@ position = Vector2(1, 8)
 shape = SubResource("CircleShape2D_gw8ru")
 
 [node name="enemy_hitbox" type="Area2D" parent="."]
-visible = false
+collision_layer = 4
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_hitbox"]
-visible = false
 position = Vector2(2, -10)
 shape = SubResource("CircleShape2D_0odrx")
 
 [node name="take_damage_cooldown" type="Timer" parent="."]
 wait_time = 0.5
+
+[node name="attack_indicator_timer" type="Timer" parent="."]
+
+[node name="chase_reset_timer" type="Timer" parent="."]
+
+[node name="attack_timer" type="Timer" parent="."]
+wait_time = 2.0
 
 [node name="healthbar" type="ProgressBar" parent="."]
 modulate = Color(0.566093, 0, 0, 1)
@@ -144,3 +232,6 @@ show_percentage = false
 [connection signal="body_entered" from="enemy_hitbox" to="." method="_on_enemy_hitbox_body_entered"]
 [connection signal="body_exited" from="enemy_hitbox" to="." method="_on_enemy_hitbox_body_exited"]
 [connection signal="timeout" from="take_damage_cooldown" to="." method="_on_take_damage_cooldown_timeout"]
+[connection signal="timeout" from="attack_indicator_timer" to="." method="_on_attack_indicator_timer_timeout"]
+[connection signal="timeout" from="chase_reset_timer" to="." method="_on_chase_reset_timer_timeout"]
+[connection signal="timeout" from="attack_timer" to="." method="_on_attack_timer_timeout"]

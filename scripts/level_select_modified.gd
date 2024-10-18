@@ -64,6 +64,12 @@ var go_tfc # go button
 var animation_player
 var player_idol
 
+#transition
+@onready var transition = $Transition
+
+#levels
+var level1 = preload("res://scenes/level_1.tscn")
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	
@@ -346,6 +352,9 @@ func _on_go_tfc_pressed() -> void:
 
 # NOTE: Start buttons
 func _on_start_btn_tff_pressed() -> void:
+	#stuff for changing scenes
+	transition.play("fade2level")
+	
 	tff_finished = true
 	tff_ready = false
 	tff_locked = false
@@ -355,7 +364,7 @@ func _on_start_btn_tff_pressed() -> void:
 	animation_player.play("FadeOut_StartBtn")
 	await wait_for_seconds(1)
 	check_status()
-	#get_tree().change_scene_to_file("res://scenes/TFF_MAP.tscn")
+	
 
 func _on_start_btn_tmm_pressed() -> void:
 	tmm_finished = true
@@ -434,3 +443,8 @@ NOTE:
 
 func _on_back_btn_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/home_screen.tscn")
+
+
+func _on_transition_animation_finished(anim_name):
+	if(anim_name == "fade2level"):
+		get_tree().change_scene_to_packed(level1)

@@ -6,6 +6,7 @@ extends CharacterBody2D
 @onready var btn_Shoot = $"../Control/ControlHud/ShootButton"
 var dash_key = KEY_SHIFT
 var attack_key = KEY_SPACE
+var block_key = KEY_D
 var speed = 300
 const DASH_SPEED = 900.0
 var can_dash = true
@@ -47,7 +48,7 @@ func _physics_process(delta):
 		
 	if Input.is_key_pressed(attack_key):
 		_on_AttackButton_pressed()
-	
+		
 	if health <= 0 and player_alive:
 		player_alive = false
 		health = 0

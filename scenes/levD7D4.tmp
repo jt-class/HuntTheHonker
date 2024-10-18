@@ -1,11 +1,12 @@
-[gd_scene load_steps=24 format=4 uid="uid://d13ol5i60boby"]
+[gd_scene load_steps=25 format=4 uid="uid://d13ol5i60boby"]
 
 [ext_resource type="Texture2D" uid="uid://cbhlgbaixwy7a" path="res://assets/maps/GameDevForest (1).png" id="1_msdm4"]
 [ext_resource type="PackedScene" uid="uid://c2idl6pirdqf6" path="res://scenes/player.tscn" id="2_6frxb"]
 [ext_resource type="PackedScene" uid="uid://cre1krl8nqse4" path="res://scenes/control.tscn" id="3_x7ms8"]
 [ext_resource type="PackedScene" uid="uid://brvq8abd3e5yi" path="res://scenes/enemy_spawner.tscn" id="4_d7dko"]
+[ext_resource type="PackedScene" uid="uid://drka44qeqnqf7" path="res://scenes/boss_bird.tscn" id="5_4pcjm"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6tg10"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sx2on"]
 texture = ExtResource("1_msdm4")
 0:0/0 = 0
 1:0/0 = 0
@@ -3827,7 +3828,7 @@ texture = ExtResource("1_msdm4")
 82:45/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_ydyhf"]
-sources/0 = SubResource("TileSetAtlasSource_6tg10")
+sources/0 = SubResource("TileSetAtlasSource_sx2on")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p7ie3"]
 size = Vector2(782.146, 43.7543)
@@ -7824,3 +7825,6 @@ offset_bottom = -2805.0
 [node name="Player" parent="EnemySpawner" instance=ExtResource("2_6frxb")]
 position = Vector2(360, 279)
 disable_mode = 2
+
+[node name="boss_bird" parent="EnemySpawner" instance=ExtResource("5_4pcjm")]
+position = Vector2(610, 426)

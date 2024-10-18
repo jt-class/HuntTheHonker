@@ -6,31 +6,31 @@
 script = ExtResource("1_tgm7a")
 
 [node name="Marker2D" type="Marker2D" parent="."]
-position = Vector2(0, -50)
+position = Vector2(1261, 147)
 
 [node name="Marker2D2" type="Marker2D" parent="."]
-position = Vector2(150, -50)
+position = Vector2(726, -92)
 
 [node name="Marker2D3" type="Marker2D" parent="."]
-position = Vector2(300, -50)
+position = Vector2(969, 73)
 
 [node name="Marker2D4" type="Marker2D" parent="."]
-position = Vector2(450, -50)
+position = Vector2(1005, 400)
 
 [node name="Marker2D5" type="Marker2D" parent="."]
-position = Vector2(600, -50)
+position = Vector2(1101, -59)
 
 [node name="Marker2D6" type="Marker2D" parent="."]
-position = Vector2(0, -200)
+position = Vector2(547, -533)
 
 [node name="Marker2D7" type="Marker2D" parent="."]
-position = Vector2(150, -200)
+position = Vector2(1956, -1089)
 
 [node name="Marker2D8" type="Marker2D" parent="."]
-position = Vector2(300, -200)
+position = Vector2(706, -1315)
 
 [node name="Marker2D9" type="Marker2D" parent="."]
-position = Vector2(450, -200)
+position = Vector2(1244, -1229)
 
 [node name="Marker2D10" type="Marker2D" parent="."]
-position = Vector2(600, -200)
+position = Vector2(1854, -1444)

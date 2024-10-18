@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://brvq8abd3e5yi"]
+
+[ext_resource type="Script" path="res://scripts/EnemySpawner.gd" id="1_tgm7a"]
+
+[node name="EnemySpawner" type="Node2D"]
+script = ExtResource("1_tgm7a")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(1261, 147)
+
+[node name="Marker2D2" type="Marker2D" parent="."]
+position = Vector2(726, -92)
+
+[node name="Marker2D3" type="Marker2D" parent="."]
+position = Vector2(969, 73)
+
+[node name="Marker2D4" type="Marker2D" parent="."]
+position = Vector2(1005, 400)
+
+[node name="Marker2D5" type="Marker2D" parent="."]
+position = Vector2(1101, -59)
+
+[node name="Marker2D6" type="Marker2D" parent="."]
+position = Vector2(547, -533)
+
+[node name="Marker2D7" type="Marker2D" parent="."]
+position = Vector2(1956, -1089)
+
+[node name="Marker2D8" type="Marker2D" parent="."]
+position = Vector2(706, -1315)
+
+[node name="Marker2D9" type="Marker2D" parent="."]
+position = Vector2(1244, -1229)
+
+[node name="Marker2D10" type="Marker2D" parent="."]
+position = Vector2(1854, -1444)

@@ -1,27 +1,19 @@
 [gd_scene load_steps=5 format=3 uid="uid://dvdwuinkirijd"]
 
-[ext_resource type="Texture2D" uid="uid://bbywyr2ainw01" path="res://assets/characters/PlayerChar/main.png" id="1_ak87p"]
-[ext_resource type="PackedScene" uid="uid://cj2y6t5xdtjqh" path="res://scenes/Controls/control_hud.tscn" id="2_b6rng"]
-[ext_resource type="Script" path="res://scripts/player.gd" id="2_vgcyi"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_n8w6g"]
-radius = 79.2591
+[ext_resource type="PackedScene" uid="uid://c2idl6pirdqf6" path="res://scenes/player.tscn" id="1_4ldp5"]
+[ext_resource type="PackedScene" uid="uid://drka44qeqnqf7" path="res://scenes/boss_bird.tscn" id="2_62xyx"]
+[ext_resource type="PackedScene" uid="uid://cre1krl8nqse4" path="res://scenes/control.tscn" id="2_kyydj"]
+[ext_resource type="PackedScene" uid="uid://brvq8abd3e5yi" path="res://scenes/enemy_spawner.tscn" id="5_20mnw"]
 
 [node name="TestScene" type="Node2D"]
 position = Vector2(575, 336)
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Player" parent="." instance=ExtResource("1_4ldp5")]
 
-[node name="ControlHud" parent="Camera2D" instance=ExtResource("2_b6rng")]
-position = Vector2(-568, -303)
+[node name="Control" parent="." instance=ExtResource("2_kyydj")]
 
-[node name="Player" type="CharacterBody2D" parent="."]
-script = ExtResource("2_vgcyi")
+[node name="EnemySpawner" parent="." instance=ExtResource("5_20mnw")]
 
-[node name="Sprite2D" type="Sprite2D" parent="Player"]
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("1_ak87p")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(1, 0)
-shape = SubResource("CircleShape2D_n8w6g")
+[node name="boss_bird" parent="." instance=ExtResource("2_62xyx")]
+position = Vector2(-202, -124)
+scale = Vector2(2, 2)

@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cre1krl8nqse4"]
+
+[ext_resource type="PackedScene" uid="uid://cj2y6t5xdtjqh" path="res://scenes/Controls/control_hud.tscn" id="1_8fv0a"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ControlHud" parent="." instance=ExtResource("1_8fv0a")]

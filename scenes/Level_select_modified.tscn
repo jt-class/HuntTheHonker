@@ -1,11 +1,10 @@
-[gd_scene load_steps=59 format=3 uid="uid://di4mye6daxuib"]
+[gd_scene load_steps=51 format=3 uid="uid://di4mye6daxuib"]
 
 [ext_resource type="Texture2D" uid="uid://cxpbr5dtimi4m" path="res://assets/backgrounds/BG_LEVEL-SELECT.png" id="1_f1tgk"]
 [ext_resource type="Script" path="res://scripts/level_select_modified.gd" id="1_iiuwp"]
 [ext_resource type="Texture2D" uid="uid://bdpw3seja067a" path="res://assets/Level_Select_Assets/Forest_bg.png" id="2_nvqql"]
 [ext_resource type="Texture2D" uid="uid://xp0hvgcjhy7j" path="res://assets/Level_Select_Assets/Forest_bg_locked.png" id="3_5ol23"]
 [ext_resource type="Texture2D" uid="uid://d2u77lbwdr7om" path="res://assets/Level_Select_Assets/TMM_bg.png" id="4_ct5fr"]
-[ext_resource type="Script" path="res://scripts/levelSelect_tff-BTN.gd" id="4_rb4f3"]
 [ext_resource type="Texture2D" uid="uid://cofqn51p32v63" path="res://assets/buttons/start_button.png" id="5_hok87"]
 [ext_resource type="Texture2D" uid="uid://bobuhxwoytrai" path="res://assets/Level_Select_Assets/TMM_bg_locked.png" id="5_q020b"]
 [ext_resource type="Texture2D" uid="uid://rigawtsq37gv" path="res://assets/Level_Select_Assets/TRT_bg.png" id="6_7o04g"]
@@ -13,52 +12,15 @@
 [ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="6_boghv"]
 [ext_resource type="Texture2D" uid="uid://qbikai73buw1" path="res://assets/Level_Select_Assets/TRT_bg-locked.png" id="6_jkp5n"]
 [ext_resource type="Texture2D" uid="uid://bqwo4rhs41pkp" path="res://assets/characters/PlayerChar/spritesheetChar_edit2.png" id="6_mvvau"]
-[ext_resource type="Script" path="res://scripts/levelSelect_tmm-BTN.gd" id="7_n4ep0"]
 [ext_resource type="Texture2D" uid="uid://borwppf5aavcu" path="res://assets/Level_Select_Assets/TFC_bg.png" id="8_5jjau"]
 [ext_resource type="Texture2D" uid="uid://dfkulnt0aqrxi" path="res://assets/Level_Select_Assets/TFC_bg_locked.png" id="9_mchqs"]
 [ext_resource type="Texture2D" uid="uid://byktdyc3v8b7w" path="res://assets/icons/lock.png" id="9_tot7d"]
-[ext_resource type="Script" path="res://scripts/levelSelect_trt-BTN.gd" id="10_4m5uv"]
 [ext_resource type="Texture2D" uid="uid://cu6vsb8xw73xa" path="res://assets/icons/check.png" id="10_gx2ts"]
-[ext_resource type="Script" path="res://scripts/levelSelect_tfc-BTN.gd" id="13_l2asg"]
 [ext_resource type="Texture2D" uid="uid://b2sy034m51ao3" path="res://assets/buttons/back_button.png" id="14_gade2"]
+[ext_resource type="Texture2D" uid="uid://c2fsp7kox2lhe" path="res://assets/Level_Select_Assets/TDD_bg-locked.png" id="14_ye4u5"]
+[ext_resource type="Texture2D" uid="uid://dnynmugx8g73q" path="res://assets/Level_Select_Assets/TDD_bg.png" id="15_1glkt"]
 [ext_resource type="Texture2D" uid="uid://bi7mfvorppgiq" path="res://assets/buttons/back_button_pressed.png" id="15_8g56u"]
 [ext_resource type="Texture2D" uid="uid://bjtulbqhtuak6" path="res://assets/icons/lock_broken.png" id="23_3xiuy"]
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vd7n6"]
-texture = ExtResource("2_nvqql")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r8n0n"]
-texture = ExtResource("2_nvqql")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gjcv4"]
-texture = ExtResource("3_5ol23")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_imgmm"]
-texture = ExtResource("4_ct5fr")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jlppx"]
-texture = ExtResource("4_ct5fr")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b8yxa"]
-texture = ExtResource("5_q020b")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ms5dv"]
-texture = ExtResource("6_7o04g")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cu70m"]
-texture = ExtResource("6_7o04g")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4i7ax"]
-texture = ExtResource("6_jkp5n")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xxfpy"]
-texture = ExtResource("8_5jjau")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vihv3"]
-texture = ExtResource("8_5jjau")
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cvjxy"]
-texture = ExtResource("9_mchqs")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2nq0p"]
 atlas = ExtResource("6_mvvau")
@@ -107,6 +69,33 @@ animations = [{
 "name": &"walkingAnimation",
 "speed": 5.0
 }]
+
+[sub_resource type="Animation" id="Animation_1wwor"]
+resource_name = "BreakLock_TDD"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/HBoxContainer/TDD/LockImgTDD:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("9_tot7d"), ExtResource("23_3xiuy")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer/HBoxContainer/TDD/LockImgTDD:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.5, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_tc5uj"]
 resource_name = "BreakLock_TFC"
@@ -214,6 +203,22 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_pwnyb"]
+resource_name = "CheckMark_TDD"
+length = 0.1667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/HBoxContainer/TDD/CheckImgTDD:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2, 2), Vector2(1, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_lusfv"]
@@ -331,6 +336,18 @@ tracks/3/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("MarginContainer/HBoxContainer/TDD/GoTDD:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="Animation" id="Animation_1256a"]
 resource_name = "FadeIn_StartBtn"
@@ -383,6 +400,18 @@ tracks/3/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("MarginContainer/HBoxContainer/TDD/StartBtnTDD:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="Animation" id="Animation_mf472"]
 resource_name = "FadeOut_StartBtn"
@@ -430,7 +459,19 @@ tracks/3/path = NodePath("MarginContainer/HBoxContainer/TFC/StartBtnTFC:modulate
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(0, 0.466667),
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("MarginContainer/HBoxContainer/TDD/StartBtnTDD:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
@@ -681,26 +722,86 @@ tracks/19/keys = {
 tracks/20/type = "value"
 tracks/20/imported = false
 tracks/20/enabled = true
-tracks/20/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:position")
+tracks/20/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:modulate")
 tracks/20/interp = 1
 tracks/20/loop_wrap = true
 tracks/20/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(129, 303)]
+"values": [Color(1, 1, 1, 1)]
 }
 tracks/21/type = "value"
 tracks/21/imported = false
 tracks/21/enabled = true
-tracks/21/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:modulate")
+tracks/21/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:position")
 tracks/21/interp = 1
 tracks/21/loop_wrap = true
 tracks/21/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
+"values": [Vector2(129, 303)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("MarginContainer/HBoxContainer/TDD/LockImgTDD:texture")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("9_tot7d")]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("MarginContainer/HBoxContainer/TDD/LockImgTDD:modulate")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
 "values": [Color(1, 1, 1, 1)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("MarginContainer/HBoxContainer/TDD/CheckImgTDD:scale")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2, 2)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("MarginContainer/HBoxContainer/TDD/GoTDD:modulate")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("MarginContainer/HBoxContainer/TDD/StartBtnTDD:modulate")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_nedar"]
@@ -708,26 +809,26 @@ resource_name = "charEnter"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:position")
+tracks/0/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(-90, 303), Vector2(129, 303)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.2),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-90, 303), Vector2(102, 303)]
 }
 
 [sub_resource type="Animation" id="Animation_la22y"]
@@ -742,7 +843,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(129, 303), Vector2(390, 303)]
+"values": [Vector2(102, 303), Vector2(314, 303)]
 }
 
 [sub_resource type="Animation" id="Animation_xbvkd"]
@@ -757,7 +858,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(390, 303), Vector2(650, 303)]
+"values": [Vector2(314, 303), Vector2(526, 303)]
 }
 
 [sub_resource type="Animation" id="Animation_qy35b"]
@@ -772,15 +873,32 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(650, 303), Vector2(920, 303)]
+"values": [Vector2(526, 303), Vector2(739, 303)]
+}
+
+[sub_resource type="Animation" id="Animation_lrq4j"]
+resource_name = "charEnter_5"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/HBoxContainer/PlayerIdol:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(739, 303), Vector2(952, 303)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1yokj"]
 _data = {
+"BreakLock_TDD": SubResource("Animation_1wwor"),
 "BreakLock_TFC": SubResource("Animation_tc5uj"),
 "BreakLock_TFF": SubResource("Animation_urjs3"),
 "BreakLock_TMM": SubResource("Animation_qex2l"),
 "BreakLock_TRT": SubResource("Animation_c0w1d"),
+"CheckMark_TDD": SubResource("Animation_pwnyb"),
 "CheckMark_TFC": SubResource("Animation_lusfv"),
 "CheckMark_TFF": SubResource("Animation_cn1q3"),
 "CheckMark_TMM": SubResource("Animation_ofwur"),
@@ -792,7 +910,68 @@ _data = {
 "charEnter": SubResource("Animation_nedar"),
 "charEnter_2": SubResource("Animation_la22y"),
 "charEnter_3": SubResource("Animation_xbvkd"),
-"charEnter_4": SubResource("Animation_qy35b")
+"charEnter_4": SubResource("Animation_qy35b"),
+"charEnter_5": SubResource("Animation_lrq4j")
+}
+
+[sub_resource type="Animation" id="Animation_oae8m"]
+resource_name = "RESET"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Transition/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Transition/ColorRect:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_v3wog"]
+resource_name = "fade2level"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Transition/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Transition/ColorRect:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ei3xs"]
+_data = {
+"RESET": SubResource("Animation_oae8m"),
+"fade2level": SubResource("Animation_v3wog")
 }
 
 [node name="Control" type="Control"]
@@ -827,20 +1006,19 @@ theme_override_constants/margin_bottom = 12
 layout_mode = 2
 theme_override_constants/separation = 9
 
-[node name="TFF" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TFF" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_vd7n6")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_r8n0n")
-theme_override_styles/normal = SubResource("StyleBoxTexture_gjcv4")
-script = ExtResource("4_rb4f3")
+texture_normal = ExtResource("3_5ol23")
+texture_hover = ExtResource("2_nvqql")
+stretch_mode = 0
 
 [node name="LevelTitleTFF" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFF"]
 layout_mode = 0
-offset_left = 54.0
-offset_top = 387.0
-offset_right = 202.0
-offset_bottom = 452.0
+offset_left = 29.0
+offset_top = 380.0
+offset_right = 177.0
+offset_bottom = 445.0
 theme_override_fonts/normal_font = ExtResource("6_740ql")
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
@@ -849,12 +1027,11 @@ OF
 FEATHERS[/center]"
 
 [node name="StartBtnTFF" type="TextureButton" parent="MarginContainer/HBoxContainer/TFF"]
-visible = false
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 30.0
+offset_left = 3.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 199.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -873,22 +1050,20 @@ fit_content = true
 scroll_active = false
 
 [node name="LockImgTFF" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFF"]
-visible = false
-position = Vector2(127, 314)
+position = Vector2(100, 314)
 texture = ExtResource("9_tot7d")
 
 [node name="CheckImgTFF" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFF"]
-visible = false
-position = Vector2(128, 311)
+position = Vector2(101, 311)
 scale = Vector2(2, 2)
 texture = ExtResource("10_gx2ts")
 
 [node name="GoTFF" type="TextureButton" parent="MarginContainer/HBoxContainer/TFF"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 30.0
+offset_left = 3.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 199.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -906,20 +1081,19 @@ text = "[center]GO[/center]"
 fit_content = true
 scroll_active = false
 
-[node name="TMM" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TMM" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_imgmm")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_jlppx")
-theme_override_styles/normal = SubResource("StyleBoxTexture_b8yxa")
-script = ExtResource("7_n4ep0")
+texture_normal = ExtResource("5_q020b")
+texture_hover = ExtResource("4_ct5fr")
+stretch_mode = 0
 
 [node name="LevelTitleTMM" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TMM"]
 layout_mode = 0
-offset_left = 54.0
-offset_top = 387.0
-offset_right = 202.0
-offset_bottom = 452.0
+offset_left = 29.0
+offset_top = 380.0
+offset_right = 177.0
+offset_bottom = 445.0
 theme_override_fonts/normal_font = ExtResource("6_740ql")
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
@@ -930,9 +1104,9 @@ MISCHIEF[/center]"
 [node name="StartBtnTMM" type="TextureButton" parent="MarginContainer/HBoxContainer/TMM"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 30.0
+offset_left = 3.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 199.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -951,22 +1125,19 @@ fit_content = true
 scroll_active = false
 
 [node name="LockImgTMM" type="Sprite2D" parent="MarginContainer/HBoxContainer/TMM"]
-visible = false
-position = Vector2(127, 314)
+position = Vector2(100, 314)
 texture = ExtResource("9_tot7d")
 
 [node name="CheckImgTMM" type="Sprite2D" parent="MarginContainer/HBoxContainer/TMM"]
-visible = false
-position = Vector2(128, 311)
+position = Vector2(101, 311)
 scale = Vector2(2, 2)
 texture = ExtResource("10_gx2ts")
 
 [node name="GoTMM" type="TextureButton" parent="MarginContainer/HBoxContainer/TMM"]
-visible = false
 layout_mode = 0
-offset_left = 30.0
+offset_left = 3.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 199.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -984,20 +1155,94 @@ text = "[center]GO[/center]"
 fit_content = true
 scroll_active = false
 
-[node name="TRT" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TDD" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_ms5dv")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_cu70m")
-theme_override_styles/normal = SubResource("StyleBoxTexture_4i7ax")
-script = ExtResource("10_4m5uv")
+texture_normal = ExtResource("14_ye4u5")
+texture_hover = ExtResource("15_1glkt")
+stretch_mode = 0
+
+[node name="LevelTitleTDD" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TDD"]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 380.0
+offset_right = 177.0
+offset_bottom = 445.0
+theme_override_fonts/normal_font = ExtResource("6_740ql")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center]THE DESERT 
+OF 
+DECEPTION[/center]"
+
+[node name="StartBtnTDD" type="TextureButton" parent="MarginContainer/HBoxContainer/TDD"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 461.0
+offset_right = 200.0
+offset_bottom = 570.0
+texture_normal = ExtResource("5_hok87")
+
+[node name="BtnLbl" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TDD/StartBtnTDD"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 185.0
+offset_bottom = 71.0
+mouse_filter = 2
+theme_override_fonts/normal_font = ExtResource("6_boghv")
+theme_override_font_sizes/normal_font_size = 49
+bbcode_enabled = true
+text = "[center]START[/center]"
+fit_content = true
+scroll_active = false
+
+[node name="LockImgTDD" type="Sprite2D" parent="MarginContainer/HBoxContainer/TDD"]
+position = Vector2(101, 314)
+texture = ExtResource("9_tot7d")
+
+[node name="CheckImgTDD" type="Sprite2D" parent="MarginContainer/HBoxContainer/TDD"]
+position = Vector2(102, 311)
+scale = Vector2(2, 2)
+texture = ExtResource("10_gx2ts")
+
+[node name="GoTDD" type="TextureButton" parent="MarginContainer/HBoxContainer/TDD"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 461.0
+offset_right = 200.0
+offset_bottom = 570.0
+texture_normal = ExtResource("5_hok87")
+
+[node name="BtnLbl" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TDD/GoTDD"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 38.0
+offset_right = 185.0
+offset_bottom = 71.0
+mouse_filter = 2
+theme_override_fonts/normal_font = ExtResource("6_boghv")
+theme_override_font_sizes/normal_font_size = 49
+bbcode_enabled = true
+text = "[center]GO[/center]"
+fit_content = true
+scroll_active = false
+
+[node name="TRT" type="TextureButton" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("6_jkp5n")
+texture_hover = ExtResource("6_7o04g")
+stretch_mode = 0
 
 [node name="LevelTitleTRT" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TRT"]
 layout_mode = 0
-offset_left = 54.0
-offset_top = 387.0
-offset_right = 202.0
-offset_bottom = 452.0
+offset_left = 29.0
+offset_top = 380.0
+offset_right = 177.0
+offset_bottom = 445.0
 theme_override_fonts/normal_font = ExtResource("6_740ql")
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
@@ -1006,11 +1251,10 @@ text = "[center]THE RUINS
 TRICKERY[/center]"
 
 [node name="StartBtnTRT" type="TextureButton" parent="MarginContainer/HBoxContainer/TRT"]
-visible = false
 layout_mode = 0
-offset_left = 30.0
+offset_left = 4.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 200.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -1029,23 +1273,20 @@ fit_content = true
 scroll_active = false
 
 [node name="LockImgTRT" type="Sprite2D" parent="MarginContainer/HBoxContainer/TRT"]
-visible = false
-position = Vector2(127, 314)
+position = Vector2(101, 314)
 texture = ExtResource("9_tot7d")
 
 [node name="CheckImgTRT" type="Sprite2D" parent="MarginContainer/HBoxContainer/TRT"]
-visible = false
-position = Vector2(128, 311)
+position = Vector2(102, 311)
 scale = Vector2(2, 2)
 texture = ExtResource("10_gx2ts")
 
 [node name="GoTRT" type="TextureButton" parent="MarginContainer/HBoxContainer/TRT"]
-visible = false
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 30.0
+offset_left = 4.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 200.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -1063,20 +1304,19 @@ text = "[center]GO[/center]"
 fit_content = true
 scroll_active = false
 
-[node name="TFC" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="TFC" type="TextureButton" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_styles/hover = SubResource("StyleBoxTexture_xxfpy")
-theme_override_styles/pressed = SubResource("StyleBoxTexture_vihv3")
-theme_override_styles/normal = SubResource("StyleBoxTexture_cvjxy")
-script = ExtResource("13_l2asg")
+texture_normal = ExtResource("9_mchqs")
+texture_hover = ExtResource("8_5jjau")
+stretch_mode = 0
 
 [node name="LevelTitleTFC" type="RichTextLabel" parent="MarginContainer/HBoxContainer/TFC"]
 layout_mode = 0
-offset_left = 54.0
-offset_top = 387.0
-offset_right = 202.0
-offset_bottom = 452.0
+offset_left = 29.0
+offset_top = 380.0
+offset_right = 177.0
+offset_bottom = 445.0
 theme_override_fonts/normal_font = ExtResource("6_740ql")
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
@@ -1084,12 +1324,11 @@ text = "[center]THE FORTRESS
 OF CHAOS[/center]"
 
 [node name="StartBtnTFC" type="TextureButton" parent="MarginContainer/HBoxContainer/TFC"]
-visible = false
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 30.0
+offset_left = 5.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 201.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -1108,22 +1347,19 @@ fit_content = true
 scroll_active = false
 
 [node name="LockImgTFC" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFC"]
-visible = false
-position = Vector2(127, 314)
+position = Vector2(102, 314)
 texture = ExtResource("9_tot7d")
 
 [node name="CheckImgTFC" type="Sprite2D" parent="MarginContainer/HBoxContainer/TFC"]
-visible = false
-position = Vector2(128, 311)
+position = Vector2(103, 311)
 scale = Vector2(2, 2)
 texture = ExtResource("10_gx2ts")
 
 [node name="GoTFC" type="TextureButton" parent="MarginContainer/HBoxContainer/TFC"]
-visible = false
 layout_mode = 0
-offset_left = 30.0
+offset_left = 5.0
 offset_top = 461.0
-offset_right = 226.0
+offset_right = 201.0
 offset_bottom = 570.0
 texture_normal = ExtResource("5_hok87")
 
@@ -1163,15 +1399,25 @@ libraries = {
 "": SubResource("AnimationLibrary_1yokj")
 }
 
-[connection signal="pressed" from="MarginContainer/HBoxContainer/TFF" to="MarginContainer/HBoxContainer/TFF" method="_on_pressed"]
+[node name="Transition" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ei3xs")
+}
+
+[node name="ColorRect" type="ColorRect" parent="Transition"]
+visible = false
+offset_right = 1155.0
+offset_bottom = 644.0
+
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFF/StartBtnTFF" to="." method="_on_start_btn_tff_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFF/GoTFF" to="." method="_on_go_tff_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/TMM" to="MarginContainer/HBoxContainer/TMM" method="_on_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TMM/StartBtnTMM" to="." method="_on_start_btn_tmm_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TMM/GoTMM" to="." method="_on_go_tmm_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/TRT" to="MarginContainer/HBoxContainer/TRT" method="_on_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/TDD/StartBtnTDD" to="." method="_on_start_btn_tdd_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/TDD/GoTDD" to="." method="_on_go_tdd_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TRT/StartBtnTRT" to="." method="_on_start_btn_trt_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TRT/GoTRT" to="." method="_on_go_trt_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/TFC" to="MarginContainer/HBoxContainer/TFC" method="_on_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFC/StartBtnTFC" to="." method="_on_start_btn_tfc_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/TFC/GoTFC" to="." method="_on_go_tfc_pressed"]
+[connection signal="pressed" from="BackBtn" to="." method="_on_back_btn_pressed"]
+[connection signal="animation_finished" from="Transition" to="." method="_on_transition_animation_finished"]

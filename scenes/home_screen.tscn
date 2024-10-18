@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://tlfwq6qqftpb"]
+[gd_scene load_steps=20 format=3 uid="uid://tlfwq6qqftpb"]
 
 [ext_resource type="Texture2D" uid="uid://dgitpdcx1xi4r" path="res://assets/backgrounds/bg1.png" id="1_kpcpr"]
 [ext_resource type="Script" path="res://scripts/scene2_home.gd" id="1_nd80q"]
@@ -11,6 +11,14 @@
 [ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="7_dfljo"]
 [ext_resource type="Texture2D" uid="uid://dmiqlp85epe2m" path="res://assets/icons/Option.png" id="8_4alw3"]
 [ext_resource type="Texture2D" uid="uid://sto6jm2yoojv" path="res://assets/icons/levelselect.png" id="9_l0px0"]
+[ext_resource type="Script" path="res://scenes/OptionButtonNav.gd" id="11_2f4x6"]
+[ext_resource type="Script" path="res://scenes/level_select.gd" id="12_s3ixp"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uc5ec"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_thnqs"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f70g7"]
 
 [sub_resource type="Animation" id="Animation_obh6d"]
 length = 0.001
@@ -158,10 +166,11 @@ text = "TITLE: [                  		         ]"
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 556.0
-offset_top = 389.0
-offset_right = 663.0
-offset_bottom = 412.0
+offset_left = 616.0
+offset_top = 178.0
+offset_right = 723.0
+offset_bottom = 201.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
 text = "ARLOR'S ALLY"
 
 [node name="Option" type="Sprite2D" parent="."]
@@ -178,10 +187,30 @@ theme_override_fonts/font = ExtResource("3_gvghu")
 theme_override_font_sizes/font_size = 36
 text = "Options"
 
+[node name="OptionButtonNav" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1022.0
+offset_top = 35.0
+offset_right = 1126.0
+offset_bottom = 141.0
+flat = true
+script = ExtResource("11_2f4x6")
+
 [node name="LevelSelect" type="Sprite2D" parent="."]
 position = Vector2(664, 487)
 scale = Vector2(0.833526, 0.957974)
 texture = ExtResource("9_l0px0")
+script = ExtResource("12_s3ixp")
+
+[node name="LevelSelectNav" type="Button" parent="."]
+layout_mode = 0
+offset_left = 583.0
+offset_top = 459.0
+offset_right = 733.0
+offset_bottom = 513.0
+theme_override_styles/hover = SubResource("StyleBoxTexture_uc5ec")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_thnqs")
+theme_override_styles/normal = SubResource("StyleBoxTexture_f70g7")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -189,5 +218,11 @@ libraries = {
 }
 
 [node name="ColorRect" type="ColorRect" parent="AnimationPlayer"]
-offset_right = 1156.0
-offset_bottom = 651.0
+visible = false
+offset_left = 975.0
+offset_top = -8.0
+offset_right = 2131.0
+offset_bottom = 643.0
+
+[connection signal="pressed" from="OptionButtonNav" to="." method="_on_OptionNav_pressed"]
+[connection signal="pressed" from="LevelSelectNav" to="." method="_on_level_select_nav_pressed"]

@@ -1,13 +1,52 @@
-[gd_scene load_steps=14 format=3 uid="uid://clhlw338bamre"]
+[gd_scene load_steps=18 format=3 uid="uid://clhlw338bamre"]
 
 [ext_resource type="Texture2D" uid="uid://2s7os4uxrk2j" path="res://assets/backgrounds/bgstartup.png" id="1_cvrd4"]
 [ext_resource type="Script" path="res://scripts/scene1_start.gd" id="1_w78qs"]
-[ext_resource type="Texture2D" uid="uid://chrjujwsi4ich" path="res://assets/characters/PlayerChar/player.png" id="2_mlcm6"]
+[ext_resource type="Texture2D" uid="uid://bqwo4rhs41pkp" path="res://assets/characters/PlayerChar/spritesheetChar_edit2.png" id="3_1haos"]
 [ext_resource type="FontFile" uid="uid://dtadm41ohcah5" path="res://assets/fonts/Eight-Bit Madness.ttf" id="3_xvami"]
 [ext_resource type="Texture2D" uid="uid://gy5r3lg2te21" path="res://assets/backgrounds/arrowStart.png" id="4_20nbg"]
+[ext_resource type="Script" path="res://scenes/player.gd" id="4_a7b8d"]
 [ext_resource type="Script" path="res://scripts/taptostart.gd" id="4_c3iy2"]
 [ext_resource type="Texture2D" uid="uid://ry0cfy2ronr6" path="res://assets/backgrounds/clouds1.png" id="6_pdxbm"]
 [ext_resource type="Script" path="res://scenes/clouds_1.gd" id="7_is48t"]
+
+[sub_resource type="Animation" id="Animation_gkg32"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_webpg"]
+resource_name = "idle"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 0, 1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_d432a"]
+_data = {
+"RESET": SubResource("Animation_gkg32"),
+"idle": SubResource("Animation_webpg")
+}
 
 [sub_resource type="LabelSettings" id="LabelSettings_dtav7"]
 font = ExtResource("3_xvami")
@@ -112,9 +151,18 @@ offset_bottom = 648.0
 texture = ExtResource("1_cvrd4")
 
 [node name="Player" type="Sprite2D" parent="."]
-position = Vector2(382, 526)
-scale = Vector2(0.533795, 0.506875)
-texture = ExtResource("2_mlcm6")
+texture_filter = 1
+position = Vector2(348, 523)
+scale = Vector2(3.92473, 3.7268)
+texture = ExtResource("3_1haos")
+hframes = 7
+vframes = 8
+script = ExtResource("4_a7b8d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
+libraries = {
+"": SubResource("AnimationLibrary_d432a")
+}
 
 [node name="PlayerTitle" type="Label" parent="."]
 offset_left = 304.0
